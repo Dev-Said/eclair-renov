@@ -43,7 +43,7 @@ require 'layouts/header.php';
                 <h2 class="text-4xl font-bold tracking-tight text-gray-900">Parlons de votre projet</h2>
                 <p class="mt-2 text-lg leading-8 text-gray-600">Résolvons vos problèmes d'électricité avec expertise et fiabilité.</p>
                 <div class="mt-16 flex flex-col gap-16 sm:gap-y-20 lg:flex-row">
-                    <form action="#" method="POST" class="lg:flex-auto">
+                    <form method="POST" action="sendmail.php" class="lg:flex-auto">
                         <div class="grid grid-cols-1 gap-y-6 gap-x-8 sm:grid-cols-2">
                             <div> <label for="first-name" class="block text-sm font-semibold leading-6 text-gray-900">Prénom</label>
                                 <div class="mt-2.5"> <input type="text" name="first-name" id="first-name" autocomplete="given-name" class="block w-full rounded-md border-0 py-2 px-3.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"> </div>

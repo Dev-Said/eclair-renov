@@ -28,13 +28,13 @@ require 'layouts/header.php';
     </header>
 
     <div class="flex flex-col justify-start items-center">
-        <div class="px-20 py-7 mt-20 flex justify-center items-center">
+        <div class="px-20 py-7 mt-20 flex flex-col justify-center items-center">
+        <!-- <svg class="animate-bounce w-12 h-12 ml-2" width="800px" height="800px" viewBox="0 0 1024 1024" class="icon" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                <path d="M718.933333 106.666667L469.333333 362.666667l320 106.666666-334.933333 313.6 108.8 59.733334L256 917.333333l57.6-315.733333 61.866667 108.8L576 512l-320-106.666667L533.333333 106.666667h185.6z" fill="#00BCD4" />
+            </svg> -->
             <h2 class="w-auto text-3xl font-bold text-gray-900 text-center leading-10 z-10">
                 25 ans d'expérience <br> au service des particuliers et des professionnels
             </h2>
-            <svg class="animate-bounce w-12 h-12 ml-2" width="800px" height="800px" viewBox="0 0 1024 1024" class="icon" version="1.1" xmlns="http://www.w3.org/2000/svg">
-                <path d="M718.933333 106.666667L469.333333 362.666667l320 106.666666-334.933333 313.6 108.8 59.733334L256 917.333333l57.6-315.733333 61.866667 108.8L576 512l-320-106.666667L533.333333 106.666667h185.6z" fill="#00BCD4" />
-            </svg>
         </div>
         <span class="h-1 w-60 mt-2 bg-gray-900"></span>
     </div>
@@ -194,10 +194,10 @@ require 'layouts/header.php';
                     Contactez Éclair & Rénov pour tous vos travaux d'installation, de rénovation ou de dépannage électrique à Saint-Gilles, Uccle, Forest et Ixelles.
                 </p>
                 <div class="mt-10 flex items-center justify-center gap-x-6">
-                    <a href="tel:0476 96 32 15" class="rounded-md bg-[#206296] h-14 px-5 text-lg font-semibold text-white shadow-sm hover:bg-[#5498df] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#206296] flex justify-center items-center">
+                    <a href="tel:0476 96 32 15" class="rounded-md bg-[#206296] h-14 px-5 text-lg font-semibold text-white shadow-sm hover:bg-[#407aa5] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#206296] flex justify-center items-center">
                         0476 96 32 15
                     </a>
-                    <a href="mailto:eclairenov@gmail.com" class="rounded-md bg-[#206296] h-14 px-5 text-lg font-semibold text-white shadow-sm hover:bg-[#5498df] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#206296] flex justify-center items-center">
+                    <a href="mailto:eclairenov@gmail.com" class="rounded-md bg-[#206296] h-14 px-5 text-lg font-semibold text-white shadow-sm hover:bg-[#407aa5] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#206296] flex justify-center items-center">
                         eclairenov@gmail.com
                     </a>
                 </div>
