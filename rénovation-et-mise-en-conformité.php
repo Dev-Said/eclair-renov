@@ -33,7 +33,7 @@ require 'layouts/header.php';
 
               <div class="lg:pr-4">
                     <div class="relative overflow-hidden rounded-3xl bg-gray-900 px-6 pb-9 pt-64 shadow-2xl sm:px-12 lg:max-w-lg lg:px-8 lg:pb-8 xl:px-10 xl:pb-10"> <img class="absolute inset-0 h-full w-full object-cover brightness-125 saturate-0" src="/images/lampes2.jpg" alt="">
-                        <div class="absolute inset-0 bg-[#413624] mix-blend-multiply"></div> <svg viewBox="0 0 1097 845" aria-hidden="true" class="absolute top-1/2 left-1/2 -ml-16 w-[68.5625rem] -translate-x-1/2 -translate-y-1/2 transform-gpu blur-3xl">
+                        <div class="absolute inset-0 bg-[#959620] mix-blend-multiply"></div> <svg viewBox="0 0 1097 845" aria-hidden="true" class="absolute top-1/2 left-1/2 -ml-16 w-[68.5625rem] -translate-x-1/2 -translate-y-1/2 transform-gpu blur-3xl">
                             <path fill="url(#e7ccf164-908d-46dd-9194-2f8a16ad5a93)" fill-opacity=".4" d="M301.174 646.641 193.541 844.786 0 546.172l301.174 100.469 193.845-356.855c1.241 164.891 42.802 431.935 199.124 180.978 195.402-313.696 143.295-588.18 284.729-419.266 113.148 135.13 124.068 367.989 115.378 467.527L811.753 372.553l20.102 451.119-530.681-177.031Z" />
                             <defs>
                                 <linearGradient id="e7ccf164-908d-46dd-9194-2f8a16ad5a93" x1="1097.04" x2="-141.165" y1=".22" y2="363.075" gradientUnits="userSpaceOnUse">
@@ -60,38 +60,32 @@ require 'layouts/header.php';
                         </p>
                         <ul class="mt-3 space-y-4">
                             <li class="leading-6 text-base font-semibold text-gray-900 flex justify-start items-start">
-                                <span class="h-8 min-h-[32px] w-8 min-w-[32px] mr-3 border-2 border-green-700 rounded-full flex justify-center items-center">
-                                    <img src="/images/check-lg.svg" class="h-5">
+                                <span class="h-2 w-2 mr-3 mt-1.5 min-h-[8px] min-w-[8px] bg-[#206296] rounded-full">
                                 </span>
                                 <h2>Audit des installations électriques existantes</h2>
                             </li>
                             <li class="leading-6 text-base font-semibold text-gray-900 flex justify-start items-start">
-                                <span class="h-8 min-h-[32px] w-8 min-w-[32px] mr-3 border-2 border-green-700 rounded-full flex justify-center items-center">
-                                    <img src="/images/check-lg.svg" class="h-5">
+                                <span class="h-2 w-2 mr-3 mt-1.5 min-h-[8px] min-w-[8px] bg-[#206296] rounded-full">
                                 </span>
                                 <h2>Entretien des tableaux électriques</h2>
                             </li>
                             <li class="leading-6 text-base font-semibold text-gray-900 flex justify-start items-start">
-                                <span class="h-8 min-h-[32px] w-8 min-w-[32px] mr-3 border-2 border-green-700 rounded-full flex justify-center items-center">
-                                    <img src="/images/check-lg.svg" class="h-5">
+                                <span class="h-2 w-2 mr-3 mt-1.5 min-h-[8px] min-w-[8px] bg-[#206296] rounded-full">
                                 </span>
                                 <h2>Renforcement des compteurs électriques</h2>
                             </li>
                             <li class="leading-6 text-base font-semibold text-gray-900 flex justify-start items-start">
-                                <span class="h-8 min-h-[32px] w-8 min-w-[32px] mr-3 border-2 border-green-700 rounded-full flex justify-center items-center">
-                                    <img src="/images/check-lg.svg" class="h-5">
+                                <span class="h-2 w-2 mr-3 mt-1.5 min-h-[8px] min-w-[8px] bg-[#206296] rounded-full">
                                 </span>
                                 <h2>Optimisation des éclairages (suspensions, rails, luminaires encastrés...)</h2>
                             </li>
                             <li class="leading-6 text-base font-semibold text-gray-900 flex justify-start items-start">
-                                <span class="h-8 min-h-[32px] w-8 min-w-[32px] mr-3 border-2 border-green-700 rounded-full flex justify-center items-center">
-                                    <img src="/images/check-lg.svg" class="h-5">
+                                <span class="h-2 w-2 mr-3 mt-1.5 min-h-[8px] min-w-[8px] bg-[#206296] rounded-full">
                                 </span>
                                 <h2>Maintenance et remplacement des fusibles, des câbles, des prises, des fils...</h2>
                             </li>
                             <li class="leading-6 text-base font-semibold text-gray-900 flex justify-start items-start">
-                                <span class="h-8 min-h-[32px] w-8 min-w-[32px] mr-3 border-2 border-green-700 rounded-full flex justify-center items-center">
-                                    <img src="/images/check-lg.svg" class="h-5">
+                                <span class="h-2 w-2 mr-3 mt-1.5 min-h-[8px] min-w-[8px] bg-[#206296] rounded-full">
                                 </span>
                                 <h2>Montage de système électrique dans une pièce spécifique (dépendance, cuisine...)</h2>
                             </li>

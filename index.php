@@ -29,7 +29,7 @@ require 'layouts/header.php';
 
     <div class="flex flex-col justify-start items-center">
         <div class="px-20 py-7 mt-20 flex flex-col justify-center items-center">
-        <!-- <svg class="animate-bounce w-12 h-12 ml-2" width="800px" height="800px" viewBox="0 0 1024 1024" class="icon" version="1.1" xmlns="http://www.w3.org/2000/svg">
+            <!-- <svg class="animate-bounce w-12 h-12 ml-2" width="800px" height="800px" viewBox="0 0 1024 1024" class="icon" version="1.1" xmlns="http://www.w3.org/2000/svg">
                 <path d="M718.933333 106.666667L469.333333 362.666667l320 106.666666-334.933333 313.6 108.8 59.733334L256 917.333333l57.6-315.733333 61.866667 108.8L576 512l-320-106.666667L533.333333 106.666667h185.6z" fill="#00BCD4" />
             </svg> -->
             <h2 class="w-auto text-3xl font-bold text-gray-900 text-center leading-10 z-10">
@@ -43,11 +43,13 @@ require 'layouts/header.php';
         <div class="bg-gray-800 pb-20 sm:pb-24 xl:pb-0">
             <div class="mx-auto flex max-w-7xl flex-col items-center gap-y-10 gap-x-8 px-6 sm:gap-y-8 lg:px-8 xl:flex-row xl:items-stretch">
                 <div class="-mt-8 w-full max-w-2xl xl:-mb-8 xl:w-96 xl:flex-none">
-                    <div class="relative aspect-[2/1] h-full md:-mx-8 xl:mx-0 xl:aspect-auto"> <img class="absolute inset-0 h-full w-full rounded-2xl bg-gray-800 object-cover shadow-2xl" src="/images/lampes.jpg" alt="lampes de bureau"> </div>
+                    <div class="relative aspect-[2/1] h-full md:-mx-8 xl:mx-0 xl:aspect-auto">
+                        <img class="absolute inset-0 h-full w-full rounded-2xl bg-gray-800 object-cover shadow-2xl" src="/images/lampes.jpg" alt="lampes de bureau">
+                    </div>
                 </div>
                 <div class="w-full max-w-2xl xl:max-w-none xl:flex-auto xl:py-24 xl:px-16">
                     <P class="text-xl font-normal text-justify leading-7 text-white">
-                        Nous sommes une entreprise spécialisée dans l'installation, la rénovation et le dépannage électrique. Nous travaillons dans les règles de l'art et maîtrisons les dernières tendances et techniques en matière d’électricité. Notre expérience nous a permis de développer de multiples compétences adaptées aux situations des particuliers et des professionnels (entreprises, institutions, syndics de copropriétés...)
+                        Notre entreprise se consacre à vous offrir un service axée sur la satisfaction client. Grâce à notre expertise dans l'installation, la rénovation et le dépannage électrique, nous vous garantissons des solutions fiables et sécurisées. Nous restons à la pointe des dernières avancées et tendances en matière d’électricité afin de vous proposer des services de haute qualité. Que vous soyez un particulier ou un professionnel (entreprise, institution, syndic de copropriété, etc.), nous mettons tout en œuvre pour vous offrir une solution sur mesure, adaptée à votre situation spécifique.
                     </p>
                 </div>
             </div>
@@ -89,7 +91,7 @@ require 'layouts/header.php';
             <div class="w-1/2 pr-10 flex flex-col justify-start items-start">
                 <img src="/images/truck.svg" alt="icon camionette" class="w-16 p-0">
                 <p class="w-full p-0 text-xl leading-7 text-justify text-white">
-                    Basés à Saint-Gilles, nous nous déplaçons rapidement sur Uccle, Ixelles, Forest et dans les 19 communes de Bruxelles ainsi que dans sa périphérie (Rhode-Saint-Genèses, Waterloo, ....), mais aussi dans le Brabant wallon et le Brabant Flamand. Nous intervenons tant chez les particuliers que les professionnels.
+                    Basés à Saint-Gilles, nous intervenons rapidement sur Uccle, Ixelles, Forest et dans le reste des 19 communes de Bruxelles. Nous nous déplaçons aussi dans le Brabant wallon et le Brabant Flamand pour répondre aux besoins des particuliers et professionnels.
                 </p>
             </div>
             <div class="w-1/2 h-[580px] px-10 ml-4 rounded-3xl bg-[#206296] shadow-xl flex justify-center items-center">
@@ -191,7 +193,7 @@ require 'layouts/header.php';
                     Le devis et les conseils sont gratuits. Contactez-nous 7 j/7
                 </h2>
                 <p class="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-600">
-                    Contactez Éclair & Rénov pour tous vos travaux d'installation, de rénovation ou de dépannage électrique à Saint-Gilles, Uccle, Forest et Ixelles.
+                    Contactez Éclair & Rénov pour tous vos travaux d'installation, de rénovation ou de dépannage électrique dans la région Bruxelloise et sa périphérie.
                 </p>
                 <div class="mt-10 flex items-center justify-center gap-x-6">
                     <a href="tel:0476 96 32 15" class="rounded-md bg-[#206296] h-14 px-5 text-lg font-semibold text-white shadow-sm hover:bg-[#407aa5] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#206296] flex justify-center items-center">

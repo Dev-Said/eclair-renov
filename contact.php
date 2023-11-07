@@ -33,7 +33,7 @@ require 'layouts/header.php';
                     <pattern id="83fd4e5a-9d52-42fc-97b6-718e5d7ee527" width="200" height="200" x="50%" y="-64" patternUnits="userSpaceOnUse">
                         <path d="M100 200V.5M.5 .5H200" fill="none" />
                     </pattern>
-                </defs> 
+                </defs>
                 <svg x="50%" y="-64" class="overflow-visible fill-gray-50">
                     <path d="M-100.5 0h201v201h-201Z M699.5 0h201v201h-201Z M499.5 400h201v201h-201Z M299.5 800h201v201h-201Z" stroke-width="0" />
                 </svg>
@@ -41,7 +41,7 @@ require 'layouts/header.php';
             </svg>
             <div class="mx-auto max-w-xl lg:max-w-4xl">
                 <h2 class="text-4xl font-bold tracking-tight text-gray-900">Parlons de votre projet</h2>
-                <p class="mt-2 text-lg leading-8 text-gray-600">Résolvons vos problèmes d'électricité avec expertise et fiabilité.</p>
+                <p class="mt-2 text-base leading-8 text-gray-600">Résolvons vos problèmes d'électricité avec expertise et fiabilité.</p>
                 <div class="mt-16 flex flex-col gap-16 sm:gap-y-20 lg:flex-row">
                     <form method="POST" action="sendmail.php" class="lg:flex-auto">
                         <div class="grid grid-cols-1 gap-y-6 gap-x-8 sm:grid-cols-2">
@@ -65,18 +65,31 @@ require 'layouts/header.php';
                         <p class="mt-4 text-sm leading-6 text-white">En soumettant ce formulaire, j'accepte la <a href="#" class="font-semibold text-white">politique&nbsp;de confidentialité.</a>.</p>
                     </form>
                     <div class="lg:mt-6 lg:w-80 lg:flex-none"> <img class="h-16 w-auto" src="/images/logo.png" alt="">
-                        <figure class="mt-10">
-                            <blockquote class="text-lg font-normal leading-7 text-gray-900">
+                        <div class="mt-10">
+                            <div class="text-base mt-10 font-normal leading-7 text-gray-900">
                                 <p>Nous sommes là pour répondre à tous vos besoins en matière d'électricité. Que ce soit pour des installations, des réparations ou des conseils, notre équipe d'experts est à votre disposition.</p>
-                            </blockquote>
-                            <figcaption class="mt-10 flex gap-x-6"> <img src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=96&h=96&q=80" alt="" class="h-12 w-12 flex-none rounded-full bg-gray-50">
-                                <div>
-                                    <div class="text-base font-semibold text-gray-900">Brenna Goyette</div>
-                                    <div class="text-sm leading-6 text-gray-600">CEO of Workcation</div>
-                                </div>
-                            </figcaption>
-                        </figure>
+                            </div>
+                            <div class="mt-5 flex flex-col justify-start items-start space-y-2">
+                                <a href="mailto:eclairenov@gmail.com" class="text-sm leading-2 text-gray-900 hover:text-blue-700 flex justify-center items-center">
+                                    <div class="p-2 mr-1.5 bg-[#206296] rounded-md flex justify-center items-center">
+                                        <img src="/images/envelope.svg" alt="icon envelope" class="h-4" />
+                                    </div>
+                                    <span class="ml-1">
+                                        eclairenov@gmail.com
+                                    </span>
+                                </a>
+                                <a href="tel:0476 96 32 15" class="text-sm leading-2 text-gray-900 hover:text-blue-700 flex justify-center items-center">
+                                    <div class="p-2 mr-1.5 bg-[#206296] rounded-md flex justify-center items-center">
+                                        <img src="/images/telephone.svg" alt="icon téléphone" class="h-4" />
+                                    </div>
+                                    <span class="ml-1">
+                                        0476 96 32 15
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
                     </div>
+
                 </div>
             </div>
         </div>
