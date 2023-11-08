@@ -43,7 +43,9 @@ require 'layouts/header.php';
                         </svg>
                         <figure class="relative isolate"> <img src="https://tailwindui.com/img/logos/workcation-logo-white.svg" alt="" class="h-12 w-auto">
                             <blockquote class="mt-6 text-xl font-semibold leading-8 text-white">
-                                <p>“Amet amet eget scelerisque tellus sit neque faucibus non eleifend. Integer eu praesent at a. Ornare arcu gravida natoque erat et cursus tortor.”</p>
+                                <p>
+                                    Profitez d'un service de dépannage électrique rapide et efficace qui mettra fin à vos problèmes en un éclair !
+                                </p>
                             </blockquote>
                             <figcaption class="mt-6 text-sm leading-6 text-gray-300"><strong class="font-semibold text-white">Judith Rogers,</strong> CEO at Workcation</figcaption>
                         </figure>
@@ -102,7 +104,9 @@ require 'layouts/header.php';
                             </svg>
                             <figure class="relative isolate"> <img src="https://tailwindui.com/img/logos/workcation-logo-white.svg" alt="" class="h-12 w-auto">
                                 <blockquote class="mt-6 text-xl font-semibold leading-8 text-white">
-                                    <p>“Amet amet eget scelerisque tellus sit neque faucibus non eleifend. Integer eu praesent at a. Ornare arcu gravida natoque erat et cursus tortor.”</p>
+                                    <p>
+                                        En cas de situation urgente, notre équipe est prête à intervenir immédiatement pour rétablir l'électricité dans vos installations, qu'elles soient privées ou professionnelles.
+                                    </p>
                                 </blockquote>
                                 <figcaption class="mt-6 text-sm leading-6 text-gray-300"><strong class="font-semibold text-white">Judith Rogers,</strong> CEO at Workcation</figcaption>
                             </figure>
@@ -126,12 +130,12 @@ require 'layouts/header.php';
                 <img class="w-72 rounded-xl bg-indigo-50 lg:rounded-3xl" src="/images/électricien.webp" alt="">
             </div>
             <div class="h-full w-auto p-4 md:px-0 ml-0 md:ml-4 flex flex-col justify-center items-start">
-                <p class="text-base font-normal leading-8 text-gray-900 sm:text-lg sm:leading-9">
+                <p class="text-base font-normal leading-6 text-gray-900">
                     Vous déplorez un court-circuit, une prise défectueuse ou une panne électrique ? Contactez 7 j/7 Éclair & Rénov. Nous nous déplaçons chez les particuliers et professionnels situés à Bruxelles. Nos conseils et devis sont gratuits !
                 </p>
                 <div class="mt-5 flex justify-start items-center">
                     <a href="mailto:eclairenov@gmail.com" class="text-sm leading-6 text-gray-900 hover:text-gray-700 flex justify-start items-center">
-                        <div class="flex h-9 w-9 items-center justify-center rounded-md bg-gray-800">
+                        <div class="flex h-9 w-9 items-center justify-center rounded-md bg-[#206296]">
                             <img src="/images/envelope.svg" alt="icon envelope" class="h-4" />
                         </div>
                         <span class="ml-2 text-lg">
@@ -139,7 +143,7 @@ require 'layouts/header.php';
                         </span>
                     </a>
                     <a href="tel:0476 96 32 15" class="ml-5 text-sm leading-6 text-gray-900 hover:text-gray-700 flex justify-start items-center">
-                        <div class="flex h-9 w-9 items-center justify-center rounded-md bg-gray-800">
+                        <div class="flex h-9 w-9 items-center justify-center rounded-md bg-[#206296]">
                             <img src="/images/telephone.svg" alt="icon téléphone" class="h-4" />
                         </div>
                         <span class="ml-2 text-lg">

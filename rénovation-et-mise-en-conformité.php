@@ -31,7 +31,7 @@ require 'layouts/header.php';
         <div class="mx-auto max-w-7xl px-6 pb-32 lg:px-8 border-b-2 border-gray-200">
             <div class="mx-auto grid max-w-2xl grid-cols-1 items-start gap-y-16 gap-x-8 sm:gap-y-24 lg:mx-0 lg:max-w-7xl lg:grid-cols-2">
 
-              <div class="lg:pr-4">
+                <div class="lg:pr-4">
                     <div class="relative overflow-hidden rounded-3xl bg-gray-900 px-6 pb-9 pt-64 shadow-2xl sm:px-12 lg:max-w-lg lg:px-8 lg:pb-8 xl:px-10 xl:pb-10"> <img class="absolute inset-0 h-full w-full object-cover brightness-125 saturate-0" src="/images/lampes2.jpg" alt="">
                         <div class="absolute inset-0 bg-[#959620] mix-blend-multiply"></div> <svg viewBox="0 0 1097 845" aria-hidden="true" class="absolute top-1/2 left-1/2 -ml-16 w-[68.5625rem] -translate-x-1/2 -translate-y-1/2 transform-gpu blur-3xl">
                             <path fill="url(#e7ccf164-908d-46dd-9194-2f8a16ad5a93)" fill-opacity=".4" d="M301.174 646.641 193.541 844.786 0 546.172l301.174 100.469 193.845-356.855c1.241 164.891 42.802 431.935 199.124 180.978 195.402-313.696 143.295-588.18 284.729-419.266 113.148 135.13 124.068 367.989 115.378 467.527L811.753 372.553l20.102 451.119-530.681-177.031Z" />
@@ -58,34 +58,40 @@ require 'layouts/header.php';
                         <p class="mt-6 text-justify">
                             Les normes électriques en vigueur sont contraignantes et elles évoluent au rythme de la technologie et des normes de sécurité. Nous intervenons auprès des particuliers et des professionnels à Bruxelles (Saint-Gilles, Uccle, Forest, Ixelles...) pour réaliser tous les travaux de rénovation électrique :
                         </p>
-                        <ul class="mt-3 space-y-4">
+                        <ul class="mt-3 space-y-3">
                             <li class="leading-6 text-base font-semibold text-gray-900 flex justify-start items-start">
-                                <span class="h-2 w-2 mr-3 mt-1.5 min-h-[8px] min-w-[8px] bg-[#206296] rounded-full">
+                                <span class="h-6 w-6 m-h-[24px] min-w-[24px] mr-3 border-2 border-[#206296] rounded-full flex justify-center items-center">
+                                    <img src="/images/check-lg.svg" class="h-4">
                                 </span>
                                 <h2>Audit des installations électriques existantes</h2>
                             </li>
                             <li class="leading-6 text-base font-semibold text-gray-900 flex justify-start items-start">
-                                <span class="h-2 w-2 mr-3 mt-1.5 min-h-[8px] min-w-[8px] bg-[#206296] rounded-full">
+                                <span class="h-6 w-6 m-h-[24px] min-w-[24px] mr-3 border-2 border-[#206296] rounded-full flex justify-center items-center">
+                                    <img src="/images/check-lg.svg" class="h-4">
                                 </span>
                                 <h2>Entretien des tableaux électriques</h2>
                             </li>
                             <li class="leading-6 text-base font-semibold text-gray-900 flex justify-start items-start">
-                                <span class="h-2 w-2 mr-3 mt-1.5 min-h-[8px] min-w-[8px] bg-[#206296] rounded-full">
+                                <span class="h-6 w-6 m-h-[24px] min-w-[24px] mr-3 border-2 border-[#206296] rounded-full flex justify-center items-center">
+                                    <img src="/images/check-lg.svg" class="h-4">
                                 </span>
                                 <h2>Renforcement des compteurs électriques</h2>
                             </li>
                             <li class="leading-6 text-base font-semibold text-gray-900 flex justify-start items-start">
-                                <span class="h-2 w-2 mr-3 mt-1.5 min-h-[8px] min-w-[8px] bg-[#206296] rounded-full">
+                                <span class="h-6 w-6 m-h-[24px] min-w-[24px] mr-3 border-2 border-[#206296] rounded-full flex justify-center items-center">
+                                    <img src="/images/check-lg.svg" class="h-4">
                                 </span>
                                 <h2>Optimisation des éclairages (suspensions, rails, luminaires encastrés...)</h2>
                             </li>
                             <li class="leading-6 text-base font-semibold text-gray-900 flex justify-start items-start">
-                                <span class="h-2 w-2 mr-3 mt-1.5 min-h-[8px] min-w-[8px] bg-[#206296] rounded-full">
+                                <span class="h-6 w-6 m-h-[24px] min-w-[24px] mr-3 border-2 border-[#206296] rounded-full flex justify-center items-center">
+                                    <img src="/images/check-lg.svg" class="h-4">
                                 </span>
                                 <h2>Maintenance et remplacement des fusibles, des câbles, des prises, des fils...</h2>
                             </li>
                             <li class="leading-6 text-base font-semibold text-gray-900 flex justify-start items-start">
-                                <span class="h-2 w-2 mr-3 mt-1.5 min-h-[8px] min-w-[8px] bg-[#206296] rounded-full">
+                                <span class="h-6 w-6 m-h-[24px] min-w-[24px] mr-3 border-2 border-[#206296] rounded-full flex justify-center items-center">
+                                    <img src="/images/check-lg.svg" class="h-4">
                                 </span>
                                 <h2>Montage de système électrique dans une pièce spécifique (dépendance, cuisine...)</h2>
                             </li>
@@ -154,12 +160,12 @@ require 'layouts/header.php';
             <img class="w-72 rounded-xl bg-indigo-50 lg:rounded-3xl" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=576&h=576&q=80" alt="">
         </div>
         <div class="h-full w-auto p-4 md:px-0 ml-0 md:ml-4 flex flex-col justify-center items-start">
-            <p class="text-base font-normal leading-8 text-gray-900 sm:text-lg sm:leading-9">
+            <p class="text-base font-normal leading-6 text-gray-900">
                 Vous rénovez votre maison ou vos bureaux ? Contactez Éclair & Rénov pour toutes les rénovations et la mise en conformité électrique de vos installations à Bruxelles.
             </p>
             <div class="mt-5 flex justify-start items-center">
                 <a href="mailto:eclairenov@gmail.com" class="text-sm leading-6 text-gray-900 hover:text-gray-700 flex justify-start items-center">
-                    <div class="flex h-9 w-9 items-center justify-center rounded-md bg-gray-800">
+                    <div class="flex h-9 w-9 items-center justify-center rounded-md bg-[#206296]">
                         <img src="/images/envelope.svg" alt="icon envelope" class="h-4" />
                     </div>
                     <span class="ml-2 text-lg">
@@ -167,7 +173,7 @@ require 'layouts/header.php';
                     </span>
                 </a>
                 <a href="tel:0476 96 32 15" class="ml-5 text-sm leading-6 text-gray-900 hover:text-gray-700 flex justify-start items-center">
-                    <div class="flex h-9 w-9 items-center justify-center rounded-md bg-gray-800">
+                    <div class="flex h-9 w-9 items-center justify-center rounded-md bg-[#206296]">
                         <img src="/images/telephone.svg" alt="icon téléphone" class="h-4" />
                     </div>
                     <span class="ml-2 text-lg">

@@ -44,7 +44,9 @@ require 'layouts/header.php';
                         </svg>
                         <figure class="relative isolate"> <img src="https://tailwindui.com/img/logos/workcation-logo-white.svg" alt="" class="h-12 w-auto">
                             <blockquote class="mt-6 text-xl font-semibold leading-8 text-white">
-                                <p>“Amet amet eget scelerisque tellus sit neque faucibus non eleifend. Integer eu praesent at a. Ornare arcu gravida natoque erat et cursus tortor.”</p>
+                                <p>
+                                    Votre espace, votre énergie. Une installation électrique conçue sur mesure pour répondre à vos besoins uniques.
+                                </p>
                             </blockquote>
                             <figcaption class="mt-6 text-sm leading-6 text-gray-300"><strong class="font-semibold text-white">Judith Rogers,</strong> CEO at Workcation</figcaption>
                         </figure>
@@ -59,40 +61,40 @@ require 'layouts/header.php';
                             <p class="mt-6">Vous rénovez complètement votre maison ? Vous construisez un local professionnel ? Grâce à 25 ans d'expérience, Éclair & Rénov réalise tout votre système électrique. Nous prenons en charge l'ensemble des services suivants :
                             </p>
 
-                            <ul class="mt-3 space-y-4">
-                                <li class="leading-10 text-xl font-normal text-gray-900 flex justify-start items-center">
-                                    <span class="h-8 w-8 mr-2 border-2 border-green-700 rounded-full flex justify-center items-center">
-                                        <img src="/images/check-lg.svg" class="h-5">
+                            <ul class="mt-3 space-y-3">
+                                <li class="leading-10 text-base font-semibold text-gray-900 flex justify-start items-center">
+                                    <span class="h-6 w-6 mr-3 border-2 border-[#206296] rounded-full flex justify-center items-center">
+                                        <img src="/images/check-lg.svg" class="h-4">
                                     </span>
                                     Nouvelle installation électrique
                                 </li>
-                                <li class="leading-10 text-xl font-normal text-gray-900 flex justify-start items-center">
-                                    <span class="h-8 w-8 mr-2 border-2 border-green-700 rounded-full flex justify-center items-center">
-                                        <img src="/images/check-lg.svg" class="h-5">
+                                <li class="leading-10 text-base font-semibold text-gray-900 flex justify-start items-center">
+                                    <span class="h-6 w-6 mr-3 border-2 border-[#206296] rounded-full flex justify-center items-center">
+                                        <img src="/images/check-lg.svg" class="h-4">
                                     </span>
                                     Rénovation de l'installation existante
                                 </li>
-                                <li class="leading-10 text-xl font-normal text-gray-900 flex justify-start items-center">
-                                    <span class="h-8 w-8 mr-2 border-2 border-green-700 rounded-full flex justify-center items-center">
-                                        <img src="/images/check-lg.svg" class="h-5">
+                                <li class="leading-10 text-base font-semibold text-gray-900 flex justify-start items-center">
+                                    <span class="h-6 w-6 mr-3 border-2 border-[#206296] rounded-full flex justify-center items-center">
+                                        <img src="/images/check-lg.svg" class="h-4">
                                     </span>
                                     Mise en conformité
                                 </li>
-                                <li class="leading-10 text-xl font-normal text-gray-900 flex justify-start items-center">
-                                    <span class="h-8 w-8 mr-2 border-2 border-green-700 rounded-full flex justify-center items-center">
-                                        <img src="/images/check-lg.svg" class="h-5">
+                                <li class="leading-10 text-base font-semibold text-gray-900 flex justify-start items-center">
+                                    <span class="h-6 w-6 mr-3 border-2 border-[#206296] rounded-full flex justify-center items-center">
+                                        <img src="/images/check-lg.svg" class="h-4">
                                     </span>
                                     Réalisation d'une mise à la terre
                                 </li>
-                                <li class="leading-10 text-xl font-normal text-gray-900 flex justify-start items-center">
-                                    <span class="h-8 w-8 mr-2 border-2 border-green-700 rounded-full flex justify-center items-center">
-                                        <img src="/images/check-lg.svg" class="h-5">
+                                <li class="leading-10 text-base font-semibold text-gray-900 flex justify-start items-center">
+                                    <span class="h-6 w-6 mr-3 border-2 border-[#206296] rounded-full flex justify-center items-center">
+                                        <img src="/images/check-lg.svg" class="h-4">
                                     </span>
                                     Réseaux internet et ligne téléphonique
                                 </li>
-                                <li class="leading-10 text-xl font-normal text-gray-900 flex justify-start items-center">
-                                    <span class="h-8 w-8 mr-2 border-2 border-green-700 rounded-full flex justify-center items-center">
-                                        <img src="/images/check-lg.svg" class="h-5">
+                                <li class="leading-10 text-base font-semibold text-gray-900 flex justify-start items-center">
+                                    <span class="h-6 w-6 mr-3 border-2 border-[#206296] rounded-full flex justify-center items-center">
+                                        <img src="/images/check-lg.svg" class="h-4">
                                     </span>
                                     Parlophone et vidéophone
                                 </li>
@@ -184,12 +186,12 @@ require 'layouts/header.php';
             <img class="w-72 rounded-xl bg-indigo-50 lg:rounded-3xl" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=576&h=576&q=80" alt="">
         </div>
         <div class="h-full w-auto p-4 md:px-0 ml-0 md:ml-4 flex flex-col justify-center items-start">
-            <p class="text-base font-normal leading-8 text-gray-900 sm:text-lg sm:leading-9">
+            <p class="text-base font-normal leading-6 text-gray-900">
                 Pour une installation électrique neuve, complète ou partielle, appelez un électricien chevronné ! Nous intervenons auprès des particuliers et des professionnels. Nous sommes disponibles 7 j/7 autour de Bruxelles.(Uccle, Forest, Saint-Gilles, Ixelles)
             </p>
             <div class="mt-5 flex justify-start items-center">
                 <a href="mailto:eclairenov@gmail.com" class="text-sm leading-6 text-gray-900 hover:text-gray-700 flex justify-start items-center">
-                    <div class="flex h-9 w-9 items-center justify-center rounded-md bg-gray-800">
+                    <div class="flex h-9 w-9 items-center justify-center rounded-md bg-[#206296]">
                         <img src="/images/envelope.svg" alt="icon envelope" class="h-4" />
                     </div>
                     <span class="ml-2 text-lg">
@@ -197,7 +199,7 @@ require 'layouts/header.php';
                     </span>
                 </a>
                 <a href="tel:0476 96 32 15" class="ml-5 text-sm leading-6 text-gray-900 hover:text-gray-700 flex justify-start items-center">
-                    <div class="flex h-9 w-9 items-center justify-center rounded-md bg-gray-800">
+                    <div class="flex h-9 w-9 items-center justify-center rounded-md bg-[#206296]">
                         <img src="/images/telephone.svg" alt="icon téléphone" class="h-4" />
                     </div>
                     <span class="ml-2 text-lg">
