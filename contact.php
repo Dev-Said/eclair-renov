@@ -40,35 +40,51 @@ require 'layouts/header.php';
                 <rect width="100%" height="100%" stroke-width="0" fill="url(#83fd4e5a-9d52-42fc-97b6-718e5d7ee527)" />
             </svg>
             <div class="mx-auto max-w-xl lg:max-w-4xl">
-                <h2 class="text-4xl font-bold tracking-tight text-gray-900">Parlons de votre projet</h2>
-                <p class="mt-2 text-base leading-8 text-gray-600">Résolvons vos problèmes d'électricité avec expertise et fiabilité.</p>
-                <div class="mt-16 flex flex-col gap-16 sm:gap-y-20 lg:flex-row">
+                <h2 class="text-4xl font-bold tracking-tight text-gray-900">
+                    Parlons de votre projet
+                </h2>
+                <p class="mt-2 text-base leading-8 text-gray-600">
+                    Résolvons vos problèmes d'électricité avec expertise et fiabilité.
+                </p>
+
+                <div class="mt-4 md:mt-10 flex flex-col md:gap-16 sm:gap-y-16 lg:flex-row">
+
                     <form method="POST" action="sendmail.php" class="lg:flex-auto">
-                        <div class="grid grid-cols-1 gap-y-6 gap-x-8 sm:grid-cols-2">
-                            <div> <label for="first-name" class="block text-sm font-semibold leading-6 text-gray-900">Prénom</label>
+                        <div class="grid grid-cols-1 md:gap-y-6 gap-x-8 sm:grid-cols-2">
+                            <div> <label for="first-name" class="mt-2 md:mt-0 block text-sm font-semibold leading-4 md:leading-6 text-gray-900">Prénom</label>
                                 <div class="mt-2.5"> <input type="text" name="first-name" id="first-name" autocomplete="given-name" class="block w-full rounded-md border-0 py-2 px-3.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"> </div>
                             </div>
-                            <div> <label for="last-name" class="block text-sm font-semibold leading-6 text-gray-900">Nom*</label>
+                            <div> <label for="last-name" class="mt-2 md:mt-0 block text-sm font-semibold leading-4 md:leading-6 text-gray-900">Nom*</label>
                                 <div class="mt-2.5"> <input type="text" name="last-name" id="last-name" autocomplete="family-name" required class="block w-full rounded-md border-0 py-2 px-3.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"> </div>
                             </div>
-                            <div> <label for="budget" class="block text-sm font-semibold leading-6 text-gray-900">Adresse e-mail*</label>
+                            <div> <label for="budget" class="mt-2 md:mt-0 block text-sm font-semibold leading-4 md:leading-6 text-gray-900">Adresse e-mail*</label>
                                 <div class="mt-2.5"> <input id="email" name="email" type="email" required class="block w-full rounded-md border-0 py-2 px-3.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"> </div>
                             </div>
-                            <div> <label for="website" class="block text-sm font-semibold leading-6 text-gray-900">Téléphone</label>
+                            <div> <label for="website" class="mt-2 md:mt-0 block text-sm font-semibold leading-4 md:leading-6 text-gray-900">Téléphone</label>
                                 <div class="mt-2.5"> <input type="phone" name="phone" id="phone" class="block w-full rounded-md border-0 py-2 px-3.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"> </div>
                             </div>
-                            <div class="sm:col-span-2"> <label for="message" class="block text-sm font-semibold leading-6 text-gray-900">Message*</label>
+                            <div class="sm:col-span-2"> <label for="message" class="mt-2 md:mt-0 block text-sm font-semibold leading-4 md:leading-6 text-gray-900">Message*</label>
                                 <div class="mt-2.5"> <textarea id="message" name="message" required rows="4" class="block w-full rounded-md border-0 py-2 px-3.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"></textarea> </div>
                             </div>
                         </div>
-                        <div class="mt-10"> <button type="submit" class="block w-full rounded-md bg-[#206296] px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-[#206296] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#206296]">Envoyer</button> </div>
-                        <p class="mt-4 text-sm leading-6 text-white">En soumettant ce formulaire, j'accepte la <a href="#" class="font-semibold text-white">politique&nbsp;de confidentialité.</a>.</p>
-                    </form>
-                    <div class="lg:mt-6 lg:w-80 lg:flex-none"> <img class="h-16 w-auto" src="/images/logo.png" alt="">
                         <div class="mt-10">
-                            <div class="text-base mt-10 font-normal leading-7 text-gray-900">
+                            <button type="submit" class="block w-full rounded-md bg-[#206296] px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-[#206296] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#206296]">
+                                Envoyer
+                            </button>
+                        </div>
+                        <p class="mt-4 text-sm leading-6 text-gray-900">En soumettant ce formulaire, j'accepte la <a href="/pc.php" class="font-semibold text-blue-700 underline underline-offset-1">politique&nbsp;de confidentialité.</a>.</p>
+                    </form>
+
+
+                    <div class="mt-0 lg:w-80 lg:flex-none">
+                        <div class="text-base mt-2 font-semibold leading-7 text-gray-900">
+                            Demandez votre devis gratuit.
+                        </div>
+                        <div class="mt-0 md:mt-4 pb-10 md:pb-0">
+                            <div class="text-base mt-4 font-normal leading-7 text-gray-900">
                                 <p>Nous sommes là pour répondre à tous vos besoins en matière d'électricité. Que ce soit pour des installations, des réparations ou des conseils, notre équipe d'experts est à votre disposition.</p>
                             </div>
+
                             <div class="mt-5 flex flex-col justify-start items-start space-y-2">
                                 <a href="mailto:eclairenov@gmail.com" class="text-sm leading-2 text-gray-900 hover:text-blue-700 flex justify-center items-center">
                                     <div class="p-2 mr-1.5 bg-[#206296] rounded-md flex justify-center items-center">

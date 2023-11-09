@@ -189,8 +189,8 @@ require 'layouts/header.php';
             <p class="text-base font-normal leading-6 text-gray-900">
                 Pour une installation électrique neuve, complète ou partielle, appelez un électricien chevronné ! Nous intervenons auprès des particuliers et des professionnels. Nous sommes disponibles 7 j/7 autour de Bruxelles.(Uccle, Forest, Saint-Gilles, Ixelles)
             </p>
-            <div class="mt-5 flex justify-start items-center">
-                <a href="mailto:eclairenov@gmail.com" class="text-sm leading-6 text-gray-900 hover:text-gray-700 flex justify-start items-center">
+            <div class="mt-5 flex flex-col justify-start items-start space-y-2">
+                <a href="mailto:eclairenov@gmail.com" class="text-sm leading-6 text-gray-900 font-semibold hover:text-gray-700 flex justify-start items-center">
                     <div class="flex h-9 w-9 items-center justify-center rounded-md bg-[#206296]">
                         <img src="/images/envelope.svg" alt="icon envelope" class="h-4" />
                     </div>
@@ -198,7 +198,7 @@ require 'layouts/header.php';
                         eclairenov@gmail.com
                     </span>
                 </a>
-                <a href="tel:0476 96 32 15" class="ml-5 text-sm leading-6 text-gray-900 hover:text-gray-700 flex justify-start items-center">
+                <a href="tel:0476 96 32 15" class="text-sm leading-6 text-gray-900 font-semibold hover:text-gray-700 flex justify-start items-center">
                     <div class="flex h-9 w-9 items-center justify-center rounded-md bg-[#206296]">
                         <img src="/images/telephone.svg" alt="icon téléphone" class="h-4" />
                     </div>

@@ -34,7 +34,7 @@
 
 
         </div>
-        <div class="w-full mt-14 flex flex-col md:flex-row justify-start md:justify-center items-center md:space-x-5">
+        <div class="w-full mt-14 flex flex-col md:flex-row justify-start md:justify-center items-center md:space-x-2">
             <p class="text-left text-xs leading-5 text-gray-400">&copy; <?= date("Y") ?> Éclair & Rénov.Tous droits réservés.</p>
             <p class="text-left text-xs leading-5 text-gray-400 underline underline-offset-1"><a href="/mentions-légales.php">Mentions légales</a> </p>
             <p class="text-left text-xs leading-5 text-gray-400 underline underline-offset-1"><a href="/pc.php">Politique de confidentialité.</a></p>

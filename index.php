@@ -6,13 +6,17 @@ require 'layouts/header.php';
 <div class='w-full h-full min-h-[100vh] mt-24 flex flex-col justify-start items-center'>
 
     <header class="relative w-full flex flex-row justify-between items-center">
-        <img src='images/cuisine.jpg' alt='accueil' class='w-full h-[500px] object-cover'>
+
+        <div class="hadow-2xl w-full h-auto lg:max-w-full">
+            <img class=" h-full w-full object-cover brightness-125 saturate-0" src="/images/cuisine.jpg" alt="">
+            <div class="absolute inset-0 bg-[#206296] mix-blend-multiply"></div>
+        </div>
+
         <div class="absolute top-0 bottom-0 left-0 right-0 w-full p-5 flex flex-col justify-center items-center">
-            <span class="absolute top-0 left-0 w-full h-full bg-black opacity-50"></span>
-            <h1 class="w-auto text-xl leading-5 md:text-6xl md:leading-[80px] text-white font-bold text-center z-10">
+            <h1 class="w-auto vv lg:text-4xl lg:leading-[40px] xl:text-5xl xl:leading-[60px] 2xl:text-6xl 2xl:leading-[80px] text-white font-bold text-center z-10">
                 Éclair & Rénov <br>Votre installateur électricien de confiance <br> À Bruxelles (Saint-Gilles, Forest, Uccle, Ixelles)
             </h1>
-            <div class="px-5 py-3 mt-4 z-10 flex justify-center items-center bg-[#206296]">
+            <div class="px-5 py-3 mt-5 z-10 flex justify-center items-center bg-[#962320]">
                 <span>
                     <svg data-bbox="25.849 20.098 148.61 159.903" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 200 200" data-type="shape">
                         <g>
@@ -20,7 +24,7 @@ require 'layouts/header.php';
                         </g>
                     </svg>
                 </span>
-                <span class="text-white text-2xl tracking-wide ml-1">
+                <span class="text-white text-2xl font-semibold tracking-wide ml-1">
                     0476 96 32 15
                 </span>
             </div>
@@ -29,9 +33,6 @@ require 'layouts/header.php';
 
     <div class="flex flex-col justify-start items-center">
         <div class="px-20 pt-6 pb-6 mt-16 flex flex-col justify-center items-center">
-            <!-- <svg class="animate-bounce w-12 h-12 ml-2" width="800px" height="800px" viewBox="0 0 1024 1024" class="icon" version="1.1" xmlns="http://www.w3.org/2000/svg">
-                <path d="M718.933333 106.666667L469.333333 362.666667l320 106.666666-334.933333 313.6 108.8 59.733334L256 917.333333l57.6-315.733333 61.866667 108.8L576 512l-320-106.666667L533.333333 106.666667h185.6z" fill="#00BCD4" />
-            </svg> -->
             <h2 class="w-auto text-3xl font-bold text-gray-900 text-center leading-10 z-10">
                 25 ans d'expérience <br> au service des particuliers et des professionnels
             </h2>
@@ -40,11 +41,11 @@ require 'layouts/header.php';
     </div>
 
     <section class="bg-white pt-24 pb-16 sm:pt-32 sm:pb-24 xl:pb-32">
-        <div class="bg-gray-800 pb-20 sm:pb-24 xl:pb-0">
+        <div class="bg-gray-800 pb-20  xl:pb-0">
             <div class="mx-auto flex max-w-7xl flex-col items-center gap-y-10 gap-x-8 px-6 sm:gap-y-8 lg:px-8 xl:flex-row xl:items-stretch">
                 <div class="-mt-8 w-full max-w-2xl xl:-mb-8 xl:w-96 xl:flex-none">
                     <div class="relative aspect-[2/1] h-full md:-mx-8 xl:mx-0 xl:aspect-auto">
-                        <img class="absolute inset-0 h-full w-full rounded-2xl bg-gray-800 object-cover shadow-2xl" src="/images/lampes.jpg" alt="lampes de bureau">
+                        <img class="absolute inset-0 h-full w-full rounded-t-2xl xl:rounded-2xl bg-gray-800  object-cover object-center shadow-2xl" src="/images/lampes3.jpg" alt="lampes de bureau">
                     </div>
                 </div>
                 <div class="w-full max-w-2xl xl:max-w-none xl:flex-auto xl:py-24 xl:px-16">
@@ -113,7 +114,7 @@ require 'layouts/header.php';
                 </h2>
             </div>
 
-            <div class="mx-auto mt-8 grid max-w-7xl grid-cols-1 gap-y-20 gap-x-10 lg:grid-cols-2">
+            <div class="mx-auto mt-8 px-4 2xl:px-0 grid max-w-7xl grid-cols-1 gap-y-20 gap-x-10 lg:grid-cols-2">
                 <a href="/installations-électriques.php" class="w-full">
                     <article class="flex flex-col items-start justify-between group/block1 rounded-xl">
                         <div class="w-full"> <img src="/images/tableau électrique.webp" alt="tableau électrique" class="aspect-[16/9] w-full rounded-t-xl bg-gray-100 object-cover group-hover/block1:opacity-80">

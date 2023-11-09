@@ -5,9 +5,13 @@ require 'layouts/header.php';
 
 <div class='w-full h-full min-h-[100vh] mt-24 flex flex-col justify-start items-center'>
     <header class="relative w-full flex flex-row justify-between items-center">
-        <img src='images/cuisine.jpg' alt='accueil' class='w-full h-[500px] object-cover'>
+
+    <div class="hadow-2xl w-full h-[500px] lg:max-w-full">
+            <img class=" h-full w-full object-cover brightness-125 saturate-0" src="/images/a2.png" alt="">
+            <div class="absolute inset-0 bg-[#18968A] mix-blend-multiply"></div>
+        </div>
+
         <div class="absolute top-0 bottom-0 left-0 right-0 w-full p-5 flex flex-col justify-center items-center">
-            <span class="absolute top-0 left-0 w-full h-full bg-black opacity-50"></span>
             <h1 class="w-auto text-xl leading-5 md:text-6xl md:leading-[80px] text-white font-bold text-center z-10">
                 Éclair & Rénov <br> Spécialiste en rénovation électrique <br> et mise en conformité électrique à Saint-Gilles
             </h1>
@@ -163,8 +167,8 @@ require 'layouts/header.php';
             <p class="text-base font-normal leading-6 text-gray-900">
                 Vous rénovez votre maison ou vos bureaux ? Contactez Éclair & Rénov pour toutes les rénovations et la mise en conformité électrique de vos installations à Bruxelles.
             </p>
-            <div class="mt-5 flex justify-start items-center">
-                <a href="mailto:eclairenov@gmail.com" class="text-sm leading-6 text-gray-900 hover:text-gray-700 flex justify-start items-center">
+            <div class="mt-5 flex flex-col justify-start items-start space-y-2">
+                <a href="mailto:eclairenov@gmail.com" class="text-sm leading-6 text-gray-900 font-semibold hover:text-gray-700 flex justify-start items-center">
                     <div class="flex h-9 w-9 items-center justify-center rounded-md bg-[#206296]">
                         <img src="/images/envelope.svg" alt="icon envelope" class="h-4" />
                     </div>
@@ -172,7 +176,7 @@ require 'layouts/header.php';
                         eclairenov@gmail.com
                     </span>
                 </a>
-                <a href="tel:0476 96 32 15" class="ml-5 text-sm leading-6 text-gray-900 hover:text-gray-700 flex justify-start items-center">
+                <a href="tel:0476 96 32 15" class="text-sm leading-6 text-gray-900 font-semibold hover:text-gray-700 flex justify-start items-center">
                     <div class="flex h-9 w-9 items-center justify-center rounded-md bg-[#206296]">
                         <img src="/images/telephone.svg" alt="icon téléphone" class="h-4" />
                     </div>
