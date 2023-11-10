@@ -5,7 +5,13 @@ require 'layouts/header.php';
 
 <div class='w-full h-full min-h-[100vh] mt-24 flex flex-col justify-start items-center'>
     <header class="relative w-full flex flex-row justify-between items-center">
-        <img src='images/cuisine.jpg' alt='accueil' class='w-full h-[500px] object-cover'>
+        <!-- <img src='images/cuisine.jpg' alt='accueil' class='w-full h-[500px] object-cover'> -->
+
+        <div class="hadow-2xl w-full h-[500px] lg:max-w-full">
+            <img class=" h-full w-full object-cover brightness-125 saturate-0" src="/images/lampadaires.png" alt="">
+            <div class="absolute inset-0 bg-[#962320] mix-blend-multiply"></div>
+        </div>
+
         <div class="absolute top-0 bottom-0 left-0 right-0 w-full p-5 flex flex-col justify-center items-center">
             <span class="absolute top-0 left-0 w-full h-full bg-black opacity-50"></span>
             <h1 class="w-auto text-xl leading-5 md:text-6xl md:leading-[80px] text-white font-bold text-center z-10">
@@ -41,8 +47,12 @@ require 'layouts/header.php';
                                 </linearGradient>
                             </defs>
                         </svg>
-                        <figure class="relative isolate"> <img src="https://tailwindui.com/img/logos/workcation-logo-white.svg" alt="" class="h-12 w-auto">
-                            <blockquote class="mt-6 text-xl font-semibold leading-8 text-white">
+                        <figure class="relative isolate">
+                            <div class="w-full flex justify-start items-center">
+                                <img src="/images/logo.svg" alt="" class="h-8 w-auto">
+                                <span class="ml-1 text-base font-semibold text-white">Électricité</span>
+                            </div>
+                            <blockquote class="mt-4 text-lg font-semibold leading-8 text-white">
                                 <p>
                                     Profitez d'un service de dépannage électrique rapide et efficace qui mettra fin à vos problèmes en un éclair !
                                 </p>
@@ -92,8 +102,11 @@ require 'layouts/header.php';
                     </div>
 
                     <div class="lg:pr-4">
-                        <div class="relative overflow-hidden rounded-3xl bg-gray-900 px-6 pb-9 pt-64 shadow-2xl sm:px-12 lg:max-w-lg lg:px-8 lg:pb-8 xl:px-10 xl:pb-10"> <img class="absolute inset-0 h-full w-full object-cover brightness-125 saturate-0" src="/images/disjoncteur electrique.png" alt="">
-                            <div class="absolute inset-0 bg-[#962320] mix-blend-multiply"></div> <svg viewBox="0 0 1097 845" aria-hidden="true" class="absolute top-1/2 left-1/2 -ml-16 w-[68.5625rem] -translate-x-1/2 -translate-y-1/2 transform-gpu blur-3xl">
+                        <div class="relative overflow-hidden rounded-3xl bg-gray-900 px-6 pb-9 pt-64 shadow-2xl sm:px-12 lg:max-w-lg lg:px-8 lg:pb-8 xl:px-10 xl:pb-10">
+                            <img class="absolute inset-0 h-full w-full object-cover brightness-125 saturate-0" src="/images/camionette.png" alt="">
+                            <!-- <div class="absolute inset-0 bg-[#FFEAB5] mix-blend-multiply"></div>  -->
+                            <div class="absolute inset-0 bg-gradient-to-b from-cyan-700 to-slate-800 opacity-30"></div>
+                            <svg viewBox="0 0 1097 845" aria-hidden="true" class="absolute top-1/2 left-1/2 -ml-16 w-[68.5625rem] -translate-x-1/2 -translate-y-1/2 transform-gpu blur-3xl">
                                 <path fill="url(#e7ccf164-908d-46dd-9194-2f8a16ad5a93)" fill-opacity=".4" d="M301.174 646.641 193.541 844.786 0 546.172l301.174 100.469 193.845-356.855c1.241 164.891 42.802 431.935 199.124 180.978 195.402-313.696 143.295-588.18 284.729-419.266 113.148 135.13 124.068 367.989 115.378 467.527L811.753 372.553l20.102 451.119-530.681-177.031Z" />
                                 <defs>
                                     <linearGradient id="e7ccf164-908d-46dd-9194-2f8a16ad5a93" x1="1097.04" x2="-141.165" y1=".22" y2="363.075" gradientUnits="userSpaceOnUse">
@@ -102,8 +115,12 @@ require 'layouts/header.php';
                                     </linearGradient>
                                 </defs>
                             </svg>
-                            <figure class="relative isolate"> <img src="https://tailwindui.com/img/logos/workcation-logo-white.svg" alt="" class="h-12 w-auto">
-                                <blockquote class="mt-6 text-xl font-semibold leading-8 text-white">
+                            <figure class="relative isolate">
+                                <div class="w-full flex justify-start items-center">
+                                    <img src="/images/logo.svg" alt="" class="h-8 w-auto">
+                                    <span class="ml-1 text-base font-semibold text-white">Électricité</span>
+                                </div>
+                                <blockquote class="mt-4 text-lg font-semibold leading-8 text-white">
                                     <p>
                                         En cas de situation urgente, notre équipe est prête à intervenir immédiatement pour rétablir l'électricité dans vos installations, qu'elles soient privées ou professionnelles.
                                     </p>

@@ -6,9 +6,9 @@ require 'layouts/header.php';
 <div class='w-full h-full min-h-[100vh] mt-24 flex flex-col justify-start items-center'>
     <header class="relative w-full flex flex-row justify-between items-center">
 
-    <div class="hadow-2xl w-full h-[500px] lg:max-w-full">
+        <div class="hadow-2xl w-full h-[500px] lg:max-w-full">
             <img class=" h-full w-full object-cover brightness-125 saturate-0" src="/images/a2.png" alt="">
-            <div class="absolute inset-0 bg-[#18968A] mix-blend-multiply"></div>
+            <div class="absolute inset-0 bg-[#206296] mix-blend-multiply"></div>
         </div>
 
         <div class="absolute top-0 bottom-0 left-0 right-0 w-full p-5 flex flex-col justify-center items-center">
@@ -36,8 +36,10 @@ require 'layouts/header.php';
             <div class="mx-auto grid max-w-2xl grid-cols-1 items-start gap-y-16 gap-x-8 sm:gap-y-24 lg:mx-0 lg:max-w-7xl lg:grid-cols-2">
 
                 <div class="lg:pr-4">
-                    <div class="relative overflow-hidden rounded-3xl bg-gray-900 px-6 pb-9 pt-64 shadow-2xl sm:px-12 lg:max-w-lg lg:px-8 lg:pb-8 xl:px-10 xl:pb-10"> <img class="absolute inset-0 h-full w-full object-cover brightness-125 saturate-0" src="/images/lampes2.jpg" alt="">
-                        <div class="absolute inset-0 bg-[#959620] mix-blend-multiply"></div> <svg viewBox="0 0 1097 845" aria-hidden="true" class="absolute top-1/2 left-1/2 -ml-16 w-[68.5625rem] -translate-x-1/2 -translate-y-1/2 transform-gpu blur-3xl">
+                    <div class="relative overflow-hidden rounded-3xl bg-gray-900 px-6 pb-9 pt-64 shadow-2xl sm:px-12 lg:max-w-lg lg:px-8 lg:pb-8 xl:px-10 xl:pb-10">
+                        <img class="absolute inset-0 h-full w-full object-cover brightness-125 saturate-0" src="/images/rénovation électrique.png" alt="électricité salon moderne">
+                        <div class="absolute inset-0 bg-[#959620] mix-blend-multiply"></div>
+                        <svg viewBox="0 0 1097 845" aria-hidden="true" class="absolute top-1/2 left-1/2 -ml-16 w-[68.5625rem] -translate-x-1/2 -translate-y-1/2 transform-gpu blur-3xl">
                             <path fill="url(#e7ccf164-908d-46dd-9194-2f8a16ad5a93)" fill-opacity=".4" d="M301.174 646.641 193.541 844.786 0 546.172l301.174 100.469 193.845-356.855c1.241 164.891 42.802 431.935 199.124 180.978 195.402-313.696 143.295-588.18 284.729-419.266 113.148 135.13 124.068 367.989 115.378 467.527L811.753 372.553l20.102 451.119-530.681-177.031Z" />
                             <defs>
                                 <linearGradient id="e7ccf164-908d-46dd-9194-2f8a16ad5a93" x1="1097.04" x2="-141.165" y1=".22" y2="363.075" gradientUnits="userSpaceOnUse">
@@ -46,8 +48,12 @@ require 'layouts/header.php';
                                 </linearGradient>
                             </defs>
                         </svg>
-                        <figure class="relative isolate"> <img src="https://tailwindui.com/img/logos/workcation-logo-white.svg" alt="" class="h-12 w-auto">
-                            <blockquote class="mt-6 text-xl font-semibold leading-8 text-white">
+                        <figure class="relative isolate">
+                            <div class="w-full flex justify-start items-center">
+                                <img src="/images/logo.svg" alt="" class="h-8 w-auto">
+                                <span class="ml-1 text-base font-semibold text-white">Électricité</span>
+                            </div>
+                            <blockquote class="mt-4 text-lg font-semibold leading-8 text-white">
                                 <p>La rénovation électrique transforme votre espace en un environnement sûr, moderne et efficace, répondant à vos besoins énergétiques et technologiques actuels.”</p>
                             </blockquote>
                             <figcaption class="mt-6 text-sm leading-6 text-gray-300"><strong class="font-semibold text-white">Judith Rogers,</strong> CEO at Workcation</figcaption>
@@ -128,7 +134,7 @@ require 'layouts/header.php';
                 </div>
 
                 <div class="lg:pr-4">
-                    <div class="relative overflow-hidden rounded-3xl bg-gray-900 px-6 pb-9 pt-64 shadow-2xl sm:px-12 lg:max-w-lg lg:px-8 lg:pb-8 xl:px-10 xl:pb-10"> <img class="absolute inset-0 h-full w-full object-cover brightness-125 saturate-0" src="/images/lampes2.jpg" alt="">
+                    <div class="relative overflow-hidden rounded-3xl bg-gray-900 px-6 pb-9 pt-64 shadow-2xl sm:px-12 lg:max-w-lg lg:px-8 lg:pb-8 xl:px-10 xl:pb-10"> <img class="absolute inset-0 h-full w-full object-cover brightness-125 saturate-0" src="/images/mise en conformité électrique.png" alt="pince électricien">
                         <div class="absolute inset-0 bg-[#18968A] mix-blend-multiply"></div> <svg viewBox="0 0 1097 845" aria-hidden="true" class="absolute top-1/2 left-1/2 -ml-16 w-[68.5625rem] -translate-x-1/2 -translate-y-1/2 transform-gpu blur-3xl">
                             <path fill="url(#e7ccf164-908d-46dd-9194-2f8a16ad5a93)" fill-opacity=".4" d="M301.174 646.641 193.541 844.786 0 546.172l301.174 100.469 193.845-356.855c1.241 164.891 42.802 431.935 199.124 180.978 195.402-313.696 143.295-588.18 284.729-419.266 113.148 135.13 124.068 367.989 115.378 467.527L811.753 372.553l20.102 451.119-530.681-177.031Z" />
                             <defs>
@@ -138,8 +144,12 @@ require 'layouts/header.php';
                                 </linearGradient>
                             </defs>
                         </svg>
-                        <figure class="relative isolate"> <img src="https://tailwindui.com/img/logos/workcation-logo-white.svg" alt="" class="h-12 w-auto">
-                            <blockquote class="mt-6 text-xl font-semibold leading-8 text-white">
+                        <figure class="relative isolate">
+                            <div class="w-full flex justify-start items-center">
+                                <img src="/images/logo.svg" alt="" class="h-8 w-auto">
+                                <span class="ml-1 text-base font-semibold text-white">Électricité</span>
+                            </div>
+                            <blockquote class="mt-4 text-lg font-semibold leading-8 text-white">
                                 <p>La mise en conformité électrique garantit la sécurité et la légalité de votre installation, vous offrant la tranquillité d'esprit que vous méritez.”</p>
                             </blockquote>
                             <figcaption class="mt-6 text-sm leading-6 text-gray-300"><strong class="font-semibold text-white">Judith Rogers,</strong> CEO at Workcation</figcaption>
@@ -159,9 +169,9 @@ require 'layouts/header.php';
         </div>
     </section>
 
-    <section class="mx-auto max-w-4xl py-8 md:py-28 grid grid-cols-1 md:grid-cols-[300px_1fr] items-start justify-center md:flex-row md:items-center md:justify-start">
-        <div class="w-full hidden md:block">
-            <img class="w-72 rounded-xl bg-indigo-50 lg:rounded-3xl" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=576&h=576&q=80" alt="">
+    <section class="mx-auto max-w-4xl py-8 md:py-28 grid grid-cols-1 md:grid-cols-[288px_1fr] items-start justify-center md:flex-row md:items-center md:justify-start">
+        <div class="w-full hidden md:block shadow-2xl rounded-3xl">
+            <img class="w-72 rounded-xl bg-indigo-50 lg:rounded-3xl" src="/images/ouvrier électricien.png" alt="ouvrier électricien">
         </div>
         <div class="h-full w-auto p-4 md:px-0 ml-0 md:ml-4 flex flex-col justify-center items-start">
             <p class="text-base font-normal leading-6 text-gray-900">
