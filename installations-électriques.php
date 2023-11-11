@@ -8,8 +8,8 @@ require 'layouts/header.php';
         <!-- <img src='images/cuisine.jpg' alt='accueil' class='w-full h-[500px] object-cover'> -->
 
         <div class="hadow-2xl w-full h-[500px] lg:max-w-full">
-            <img class=" h-full w-full object-cover brightness-125 saturate-0" src="/images/lampes4.png" alt="">
-            <div class="absolute inset-0 bg-[#959620] mix-blend-multiply"></div>
+            <img class="h-full w-full object-cover" src="/images/schema electrique.png" alt="">
+            <div class="absolute inset-0 bg-gradient-to-b from-sky-500 to-cyan-900 opacity-70"></div>
         </div>
 
         <div class="absolute top-0 bottom-0 left-0 right-0 w-full p-5 flex flex-col justify-center items-center">
@@ -17,7 +17,7 @@ require 'layouts/header.php';
             <h1 class="w-auto text-xl leading-5 md:text-6xl md:leading-[80px] text-white font-bold text-center z-10">
                 Éclair & Rénov <br> Installations et rénovations électriques <br> à Uccle, Saint-Gilles, Forest, Bruxelles
             </h1>
-            <div class="px-5 py-3 mt-4 z-10 flex justify-center items-center bg-[#20967D]">
+            <div class="px-5 py-3 mt-4 z-10 flex justify-center items-center bg-[#962320]">
                 <span>
                     <svg data-bbox="25.849 20.098 148.61 159.903" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 200 200" data-type="shape">
                         <g>
@@ -25,7 +25,7 @@ require 'layouts/header.php';
                         </g>
                     </svg>
                 </span>
-                <span class="text-white text-2xl tracking-wide ml-1">
+                <span class="text-white text-2xl font-semibold tracking-wide ml-1">
                     0476 96 32 15
                 </span>
             </div>
@@ -74,37 +74,37 @@ require 'layouts/header.php';
                             <ul class="mt-3 space-y-3">
                                 <li class="leading-10 text-base font-semibold text-gray-900 flex justify-start items-center">
                                     <span class="h-6 w-6 mr-3 border-2 border-[#206296] rounded-full flex justify-center items-center">
-                                        <img src="/images/check-lg.svg" class="h-4">
+                                        <img src="/images/check-circle.svg" class="h-5 rounded-full">
                                     </span>
                                     Nouvelle installation électrique
                                 </li>
                                 <li class="leading-10 text-base font-semibold text-gray-900 flex justify-start items-center">
                                     <span class="h-6 w-6 mr-3 border-2 border-[#206296] rounded-full flex justify-center items-center">
-                                        <img src="/images/check-lg.svg" class="h-4">
+                                        <img src="/images/check-circle.svg" class="h-5 rounded-full">
                                     </span>
                                     Rénovation de l'installation existante
                                 </li>
                                 <li class="leading-10 text-base font-semibold text-gray-900 flex justify-start items-center">
                                     <span class="h-6 w-6 mr-3 border-2 border-[#206296] rounded-full flex justify-center items-center">
-                                        <img src="/images/check-lg.svg" class="h-4">
+                                        <img src="/images/check-circle.svg" class="h-5 rounded-full">
                                     </span>
                                     Mise en conformité
                                 </li>
                                 <li class="leading-10 text-base font-semibold text-gray-900 flex justify-start items-center">
                                     <span class="h-6 w-6 mr-3 border-2 border-[#206296] rounded-full flex justify-center items-center">
-                                        <img src="/images/check-lg.svg" class="h-4">
+                                        <img src="/images/check-circle.svg" class="h-5 rounded-full">
                                     </span>
                                     Réalisation d'une mise à la terre
                                 </li>
                                 <li class="leading-10 text-base font-semibold text-gray-900 flex justify-start items-center">
                                     <span class="h-6 w-6 mr-3 border-2 border-[#206296] rounded-full flex justify-center items-center">
-                                        <img src="/images/check-lg.svg" class="h-4">
+                                        <img src="/images/check-circle.svg" class="h-5 rounded-full">
                                     </span>
                                     Réseaux internet et ligne téléphonique
                                 </li>
                                 <li class="leading-10 text-base font-semibold text-gray-900 flex justify-start items-center">
                                     <span class="h-6 w-6 mr-3 border-2 border-[#206296] rounded-full flex justify-center items-center">
-                                        <img src="/images/check-lg.svg" class="h-4">
+                                        <img src="/images/check-circle.svg" class="h-5 rounded-full">
                                     </span>
                                     Parlophone et vidéophone
                                 </li>
@@ -194,7 +194,7 @@ require 'layouts/header.php';
     <section class="mx-auto max-w-4xl py-8 md:py-28 grid grid-cols-1 md:grid-cols-[300px_1fr] items-start justify-center md:flex-row md:items-center md:justify-start">
         <div class="w-72 h-72 rounded-xl lg:rounded-3xl relative overflow-hidden shadow-2xl">
             <img class="absolute inset-0 h-full w-full object-cover brightness-125 saturate-0" src="/images/secrétaire électricien.png" alt="secrétaire électricien">
-            <div class="absolute inset-0 bg-[#8da7bb] mix-blend-multiply"></div>
+            <div class="absolute inset-0 bg-[#8dbadf] mix-blend-multiply"></div>
         </div>
 
         <div class="h-full w-auto p-4 md:px-0 ml-0 md:ml-4 flex flex-col justify-center items-start">

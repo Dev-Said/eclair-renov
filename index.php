@@ -8,8 +8,8 @@ require 'layouts/header.php';
     <header class="relative w-full flex flex-row justify-between items-center">
 
         <div class="hadow-2xl w-full h-auto lg:max-w-full">
-            <img class=" h-full w-full object-cover brightness-125 saturate-0" src="/images/cuisine.jpg" alt="">
-            <div class="absolute inset-0 bg-[#206296] mix-blend-multiply"></div>
+            <img class=" h-full w-full object-cover brightness-125 saturate-0" src="/images/cable électrique.png" alt="">
+            <div class="absolute inset-0 bg-[#284257] mix-blend-hard-light"></div>
         </div>
 
         <div class="absolute top-0 bottom-0 left-0 right-0 w-full p-5 flex flex-col justify-center items-center">
@@ -45,7 +45,8 @@ require 'layouts/header.php';
             <div class="mx-auto flex max-w-7xl flex-col items-center gap-y-10 gap-x-8 px-6 sm:gap-y-8 lg:px-8 xl:flex-row xl:items-stretch">
                 <div class="-mt-8 w-full max-w-2xl xl:-mb-8 xl:w-96 xl:flex-none">
                     <div class="relative aspect-[2/1] h-full md:-mx-8 xl:mx-0 xl:aspect-auto">
-                        <img class="absolute inset-0 h-full w-full rounded-t-2xl xl:rounded-2xl bg-gray-800  object-cover object-center shadow-2xl" src="/images/lampes3.jpg" alt="lampes de bureau">
+                        <img class="absolute inset-0 h-full w-full rounded-t-2xl xl:rounded-2xl object-cover object-center shadow-2xl brightness-125 saturate-0" src="/images/ouvrier electricien.png" alt="ouvrier électricien">
+                        <div class="absolute inset-0 rounded-t-2xl xl:rounded-2xl bg-[#93ccf8] mix-blend-multiply"></div>
                     </div>
                 </div>
                 <div class="w-full max-w-2xl xl:max-w-none xl:flex-auto xl:py-24 xl:px-16">
@@ -92,11 +93,11 @@ require 'layouts/header.php';
             <div class="w-1/2 pr-10 flex flex-col justify-start items-start">
                 <img src="/images/truck.svg" alt="icon camionette" class="w-16 p-0">
                 <p class="w-full p-0 text-lg leading-7 text-justify text-white">
-                    Basés à Saint-Gilles, nous intervenons rapidement sur Uccle, Ixelles, Forest et dans le reste des 19 communes de Bruxelles. Nous nous déplaçons aussi dans le Brabant wallon et le Brabant Flamand pour répondre aux besoins des particuliers et professionnels.
+                    Basés à Saint-Gilles, nous intervenons rapidement sur Uccle, Ixelles, Forest et dans le reste des 19 communes de Bruxelles. Nous nous déplaçons aussi dans le Brabant Wallon et le Brabant Flamand pour répondre aux besoins des particuliers et professionnels.
                 </p>
             </div>
             <div class="w-1/2 h-[580px] px-10 ml-4 rounded-3xl bg-[#206296] shadow-xl flex justify-center items-center">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2520.318552331692!2d4.348297777339662!3d50.825263192709!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c45dda3de36d%3A0xe3b38bff1607a309!2sChau.%20de%20Waterloo%20284%2C%201060%20Saint-Gilles%2C%20Belgique!5e0!3m2!1sfr!2sfr!4v1699029871049!5m2!1sfr!2sfr" width="600" height="500" style="border:0; border-radius: 12px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2520.318552331692!2d4.348297777339662!3d50.825263192709!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c45dda3de36d%3A0xe3b38bff1607a309!2sChau.%20de%20Waterloo%20284%2C%201060%20Saint-Gilles%2C%20Belgique!5e0!3m2!1sfr!2sfr!4v1699029871049!5m2!1sfr!2sfr" width="550" height="490" style="border:0; border-radius: 12px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
     </div>
@@ -117,7 +118,8 @@ require 'layouts/header.php';
             <div class="mx-auto mt-8 px-4 2xl:px-0 grid max-w-7xl grid-cols-1 gap-y-20 gap-x-10 lg:grid-cols-2">
                 <a href="/installations-électriques.php" class="w-full">
                     <article class="flex flex-col items-start justify-between group/block1 rounded-xl">
-                        <div class="w-full"> <img src="/images/tableau électrique.webp" alt="tableau électrique" class="aspect-[16/9] w-full rounded-t-xl bg-gray-100 object-cover group-hover/block1:opacity-80">
+                        <div class="w-full"> 
+                            <img src="/images/installation électrique performante.jpg" alt="électricité cuisine" class="aspect-[16/9] w-full rounded-t-xl bg-gray-100 object-cover group-hover/block1:opacity-80">
                         </div>
                         <div class="w-full p-5 rounded-b-xl border border-gray-200 shadow-md border-t-none">
                             <div>
@@ -134,7 +136,8 @@ require 'layouts/header.php';
 
                 <a href="/rénovation-et-mise-en-conformité.php" class="w-full">
                     <article class="flex flex-col items-start justify-between group/block1 rounded-xl">
-                        <div class="w-full"> <img src="/images/mise-en-tension.webp" alt="mise en tension" class="aspect-[16/9] w-full rounded-t-xl bg-gray-100 object-cover group-hover/block1:opacity-80">
+                        <div class="w-full"> 
+                            <img src="/images/tableau électrique.webp" alt="mise en tension" class="aspect-[16/9] w-full rounded-t-xl bg-gray-100 object-cover group-hover/block1:opacity-80">
                         </div>
                         <div class="w-full p-5 rounded-b-xl border border-gray-200 shadow-md border-t-none">
                             <div>
@@ -151,7 +154,8 @@ require 'layouts/header.php';
 
                 <a href="/dépannage-électrique.php" class="w-full">
                     <article class="flex flex-col items-start justify-between group/block1 rounded-xl">
-                        <div class="w-full"> <img src="/images/hero2.jpg" alt="tableau électrique" class="aspect-[16/9] w-full rounded-t-xl bg-gray-100 object-cover group-hover/block1:opacity-80">
+                        <div class="w-full"> 
+                            <img src="/images/hero2.jpg" alt="tableau électrique" class="aspect-[16/9] w-full rounded-t-xl bg-gray-100 object-cover group-hover/block1:opacity-80">
                         </div>
                         <div class="w-full p-5 rounded-b-xl border border-gray-200 shadow-md border-t-none">
                             <div>
@@ -168,7 +172,8 @@ require 'layouts/header.php';
 
                 <a href="/contact.php" class="w-full">
                     <article class="flex flex-col items-start justify-between group/block1 rounded-xl">
-                        <div class="w-full"> <img src="/images/contact.webp" alt="un homme appel un électricien" class="aspect-[16/9] w-full rounded-t-xl bg-gray-100 object-cover group-hover/block1:opacity-80">
+                        <div class="w-full"> 
+                            <img src="/images/contact.webp" alt="un homme appel un électricien" class="aspect-[16/9] w-full rounded-t-xl bg-gray-100 object-cover group-hover/block1:opacity-80">
                         </div>
                         <div class="w-full p-5 rounded-b-xl border border-gray-200 shadow-md border-t-none">
                             <div>

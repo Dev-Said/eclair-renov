@@ -8,8 +8,8 @@ require 'layouts/header.php';
         <!-- <img src='images/cuisine.jpg' alt='accueil' class='w-full h-[500px] object-cover'> -->
 
         <div class="hadow-2xl w-full h-[500px] lg:max-w-full">
-            <img class=" h-full w-full object-cover brightness-125 saturate-0" src="/images/lampadaires.png" alt="">
-            <div class="absolute inset-0 bg-[#962320] mix-blend-multiply"></div>
+            <img class=" h-full w-full object-cover brightness-125 saturate-0" src="/images/lampes6.png" alt="">
+            <div class="absolute inset-0 bg-[#208896] mix-blend-multiply"></div>
         </div>
 
         <div class="absolute top-0 bottom-0 left-0 right-0 w-full p-5 flex flex-col justify-center items-center">
@@ -142,34 +142,36 @@ require 'layouts/header.php';
             </div>
         </section>
 
-        <section class="mx-auto max-w-4xl py-8 md:pt-32 md:pb-16 grid grid-cols-1 md:grid-cols-[300px_1fr] items-start justify-center md:flex-row md:items-center md:justify-start">
-            <div class="w-full hidden md:block">
-                <img class="w-72 rounded-xl bg-indigo-50 lg:rounded-3xl" src="/images/électricien.webp" alt="">
+        <section class="mx-auto max-w-4xl py-8 md:py-28 grid grid-cols-1 md:grid-cols-[300px_1fr] items-start justify-center md:flex-row md:items-center md:justify-start">
+        <div class="w-72 h-72 rounded-xl lg:rounded-3xl relative overflow-hidden shadow-2xl">
+            <img class="absolute inset-0 h-full w-full object-cover brightness-125 saturate-0" src="/images/expert électricien.png" alt="secrétaire électricien">
+            <div class="absolute inset-0 bg-[#e7f3fc] mix-blend-multiply"></div>
+        </div>
+
+        <div class="h-full w-auto p-4 md:px-0 ml-0 md:ml-4 flex flex-col justify-center items-start">
+            <p class="text-base font-normal leading-6 text-gray-900">
+            Vous déplorez un court-circuit, une prise défectueuse ou une panne électrique ? Contactez 7 j/7 Éclair & Rénov. Nous nous déplaçons chez les particuliers et professionnels situés à Bruxelles. Nos conseils et devis sont gratuits !
+            </p>
+            <div class="mt-5 flex flex-col justify-start items-start space-y-2">
+                <a href="mailto:eclairenov@gmail.com" class="text-sm leading-6 text-gray-900 font-semibold hover:text-gray-700 flex justify-start items-center">
+                    <div class="flex h-9 w-9 items-center justify-center rounded-md bg-[#206296]">
+                        <img src="/images/envelope.svg" alt="icon envelope" class="h-4" />
+                    </div>
+                    <span class="ml-2 text-lg">
+                        eclairenov@gmail.com
+                    </span>
+                </a>
+                <a href="tel:0476 96 32 15" class="text-sm leading-6 text-gray-900 font-semibold hover:text-gray-700 flex justify-start items-center">
+                    <div class="flex h-9 w-9 items-center justify-center rounded-md bg-[#206296]">
+                        <img src="/images/telephone.svg" alt="icon téléphone" class="h-4" />
+                    </div>
+                    <span class="ml-2 text-lg">
+                        0476 96 32 15
+                    </span>
+                </a>
             </div>
-            <div class="h-full w-auto p-4 md:px-0 ml-0 md:ml-4 flex flex-col justify-center items-start">
-                <p class="text-base font-normal leading-6 text-gray-900">
-                    Vous déplorez un court-circuit, une prise défectueuse ou une panne électrique ? Contactez 7 j/7 Éclair & Rénov. Nous nous déplaçons chez les particuliers et professionnels situés à Bruxelles. Nos conseils et devis sont gratuits !
-                </p>
-                <div class="mt-5 flex flex-col justify-start items-start space-y-2">
-                    <a href="mailto:eclairenov@gmail.com" class="text-sm leading-6 text-gray-900 font-semibold hover:text-gray-700 flex justify-start items-center">
-                        <div class="flex h-9 w-9 items-center justify-center rounded-md bg-[#206296]">
-                            <img src="/images/envelope.svg" alt="icon envelope" class="h-4" />
-                        </div>
-                        <span class="ml-2 text-lg">
-                            eclairenov@gmail.com
-                        </span>
-                    </a>
-                    <a href="tel:0476 96 32 15" class="text-sm leading-6 text-gray-900 font-semibold hover:text-gray-700 flex justify-start items-center">
-                        <div class="flex h-9 w-9 items-center justify-center rounded-md bg-[#206296]">
-                            <img src="/images/telephone.svg" alt="icon téléphone" class="h-4" />
-                        </div>
-                        <span class="ml-2 text-lg">
-                            0476 96 32 15
-                        </span>
-                    </a>
-                </div>
-            </div>
-        </section>
+        </div>
+    </section>
 
     </div>
 </div>
