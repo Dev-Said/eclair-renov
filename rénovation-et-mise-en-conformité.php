@@ -170,16 +170,20 @@ require 'layouts/header.php';
     </section> -->
 
     <section class="w-full h-auto flex justify-center items-center bg-gray-800">
-        <div class="mx-auto max-w-4xl py-8 md:py-28 grid grid-cols-1 md:grid-cols-[288px_1fr] items-start justify-center md:flex-row md:items-center md:justify-start bg-gray-800">
-            <div class="w-full hidden md:block shadow-2xl rounded-3xl">
+        <div class="mx-auto max-w-4xl py-8 md:pt-28 md:pb-5 grid grid-cols-1 md:grid-cols-[288px_1fr] md:gap-x-4 items-start justify-center md:items-start md:justify-start bg-gray-800">
+
+            <div class="w-full hidden px-2 md:px-4 md:block shadow-2xl rounded-3xl">
                 <img class="w-72 rounded-xl bg-indigo-50 lg:rounded-3xl" src="/images/ouvrier électricien.png" alt="ouvrier électricien">
             </div>
-            <div class="h-full w-auto p-4 md:px-0 ml-0 md:ml-4 text-gray-200 flex flex-col justify-center items-start">
-                <p class="w-2xl md:w-6xl md:max-w-6xl text-left">
-                    Vous rénovez votre maison ou vos bureaux ? Contactez Éclair & Rénov pour toutes les rénovations et la mise en conformité électrique de vos installations à Bruxelles.
-                </p>
+            <div class="h-full w-auto px-4 pb-4 md:px-0 ml-0 md:ml-4 text-gray-200 flex flex-col justify-center items-start">
+                <h2 class="text-2xl text-white font-bold">
+                    Vous rénovez votre maison ou vos bureaux ?
+                </h2>
                 <p class="w-2xl md:w-6xl md:max-w-6xl mt-1 md:mt-2 text-left">
                     Dans tous les cas, nos travaux sont réalisés soigneusement et selon des standards élevés, incluant du matériel performant et fiable. Nos réalisations allient la fonctionnalité, la sécurité et l'esthétique.
+                </p>
+                <p class="w-2xl md:w-6xl md:max-w-6xl mt-1 md:mt-2 text-left">
+                    Contactez Éclair & Rénov pour toutes les rénovations et la mise en conformité électrique de vos installations à Bruxelles.
                 </p>
                 <div class="mt-5 flex flex-col justify-start items-start space-y-2">
                     <a href="mailto:eclairenov@gmail.com" class="text-sm leading-6 text-gray-900 font-semibold hover:text-gray-700 flex justify-start items-center">
@@ -196,6 +200,25 @@ require 'layouts/header.php';
                         </div>
                         <span class="ml-2 text-lg text-gray-200">
                             0476 96 32 15
+                        </span>
+                    </a>
+                    <span class="text-sm leading-6 text-gray-100 hover:text-white flex justify-start items-center">
+                        <div class="flex h-9 w-9 items-center justify-center rounded-md bg-[#206296]">
+                            <img src="/images/house.svg" alt="icon maison" class="h-5" />
+                        </div>
+                        <span class="ml-2">
+                            Chaussée de Waterloo, 284A 1060 Saint-Gilles
+                        </span>
+                    </span>
+
+                    <a href="https://www.facebook.com/Eclair-Renov-1125749410891095" class="text-sm leading-6 text-gray-100 hover:text-white flex justify-start items-center">
+                        <div class="flex h-9 w-9 items-center justify-center rounded-md bg-[#206296]">
+                            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" />
+                            </svg>
+                        </div>
+                        <span class="ml-2">
+                            Rejoignez-nous sur Facebook
                         </span>
                     </a>
                 </div>

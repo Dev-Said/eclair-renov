@@ -19,7 +19,7 @@ require 'layouts/header.php';
                         </g>
                     </svg>
                 </span>
-                <span class="text-white text-2xl tracking-wide ml-1">
+                <span class="text-white text-2xl font-semibold tracking-wide ml-1">
                     0476 96 32 15
                 </span>
             </div>

@@ -1,6 +1,6 @@
 <footer class="bg-gray-800">
     <div class="mx-auto max-w-5xl overflow-hidden pb-8 pt-7 px-6 lg:px-8">
-        <div class="mt-5 grid grid-cols-1 md:grid-cols-2 gap-y-2 md:gap-y-3 justify-start">
+        <!-- <div class="mt-5 grid grid-cols-1 md:grid-cols-2 gap-y-2 md:gap-y-3 justify-start">
 
             <a href="mailto:eclairenov@gmail.com" class="text-sm leading-6 text-gray-100 hover:text-white flex justify-start">
                 <img src="/images/envelope.svg" alt="icon envelope" class="h-5" />
@@ -33,11 +33,22 @@
             </a>
 
 
-        </div>
-        <div class="w-full mt-14 flex flex-col md:flex-row justify-start md:justify-center items-center md:space-x-2">
-            <p class="text-left text-xs leading-5 text-gray-400">&copy; <?= date("Y") ?> Éclair & Rénov.Tous droits réservés.</p>
-            <p class="text-left text-xs leading-5 text-gray-400 underline underline-offset-1"><a href="/mentions-légales.php">Mentions légales</a> </p>
-            <p class="text-left text-xs leading-5 text-gray-400 underline underline-offset-1"><a href="/pc.php">Politique de confidentialité.</a></p>
+        </div> -->
+        <div class="w-full mt-4 flex flex-col md:flex-row justify-start md:justify-center items-center md:space-x-2">
+            <p class="text-left text-xs leading-5 text-gray-400">
+                &copy; <?= date("Y") ?>
+                Éclair & Rénov.Tous droits réservés.
+            </p>
+            <p class="text-left text-xs leading-5 text-gray-400 underline underline-offset-1">
+                <a href="/mentions-légales.php" rel="nofollow">
+                    Mentions légales
+                </a>
+            </p>
+            <p class="text-left text-xs leading-5 text-gray-400 underline underline-offset-1">
+                <a href="/pc.php" rel="nofollow">
+                    Politique de confidentialité.
+                </a>
+            </p>
         </div>
     </div>
 </footer>

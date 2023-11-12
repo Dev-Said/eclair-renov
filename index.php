@@ -31,25 +31,70 @@ require 'layouts/header.php';
         </div>
     </header>
 
-    <div class="flex flex-col justify-start items-center">
+    <!-- <div class="flex flex-col justify-start items-center">
         <div class="px-20 pt-6 pb-6 mt-16 flex flex-col justify-center items-center">
             <h2 class="w-auto text-3xl font-bold text-gray-900 text-center leading-10 z-10">
                 25 ans d'expérience <br> au service des particuliers et des professionnels
             </h2>
         </div>
         <span class="h-1 w-60 bg-gray-900"></span>
-    </div>
+    </div> -->
+
+    <section class="w-full max-w-7xl mx-auto mt-24 grid grid-cols-1 md:grid-cols-3 justify-center items-center">
+        <div class="w-full px-4 flex flex-col justify-start items-center">
+            <figure class="mb-2">
+                <img src="/images/logo.svg" alt="">
+            </figure>
+            <h2 class="mb-3 text-2xl font-semibold text-gray-900 text-center">
+                Installation électrique
+            </h2>
+            <p class="text-sm text-gray-900 text-center">
+                Bénéficiez de notre installation électrique de pointe. Sécurité, fiabilité et innovation à chaque connexion. Choisissez l'excellence électrique avec Éclair & Rénov.
+            </p>
+        </div>
+        <div class="w-full px-4 flex flex-col justify-start items-center">
+            <figure class="mb-2">
+                <img src="/images/logo.svg" alt="">
+            </figure>
+            <h2 class="mb-3 text-2xl font-semibold text-gray-900 text-center">
+                Rénovation et mise en conformité
+            </h2>
+            <p class="text-sm text-gray-900 text-center">
+                Transformez votre espace avec notre expertise en rénovation et mise en conformité électrique. Assurez votre tranquillité avec des professionnels près de chez vous.
+            </p>
+        </div>
+        <div class="w-full px-4 flex flex-col justify-start items-center">
+            <figure class="mb-2">
+                <img src="/images/logo.svg" alt="">
+            </figure>
+            <h2 class="mb-3 text-2xl font-semibold text-gray-900 text-center">
+                Dépannage électrique
+            </h2>
+            <p class="text-sm text-gray-900 text-center">
+                Retrouvez la sérénité avec notre service de dépannage électrique fiable et rapide. Des électriciens à votre disposition 7J/7.
+            </p>
+        </div>
+    </section>
 
     <section class="bg-white pt-24 pb-16 sm:pt-32 sm:pb-24 xl:pb-32">
-        <div class="bg-gray-800 pb-20  xl:pb-0">
+        <div class="bg-gray-800 pb-20  xl:pb-7">
             <div class="mx-auto flex max-w-7xl flex-col items-center gap-y-10 gap-x-8 px-6 sm:gap-y-8 lg:px-8 xl:flex-row xl:items-stretch">
-                <div class="-mt-8 w-full max-w-2xl xl:-mb-8 xl:w-96 xl:flex-none">
+                <div class="-mt-8 w-full max-w-2xl xl:-mb-14 xl:w-96 xl:flex-none">
                     <div class="relative aspect-[2/1] h-full md:-mx-8 xl:mx-0 xl:aspect-auto">
                         <img class="absolute inset-0 h-full w-full rounded-t-2xl xl:rounded-2xl object-cover object-center shadow-2xl brightness-125 saturate-0" src="/images/ouvrier electricien.png" alt="ouvrier électricien">
                         <div class="absolute inset-0 rounded-t-2xl xl:rounded-2xl bg-[#93ccf8] mix-blend-multiply"></div>
                     </div>
                 </div>
-                <div class="w-full max-w-2xl xl:max-w-none xl:flex-auto xl:py-24 xl:px-16">
+                <div class="w-full max-w-2xl flex-col xl:max-w-none xl:flex-auto xl:py-7 xl:px-7">
+
+                    <div class="px-20 pt-6 pb-6 flex flex-col justify-center items-center">
+                        <h2 class="w-full text-2xl font-bold text-gray-100 text-center leading-10 z-10">
+                            25 ans d'expérience <br> au service des particuliers et des professionnels
+                        </h2>
+                        <span class="h-1 w-60 mt-3 bg-gray-100"></span>
+                    </div>
+
+
                     <P class="text-lg font-normal text-justify leading-7 text-white">
                         Notre entreprise se consacre à vous offrir un service axée sur la satisfaction client. Grâce à notre expertise dans l'installation, la rénovation et le dépannage électrique, nous vous garantissons des solutions fiables et sécurisées. Nous restons à la pointe des dernières avancées et tendances en matière d’électricité afin de vous proposer des services de haute qualité. Que vous soyez un particulier ou un professionnel (entreprise, institution, syndic de copropriété, etc.), nous mettons tout en œuvre pour vous offrir une solution sur mesure, adaptée à votre situation spécifique.
                     </p>
@@ -96,9 +141,9 @@ require 'layouts/header.php';
                     Basés à Saint-Gilles, nous intervenons rapidement sur Uccle, Ixelles, Forest et dans le reste des 19 communes de Bruxelles. Nous nous déplaçons aussi dans le Brabant Wallon et le Brabant Flamand pour répondre aux besoins des particuliers et professionnels.
                 </p>
             </div>
-            <div class="w-1/2 h-[580px] px-10 ml-4 rounded-3xl bg-[#206296] shadow-xl flex justify-center items-center">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2520.318552331692!2d4.348297777339662!3d50.825263192709!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c45dda3de36d%3A0xe3b38bff1607a309!2sChau.%20de%20Waterloo%20284%2C%201060%20Saint-Gilles%2C%20Belgique!5e0!3m2!1sfr!2sfr!4v1699029871049!5m2!1sfr!2sfr" width="550" height="490" style="border:0; border-radius: 12px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
+            <!-- <div class="w-1/2 h-[580px] px-10 ml-4 rounded-3xl bg-[#206296] shadow-xl flex justify-center items-center"> -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2520.318552331692!2d4.348297777339662!3d50.825263192709!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c45dda3de36d%3A0xe3b38bff1607a309!2sChau.%20de%20Waterloo%20284%2C%201060%20Saint-Gilles%2C%20Belgique!5e0!3m2!1sfr!2sfr!4v1699029871049!5m2!1sfr!2sfr" width="650" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <!-- </div> -->
         </div>
     </div>
 
@@ -118,7 +163,7 @@ require 'layouts/header.php';
             <div class="mx-auto mt-8 px-4 2xl:px-0 grid max-w-7xl grid-cols-1 gap-y-20 gap-x-10 lg:grid-cols-2">
                 <a href="/installations-électriques.php" class="w-full">
                     <article class="flex flex-col items-start justify-between group/block1 rounded-xl">
-                        <div class="w-full"> 
+                        <div class="w-full">
                             <img src="/images/installation électrique performante.jpg" alt="électricité cuisine" class="aspect-[16/9] w-full rounded-t-xl bg-gray-100 object-cover group-hover/block1:opacity-80">
                         </div>
                         <div class="w-full p-5 rounded-b-xl border border-gray-200 shadow-md border-t-none">
@@ -136,7 +181,7 @@ require 'layouts/header.php';
 
                 <a href="/rénovation-et-mise-en-conformité.php" class="w-full">
                     <article class="flex flex-col items-start justify-between group/block1 rounded-xl">
-                        <div class="w-full"> 
+                        <div class="w-full">
                             <img src="/images/tableau électrique.webp" alt="mise en tension" class="aspect-[16/9] w-full rounded-t-xl bg-gray-100 object-cover group-hover/block1:opacity-80">
                         </div>
                         <div class="w-full p-5 rounded-b-xl border border-gray-200 shadow-md border-t-none">
@@ -154,7 +199,7 @@ require 'layouts/header.php';
 
                 <a href="/dépannage-électrique.php" class="w-full">
                     <article class="flex flex-col items-start justify-between group/block1 rounded-xl">
-                        <div class="w-full"> 
+                        <div class="w-full">
                             <img src="/images/hero2.jpg" alt="tableau électrique" class="aspect-[16/9] w-full rounded-t-xl bg-gray-100 object-cover group-hover/block1:opacity-80">
                         </div>
                         <div class="w-full p-5 rounded-b-xl border border-gray-200 shadow-md border-t-none">
@@ -172,7 +217,7 @@ require 'layouts/header.php';
 
                 <a href="/contact.php" class="w-full">
                     <article class="flex flex-col items-start justify-between group/block1 rounded-xl">
-                        <div class="w-full"> 
+                        <div class="w-full">
                             <img src="/images/contact.webp" alt="un homme appel un électricien" class="aspect-[16/9] w-full rounded-t-xl bg-gray-100 object-cover group-hover/block1:opacity-80">
                         </div>
                         <div class="w-full p-5 rounded-b-xl border border-gray-200 shadow-md border-t-none">

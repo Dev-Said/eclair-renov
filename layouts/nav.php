@@ -24,28 +24,28 @@ $current_page = basename(urldecode($url));
             </div>
             
             <div class="relative flex flex-1 items-center justify-center sm:items-stretch">
-                <div class="hidden sm:flex sm:space-x-8 text-xl">
+                <div class="hidden sm:flex sm:space-x-8 text-base">
                     <div class="flex flex-shrink-0 items-center">
                         <a href="/"><img class="hidden h-16 w-auto lg:block" src="/images/logo.jpg" alt="logo Éclair & Rénov" /></a>
                     </div>
 
-                    <a href="/" class="menu-item inline-flex items-center px-1 hover:text-blue-700 <?= ($current_page == "") ? 'font-bold text-blue-800' : 'font-normal text-gray-700'; ?>">
+                    <a href="/" class="menu-item inline-flex items-center px-1 hover:text-blue-700 uppercase <?= ($current_page == "") ? 'font-bold text-blue-800' : 'font-normal text-gray-700'; ?>">
                         Éclair & Rénov
                     </a>
 
-                    <a href="installations-électriques.php" class="menu-item inline-flex items-center px-1   hover:text-blue-700 <?= ($current_page == 'installations-électriques.php') ? 'font-bold text-blue-800' : 'font-normal text-gray-700'; ?>">
+                    <a href="installations-électriques.php" class="menu-item inline-flex items-center px-1   hover:text-blue-700 uppercase <?= ($current_page == 'installations-électriques.php') ? 'font-bold text-blue-800' : 'font-normal text-gray-700'; ?>">
                         Installations électriques
                     </a>
 
-                    <a href="rénovation-et-mise-en-conformité.php" class="menu-item inline-flex items-center px-1  hover:text-blue-700 <?= ($current_page == 'rénovation-et-mise-en-conformité.php') ? 'font-bold text-blue-800' : 'font-normal text-gray-700'; ?>">
+                    <a href="rénovation-et-mise-en-conformité.php" class="menu-item inline-flex items-center px-1  hover:text-blue-700 uppercase <?= ($current_page == 'rénovation-et-mise-en-conformité.php') ? 'font-bold text-blue-800' : 'font-normal text-gray-700'; ?>">
                         Rénovation et mise en conformité
                     </a>
 
-                    <a href="dépannage-électrique.php" class="menu-item inline-flex items-center px-1  hover:text-blue-700 <?= ($current_page == 'dépannage-électrique.php') ? 'font-bold text-blue-800' : 'font-normal text-gray-700'; ?>">
+                    <a href="dépannage-électrique.php" class="menu-item inline-flex items-center px-1  hover:text-blue-700 uppercase <?= ($current_page == 'dépannage-électrique.php') ? 'font-bold text-blue-800' : 'font-normal text-gray-700'; ?>">
                         Dépannage électrique
                     </a>
 
-                    <a href="contact.php" class="menu-item inline-flex items-center px-5 bg-[#206296] <?= ($current_page == 'contact.php') ? 'font-bold text-white' : 'font-normal text-white'; ?>">
+                    <a href="contact.php" class="menu-item inline-flex items-center px-5 bg-[#206296] uppercase <?= ($current_page == 'contact.php') ? 'font-bold text-white' : 'font-normal text-white'; ?>">
                         Contact - Devis Gratuit
                     </a>
                 </div>
@@ -55,24 +55,24 @@ $current_page = basename(urldecode($url));
     </div>
     <!-- Mobile menu, show/hide based on menu state. -->
     <div class="sm:hidden" id="mobile-menu">
-        <div class="space-y-1 pt-2 pb-4">
-            <a href="/" class="block border-l-4 border-transparent py-2 pl-3 pr-4  hover:bg-gray-50 hover:text-blue-700 <?= ($current_page == "") ? 'font-bold text-blue-800' : 'font-normal text-gray-700'; ?>">
+        <div class="space-y-1 pt-2 pb-4 text-base">
+            <a href="/" class="block border-l-4 border-transparent py-2 pl-3 pr-4  hover:bg-gray-50 hover:text-blue-700 uppercase <?= ($current_page == "") ? 'font-bold text-blue-800' : 'font-normal text-gray-700'; ?>">
                 Éclair & Rénov
             </a>
 
-            <a href="installations-électriques.php" class="block border-l-4 border-transparent py-2 pl-3 pr-4  hover:bg-gray-50 hover:text-blue-700 <?= ($current_page == 'installations-électriques.php') ? 'font-bold text-blue-800' : 'font-normal text-gray-700'; ?>">
+            <a href="installations-électriques.php" class="block border-l-4 border-transparent py-2 pl-3 pr-4  hover:bg-gray-50 hover:text-blue-700 uppercase <?= ($current_page == 'installations-électriques.php') ? 'font-bold text-blue-800' : 'font-normal text-gray-700'; ?>">
                 Installations électriques
             </a>
 
-            <a href="rénovation-et-mise-en-conformité.php" class="block border-l-4 border-transparent py-2 pl-3 pr-4  hover:bg-gray-50 hover:text-blue-700 <?= ($current_page == 'rénovation-et-mise-en-conformité.php') ? 'font-bold text-blue-800' : 'font-normal text-gray-700'; ?>">
+            <a href="rénovation-et-mise-en-conformité.php" class="block border-l-4 border-transparent py-2 pl-3 pr-4  hover:bg-gray-50 hover:text-blue-700 uppercase <?= ($current_page == 'rénovation-et-mise-en-conformité.php') ? 'font-bold text-blue-800' : 'font-normal text-gray-700'; ?>">
                 Rénovation et mise en conformité
             </a>
 
-            <a href="dépannage-électrique.php" class="block border-l-4 border-transparent py-2 pl-3 pr-4  hover:bg-gray-50 hover:text-blue-700 <?= ($current_page == 'dépannage-électrique.php') ? 'font-bold text-blue-800' : 'font-normal text-gray-700'; ?>">
+            <a href="dépannage-électrique.php" class="block border-l-4 border-transparent py-2 pl-3 pr-4  hover:bg-gray-50 hover:text-blue-700 uppercase <?= ($current_page == 'dépannage-électrique.php') ? 'font-bold text-blue-800' : 'font-normal text-gray-700'; ?>">
                 Dépannage électrique
             </a>
 
-            <a href="contact.php" class="block border-l-4 border-transparent py-2 pl-3 pr-4  hover:bg-gray-50 hover:text-blue-700 <?= ($current_page == 'contact.php') ? 'font-bold text-blue-800' : 'font-normal text-gray-700'; ?>">
+            <a href="contact.php" class="block border-l-4 border-transparent py-2 pl-3 pr-4  hover:bg-gray-50 hover:text-blue-700 uppercase <?= ($current_page == 'contact.php') ? 'font-bold text-blue-800' : 'font-normal text-gray-700'; ?>">
                 Contact - Devis Gratuit
             </a>
         </div>
