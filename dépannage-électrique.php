@@ -8,8 +8,8 @@ require 'layouts/header.php';
         <!-- <img src='images/cuisine.jpg' alt='accueil' class='w-full h-[500px] object-cover'> -->
 
         <div class="hadow-2xl w-full h-[500px] lg:max-w-full">
-            <img class=" h-full w-full object-cover brightness-125 saturate-0" src="/images/lampes6.png" alt="">
-            <div class="absolute inset-0 bg-[#208896] mix-blend-multiply"></div>
+            <img class=" h-full w-full object-cover brightness-125 saturate-0" src="/images/schema electrique.png" alt="">
+            <div class="absolute inset-0 bg-[#284257] mix-blend-hard-light"></div>
         </div>
 
         <div class="absolute top-0 bottom-0 left-0 right-0 w-full p-5 flex flex-col justify-center items-center">
@@ -17,7 +17,7 @@ require 'layouts/header.php';
             <h1 class="w-auto text-xl leading-5 md:text-6xl md:leading-[80px] text-white font-bold text-center z-10">
                 Éclair & Rénov <br> 24/7 dépannage électrique d'urgence <br> à Bruxelles (Saint-Gilles, Uccle, Forest, Ixelles)
             </h1>
-            <div class="px-5 py-3 mt-4 z-10 flex justify-center items-center bg-[#206296]">
+            <div class="px-5 py-3 mt-4 z-10 flex justify-center items-center bg-[#962320]">
                 <span>
                     <svg data-bbox="25.849 20.098 148.61 159.903" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 200 200" data-type="shape">
                         <g>
@@ -25,7 +25,7 @@ require 'layouts/header.php';
                         </g>
                     </svg>
                 </span>
-                <span class="text-white text-2xl tracking-wide ml-1">
+                <span class="text-white text-2xl font-semibold tracking-wide ml-1">
                     0476 96 32 15
                 </span>
             </div>
@@ -57,7 +57,12 @@ require 'layouts/header.php';
                                     Profitez d'un service de dépannage électrique rapide et efficace qui mettra fin à vos problèmes en un éclair !
                                 </p>
                             </blockquote>
-                            <figcaption class="mt-6 text-sm leading-6 text-gray-300"><strong class="font-semibold text-white">Judith Rogers,</strong> CEO at Workcation</figcaption>
+                            <figcaption class="mt-6 text-sm leading-6 text-gray-300">
+                                <strong class="font-semibold text-white">
+                                    Votre électricien
+                                </strong>
+                                près de chez vous
+                            </figcaption>
                         </figure>
                     </div>
                 </div>
@@ -103,9 +108,8 @@ require 'layouts/header.php';
 
                     <div class="lg:pr-4">
                         <div class="relative overflow-hidden rounded-3xl bg-gray-900 px-6 pb-9 pt-64 shadow-2xl sm:px-12 lg:max-w-lg lg:px-8 lg:pb-8 xl:px-10 xl:pb-10">
-                            <img class="absolute inset-0 h-full w-full object-cover brightness-125 saturate-0" src="/images/camionette.png" alt="">
-                            <!-- <div class="absolute inset-0 bg-[#FFEAB5] mix-blend-multiply"></div>  -->
-                            <div class="absolute inset-0 bg-gradient-to-b from-cyan-700 to-slate-800 opacity-30"></div>
+                            <img class="absolute inset-0 h-full w-full object-cover brightness-125 saturate-0" src="/images/camionette.png" alt="camionette électricien">
+                            <div class="absolute inset-0 bg-[#89c6f5] mix-blend-multiply"></div>
                             <svg viewBox="0 0 1097 845" aria-hidden="true" class="absolute top-1/2 left-1/2 -ml-16 w-[68.5625rem] -translate-x-1/2 -translate-y-1/2 transform-gpu blur-3xl">
                                 <path fill="url(#e7ccf164-908d-46dd-9194-2f8a16ad5a93)" fill-opacity=".4" d="M301.174 646.641 193.541 844.786 0 546.172l301.174 100.469 193.845-356.855c1.241 164.891 42.802 431.935 199.124 180.978 195.402-313.696 143.295-588.18 284.729-419.266 113.148 135.13 124.068 367.989 115.378 467.527L811.753 372.553l20.102 451.119-530.681-177.031Z" />
                                 <defs>
@@ -125,7 +129,12 @@ require 'layouts/header.php';
                                         En cas de situation urgente, notre équipe est prête à intervenir immédiatement pour rétablir l'électricité dans vos installations, qu'elles soient privées ou professionnelles.
                                     </p>
                                 </blockquote>
-                                <figcaption class="mt-6 text-sm leading-6 text-gray-300"><strong class="font-semibold text-white">Judith Rogers,</strong> CEO at Workcation</figcaption>
+                                <figcaption class="mt-6 text-sm leading-6 text-gray-300">
+                                    <strong class="font-semibold text-white">
+                                        Votre électricien
+                                    </strong>
+                                    près de chez vous
+                                </figcaption>
                             </figure>
                         </div>
                     </div>
@@ -137,8 +146,8 @@ require 'layouts/header.php';
             <div class="mx-auto max-w-4xl py-8 md:pt-28 md:pb-5 grid grid-cols-1 md:grid-cols-[288px_1fr] md:gap-x-4 items-start justify-center md:items-start md:justify-start bg-gray-800">
 
                 <div class="w-72 h-72 rounded-xl lg:rounded-3xl relative overflow-hidden shadow-2xl">
-                    <img class="absolute inset-0 h-full w-full object-cover brightness-125 saturate-0" src="/images/expert électricien.png" alt="secrétaire électricien">
-                    <div class="absolute inset-0 bg-[#e7f3fc] mix-blend-multiply"></div>
+                    <img class="absolute inset-0 h-full w-full object-cover brightness-125 saturate-0" src="/images/expert électricien.png" alt="expert électricien">
+                    <div class="absolute inset-0 bg-[#9dd2fa] mix-blend-multiply"></div>
                 </div>
                 <div class="h-full w-auto px-4 pb-4 md:px-0 ml-0 md:ml-4 text-gray-200 flex flex-col justify-center items-start">
                     <h2 class="text-2xl text-white font-bold">

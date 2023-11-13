@@ -11,7 +11,7 @@ require 'layouts/header.php';
             <h1 class="w-auto text-xl leading-5 md:text-6xl md:leading-[80px] text-white font-bold text-center z-10">
                 Contactez Éclair & Rénov à Saint-Gilles
             </h1>
-            <div class="px-5 py-3 mt-4 z-10 flex justify-center items-center bg-[#206296]">
+            <div class="px-5 py-3 mt-4 z-10 flex justify-center items-center bg-[#962320]">
                 <span>
                     <svg data-bbox="25.849 20.098 148.61 159.903" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 200 200" data-type="shape">
                         <g>
@@ -90,7 +90,7 @@ require 'layouts/header.php';
                                     <div class="p-2 mr-1.5 bg-[#206296] rounded-md flex justify-center items-center">
                                         <img src="/images/envelope.svg" alt="icon envelope" class="h-4" />
                                     </div>
-                                    <span class="ml-1">
+                                    <span class="ml-1 font-semibold">
                                         eclairenov@gmail.com
                                     </span>
                                 </a>
@@ -98,7 +98,7 @@ require 'layouts/header.php';
                                     <div class="p-2 mr-1.5 bg-[#206296] rounded-md flex justify-center items-center">
                                         <img src="/images/telephone.svg" alt="icon téléphone" class="h-4" />
                                     </div>
-                                    <span class="ml-1">
+                                    <span class="ml-1 font-semibold">
                                         0476 96 32 15
                                     </span>
                                 </a>

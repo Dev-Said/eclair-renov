@@ -6,7 +6,6 @@ require 'layouts/header.php';
 <div class='w-full h-full min-h-[100vh] mt-24 flex flex-col justify-start items-center'>
 
     <header class="relative w-full flex flex-row justify-between items-center">
-
         <div class="hadow-2xl w-full h-auto lg:max-w-full">
             <img class=" h-full w-full object-cover brightness-125 saturate-0" src="/images/cable électrique.png" alt="">
             <div class="absolute inset-0 bg-[#284257] mix-blend-hard-light"></div>
@@ -71,12 +70,12 @@ require 'layouts/header.php';
                 Dépannage électrique
             </h2>
             <p class="text-sm text-gray-900 text-center">
-                Retrouvez la sérénité avec notre service de dépannage électrique fiable et rapide. Des électriciens à votre disposition 7J/7.
+                Retrouvez la sérénité avec notre service de dépannage électrique fiable et rapide. Des électriciens à votre disposition 7j/7.
             </p>
         </div>
     </section>
 
-    <section class="bg-white pt-24 pb-16 sm:pt-32 sm:pb-24 xl:pb-32">
+    <section class="bg-white pt-24 pb-16 sm:pt-40 sm:pb-24 xl:pb-32">
         <div class="bg-gray-800 pb-20  xl:pb-7">
             <div class="mx-auto flex max-w-7xl flex-col items-center gap-y-10 gap-x-8 px-6 sm:gap-y-8 lg:px-8 xl:flex-row xl:items-stretch">
                 <div class="-mt-8 w-full max-w-2xl xl:-mb-14 xl:w-96 xl:flex-none">
@@ -87,11 +86,11 @@ require 'layouts/header.php';
                 </div>
                 <div class="w-full max-w-2xl flex-col xl:max-w-none xl:flex-auto xl:py-7 xl:px-7">
 
-                    <div class="px-20 pt-6 pb-6 flex flex-col justify-center items-center">
-                        <h2 class="w-full text-2xl font-bold text-gray-100 text-center leading-10 z-10">
-                            25 ans d'expérience <br> au service des particuliers et des professionnels
+                    <div class="w-full pt-6 pb-6 flex flex-col justify-center items-center">
+                        <h2 class="w-full text-2xl font-bold text-gray-100 text-left leading-10 z-10">
+                            25 ans d'expérience au service des particuliers et des professionnels
                         </h2>
-                        <span class="h-1 w-60 mt-3 bg-gray-100"></span>
+                        <!-- <span class="h-1 w-60 mt-3 bg-gray-100"></span> -->
                     </div>
 
 
@@ -103,7 +102,7 @@ require 'layouts/header.php';
         </div>
     </section>
 
-    <section class="w-full max-w-7xl mt-14 mb-28 p-5 flex flex-col justify-center items-center bg-white border border-gray-100 shadow-md rounded-lg">
+    <section class="w-[1280px] max-w-7xl mt-14 mb-28 p-5 flex flex-col justify-center items-center bg-white border border-gray-100 shadow-md rounded-lg">
         <h2 class="w-full mr-auto pr-5 mb-8 text-lg text-center font-normal text-gray-900">
             Nous travaillons avec des marques et des matériaux réputés pour leur fiabilité et leur durabilité tels que <br> Niko - Legrand - BTicino - Tem - Vynckier - Urmet - Elvox...
         </h2>
@@ -133,23 +132,11 @@ require 'layouts/header.php';
         </ul>
     </section>
 
-    <div class="w-full h-[500px] mt-24 mb-20 px-20 2xl:px-0 flex flex-row justify-center items-center bg-gray-800">
-        <div class="flex flex-row justify-start items-center max-w-7xl">
-            <div class="w-1/2 pr-10 flex flex-col justify-start items-start">
-                <img src="/images/truck.svg" alt="icon camionette" class="w-16 p-0">
-                <p class="w-full p-0 text-lg leading-7 text-justify text-white">
-                    Basés à Saint-Gilles, nous intervenons rapidement sur Uccle, Ixelles, Forest et dans le reste des 19 communes de Bruxelles. Nous nous déplaçons aussi dans le Brabant Wallon et le Brabant Flamand pour répondre aux besoins des particuliers et professionnels.
-                </p>
-            </div>
-            <!-- <div class="w-1/2 h-[580px] px-10 ml-4 rounded-3xl bg-[#206296] shadow-xl flex justify-center items-center"> -->
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2520.318552331692!2d4.348297777339662!3d50.825263192709!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c45dda3de36d%3A0xe3b38bff1607a309!2sChau.%20de%20Waterloo%20284%2C%201060%20Saint-Gilles%2C%20Belgique!5e0!3m2!1sfr!2sfr!4v1699029871049!5m2!1sfr!2sfr" width="650" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <!-- </div> -->
-        </div>
-    </div>
 
 
-    <div class="bg-white pt-24 sm:py-32">
-        <div class="mx-auto max-w-7xl">
+
+    <div class="max-w-7xl bg-white pt-5 md:py-14 px-4 md:px-8 border border-gray-200 rounded-2xl">
+        <div class="mx-auto w-full">
 
             <div class="w-full">
                 <h2 class="w-auto text-lg font-bold tracking-tight text-gray-900 sm:text-4xl text-center z-10">
@@ -237,24 +224,74 @@ require 'layouts/header.php';
     </div>
 
 
-    <div class="bg-white">
-        <div class="pb-24 pt-10 px-6 sm:px-6 lg:px-8">
-            <div class="mx-auto max-w-2xl text-center">
-                <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                    Le devis et les conseils sont gratuits. Contactez-nous 7 j/7
-                </h2>
-                <p class="mx-auto mt-6 max-w-xl text-lg leading-7 text-gray-600">
-                    Contactez Éclair & Rénov pour tous vos travaux d'installation, de rénovation ou de dépannage électrique dans la région Bruxelloise et sa périphérie.
+
+    <div class="pb-24 pt-10 px-4 md:pt-20 bg-white">
+        <div class="mx-auto max-w-2xl text-center">
+            <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl leading-7">
+                Devis et Conseils Gratuits ! <br> Contactez-nous 7j/7
+            </h2>
+            <p class="mx-auto mt-6 max-w-xl text-lg leading-7 text-gray-600">
+                Contactez Éclair & Rénov pour tous vos travaux d'installation, de rénovation ou de dépannage électrique dans la région Bruxelloise et sa périphérie.
+            </p>
+            <div class="mt-10 flex items-center justify-center gap-x-6">
+                <a href="tel:0476 96 32 15" class="rounded-md bg-[#206296] h-14 px-5 text-lg font-semibold text-white shadow-sm hover:bg-[#407aa5] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#206296] flex justify-center items-center">
+                    0476 96 32 15
+                </a>
+                <a href="mailto:eclairenov@gmail.com" class="rounded-md bg-[#206296] h-14 px-5 text-lg font-semibold text-white shadow-sm hover:bg-[#407aa5] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#206296] flex justify-center items-center">
+                    eclairenov@gmail.com
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="w-full h-auto mx-auto mt-16 md:pt-20 md:pb-10 px-20 2xl:px-0 flex flex-row justify-center items-center bg-gray-800">
+        <div class="flex flex-row justify-start items-start max-w-7xl">
+            <div class="w-1/2 p-5 flex flex-col justify-start items-start">
+                <img src="/images/truck.svg" alt="icon camionette" class="w-16 p-0">
+                <p class="w-full text-lg leading-7 text-justify text-white">
+                    Basés à Saint-Gilles, nous intervenons rapidement sur Uccle, Ixelles, Forest et dans le reste des 19 communes de Bruxelles. Nous nous déplaçons aussi dans le Brabant Wallon et le Brabant Flamand pour répondre aux besoins des particuliers et professionnels.
                 </p>
-                <div class="mt-10 flex items-center justify-center gap-x-6">
-                    <a href="tel:0476 96 32 15" class="rounded-md bg-[#206296] h-14 px-5 text-lg font-semibold text-white shadow-sm hover:bg-[#407aa5] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#206296] flex justify-center items-center">
-                        0476 96 32 15
+                <div class="mt-5 flex flex-col justify-start items-start space-y-2">
+                    <a href="mailto:eclairenov@gmail.com" class="text-sm leading-6 text-gray-900 font-semibold hover:text-gray-700 flex justify-start items-center">
+                        <div class="flex h-9 w-9 items-center justify-center rounded-md bg-[#206296]">
+                            <img src="/images/envelope.svg" alt="icon envelope" class="h-4" />
+                        </div>
+                        <span class="ml-2 text-lg text-gray-200">
+                            eclairenov@gmail.com
+                        </span>
                     </a>
-                    <a href="mailto:eclairenov@gmail.com" class="rounded-md bg-[#206296] h-14 px-5 text-lg font-semibold text-white shadow-sm hover:bg-[#407aa5] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#206296] flex justify-center items-center">
-                        eclairenov@gmail.com
+                    <a href="tel:0476 96 32 15" class="text-sm leading-6 text-gray-900 font-semibold hover:text-gray-700 flex justify-start items-center">
+                        <div class="flex h-9 w-9 items-center justify-center rounded-md bg-[#206296]">
+                            <img src="/images/telephone.svg" alt="icon téléphone" class="h-4" />
+                        </div>
+                        <span class="ml-2 text-lg text-gray-200">
+                            0476 96 32 15
+                        </span>
+                    </a>
+                    <span class="text-sm leading-6 text-gray-100 hover:text-white flex justify-start items-center">
+                        <div class="flex h-9 w-9 items-center justify-center rounded-md bg-[#206296]">
+                            <img src="/images/house.svg" alt="icon maison" class="h-5" />
+                        </div>
+                        <span class="ml-2">
+                            Chaussée de Waterloo, 284A 1060 Saint-Gilles
+                        </span>
+                    </span>
+
+                    <a href="https://www.facebook.com/Eclair-Renov-1125749410891095" class="text-sm leading-6 text-gray-100 hover:text-white flex justify-start items-center">
+                        <div class="flex h-9 w-9 items-center justify-center rounded-md bg-[#206296]">
+                            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" />
+                            </svg>
+                        </div>
+                        <span class="ml-2">
+                            Rejoignez-nous sur Facebook
+                        </span>
                     </a>
                 </div>
             </div>
+            <!-- <div class="w-1/2 h-[580px] px-10 ml-4 rounded-3xl bg-[#206296] shadow-xl flex justify-center items-center"> -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2520.318552331692!2d4.348297777339662!3d50.825263192709!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c45dda3de36d%3A0xe3b38bff1607a309!2sChau.%20de%20Waterloo%20284%2C%201060%20Saint-Gilles%2C%20Belgique!5e0!3m2!1sfr!2sfr!4v1699029871049!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <!-- </div> -->
         </div>
     </div>
 
