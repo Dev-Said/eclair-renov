@@ -6,8 +6,8 @@ require 'layouts/header.php';
 <div class='w-full h-full min-h-[100vh] mt-24 flex flex-col justify-start items-center'>
 
     <header class="relative w-full flex flex-row justify-between items-center">
-        <div class="hadow-2xl w-full h-auto lg:max-w-full">
-            <img class=" h-full w-full object-cover brightness-125 saturate-0" src="/images/cable électrique.png" alt="">
+        <div class="shadow-2xl w-full h-auto lg:max-w-full">
+            <img class=" h-[450px] w-full object-cover brightness-125 saturate-0" src="/images/cable électrique.png" alt="">
             <div class="absolute inset-0 bg-[#284257] mix-blend-hard-light"></div>
         </div>
 
@@ -41,8 +41,8 @@ require 'layouts/header.php';
 
     <section class="w-full max-w-7xl mx-auto mt-24 grid grid-cols-1 md:grid-cols-3 justify-center items-center">
         <div class="w-full px-4 flex flex-col justify-start items-center">
-            <figure class="mb-2">
-                <img src="/images/logo.svg" alt="">
+            <figure class="mb-4 h-20 w-20 rounded-full bg-[#206296] flex justify-center items-center">
+                <img src="/images/house2.svg" alt="" class="h-10">
             </figure>
             <h2 class="mb-3 text-2xl font-semibold text-gray-900 text-center">
                 Installation électrique
@@ -52,8 +52,8 @@ require 'layouts/header.php';
             </p>
         </div>
         <div class="w-full px-4 flex flex-col justify-start items-center">
-            <figure class="mb-2">
-                <img src="/images/logo.svg" alt="">
+            <figure class="mb-4 h-20 w-20 rounded-full bg-[#206296] flex justify-center items-center">
+                <img src="/images/policy.svg" alt="" class="h-10">
             </figure>
             <h2 class="mb-3 text-2xl font-semibold text-gray-900 text-center">
                 Rénovation et mise en conformité
@@ -63,8 +63,8 @@ require 'layouts/header.php';
             </p>
         </div>
         <div class="w-full px-4 flex flex-col justify-start items-center">
-            <figure class="mb-2">
-                <img src="/images/logo.svg" alt="">
+            <figure class="mb-4 h-20 w-20 rounded-full bg-[#206296] flex justify-center items-center">
+                <img src="/images/truck2.svg" alt="" class="h-12">
             </figure>
             <h2 class="mb-3 text-2xl font-semibold text-gray-900 text-center">
                 Dépannage électrique
@@ -102,12 +102,12 @@ require 'layouts/header.php';
         </div>
     </section>
 
-    <section class="w-[1280px] max-w-7xl mt-14 mb-28 p-5 flex flex-col justify-center items-center bg-white border border-gray-100 shadow-md rounded-lg">
+    <section class="w-auto xl:w-[1280px] max-w-7xl mt-14 mb-28 p-5 flex flex-col justify-center items-center bg-white border border-gray-100 shadow-md rounded-lg">
         <h2 class="w-full mr-auto pr-5 mb-8 text-lg text-center font-normal text-gray-900">
             Nous travaillons avec des marques et des matériaux réputés pour leur fiabilité et leur durabilité tels que <br> Niko - Legrand - BTicino - Tem - Vynckier - Urmet - Elvox...
         </h2>
 
-        <ul role="list" class="w-full max-w-7xl flex flex-row flex-wrap justify-between items-center">
+        <ul role="list" class="w-full max-w-7xl space-y-2 lg:space-y-0 flex flex-row flex-wrap justify-between items-center">
             <li class="h-24 px-4 border border-gray-200 rounded-lg flex justify-center items-center">
                 <img class="w-32 h-auto" src="/images/niko.webp" alt="Niko">
             </li>
@@ -244,14 +244,14 @@ require 'layouts/header.php';
         </div>
     </div>
 
-    <div class="w-full h-auto mx-auto mt-16 md:pt-20 md:pb-10 px-20 2xl:px-0 flex flex-row justify-center items-center bg-gray-800">
-        <div class="flex flex-row justify-start items-start max-w-7xl">
-            <div class="w-1/2 p-5 flex flex-col justify-start items-start">
-                <img src="/images/truck.svg" alt="icon camionette" class="w-16 p-0">
+    <div class="w-full h-auto mx-auto mt-16 md:pt-20 md:pb-10 px-2 lg:px-20 2xl:px-0 flex flex-row justify-center items-center bg-gray-800">
+        <div class="flex flex-col xl:flex-row justify-start items-start max-w-7xl">
+            <div class="w-full p-2 md:py-5 md:pl-5 md:pr-5 xl:pr-10 flex flex-col justify-start items-start">
+                <img src="/images/clock.svg" alt="icon horloge" class="w-10 mb-2 p-0">
                 <p class="w-full text-lg leading-7 text-justify text-white">
                     Basés à Saint-Gilles, nous intervenons rapidement sur Uccle, Ixelles, Forest et dans le reste des 19 communes de Bruxelles. Nous nous déplaçons aussi dans le Brabant Wallon et le Brabant Flamand pour répondre aux besoins des particuliers et professionnels.
                 </p>
-                <div class="mt-5 flex flex-col justify-start items-start space-y-2">
+                <div class="mt-5 mb-5 xl:mb-0 grid grid-cols-2 gap-x-5 xl:flex xl:flex-col justify-start items-start space-y-2">
                     <a href="mailto:eclairenov@gmail.com" class="text-sm leading-6 text-gray-900 font-semibold hover:text-gray-700 flex justify-start items-center">
                         <div class="flex h-9 w-9 items-center justify-center rounded-md bg-[#206296]">
                             <img src="/images/envelope.svg" alt="icon envelope" class="h-4" />
@@ -289,9 +289,11 @@ require 'layouts/header.php';
                     </a>
                 </div>
             </div>
-            <!-- <div class="w-1/2 h-[580px] px-10 ml-4 rounded-3xl bg-[#206296] shadow-xl flex justify-center items-center"> -->
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2520.318552331692!2d4.348297777339662!3d50.825263192709!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c45dda3de36d%3A0xe3b38bff1607a309!2sChau.%20de%20Waterloo%20284%2C%201060%20Saint-Gilles%2C%20Belgique!5e0!3m2!1sfr!2sfr!4v1699029871049!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <!-- </div> -->
+
+            <div class="responsive-iframe-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2520.318552331692!2d4.348297777339662!3d50.825263192709!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c45dda3de36d%3A0xe3b38bff1607a309!2sChau.%20de%20Waterloo%20284%2C%201060%20Saint-Gilles%2C%20Belgique!5e0!3m2!1sfr!2sfr!4v1699029871049!5m2!1sfr!2sfr" frameborder="0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
         </div>
     </div>
 

@@ -7,7 +7,7 @@ require 'layouts/header.php';
     <header class="relative w-full flex flex-row justify-between items-center">
         <!-- <img src='images/cuisine.jpg' alt='accueil' class='w-full h-[500px] object-cover'> -->
 
-        <div class="hadow-2xl w-full h-[500px] lg:max-w-full">
+        <div class="shadow-2xl w-full h-[450px] lg:max-w-full">
             <img class=" h-full w-full object-cover brightness-125 saturate-0" src="/images/schema electrique 3.png" alt="">
             <div class="absolute inset-0 bg-[#9AD2FC] mix-blend-multiply"></div>
         </div>

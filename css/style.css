@@ -1,9 +1,7 @@
-
-  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&family=Shadows+Into+Light&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&family=Shadows+Into+Light&display=swap");
 
 * {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 @keyframes flotter {
@@ -30,5 +28,32 @@
 .flottant3 {
   animation: flotter 6s ease-in-out infinite;
   animation-delay: 1s;
+}
+
+/* iframe style responsive */
+.responsive-iframe-container {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%; /* Rapport largeur/hauteur (16:9) */
+}
+
+.responsive-iframe-container iframe {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 600px;
+  height: 450px;
+}
+
+@media screen and (max-width: 1400px) {
+  .responsive-iframe-container iframe {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .responsive-iframe-container iframe {
+    height: 350px;
+  }
 }
 

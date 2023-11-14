@@ -5,7 +5,10 @@ require 'layouts/header.php';
 
 <div class='w-full h-full min-h-[100vh] mt-24 flex flex-col justify-start items-center'>
     <header class="relative w-full flex flex-row justify-between items-center">
-        <img src='images/cuisine.jpg' alt='accueil' class='w-full h-[500px] object-cover'>
+        <div class="shadow-2xl w-full h-[450px] lg:max-w-full">
+            <img src='images/cuisine.jpg' alt='accueil' class='w-full h-[450px] object-cover'>
+            <div class="absolute inset-0 bg-[#91bde0] mix-blend-multiply"></div>
+        </div>
         <div class="absolute top-0 bottom-0 left-0 right-0 w-full p-5 flex flex-col justify-center items-center">
             <span class="absolute top-0 left-0 w-full h-full bg-black opacity-50"></span>
             <h1 class="w-auto text-xl leading-5 md:text-6xl md:leading-[80px] text-white font-bold text-center z-10">
