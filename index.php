@@ -30,81 +30,109 @@ require 'layouts/header.php';
         </div>
     </header>
 
-    <!-- <div class="flex flex-col justify-start items-center">
-        <div class="px-20 pt-6 pb-6 mt-16 flex flex-col justify-center items-center">
-            <h2 class="w-auto text-3xl font-bold text-gray-900 text-center leading-10 z-10">
-                25 ans d'expérience <br> au service des particuliers et des professionnels
-            </h2>
-        </div>
-        <span class="h-1 w-60 bg-gray-900"></span>
-    </div> -->
+
 
     <section class="w-full max-w-7xl mx-auto mt-24 grid grid-cols-1 md:grid-cols-3 justify-center items-center">
-        <div class="w-full px-4 flex flex-col justify-start items-center">
-            <figure class="mb-4 h-20 w-20 rounded-full bg-[#206296] flex justify-center items-center">
-                <img src="/images/house2.svg" alt="" class="h-10">
-            </figure>
-            <h2 class="mb-3 text-2xl font-semibold text-gray-900 text-center">
-                Installation électrique
-            </h2>
-            <p class="text-sm text-gray-900 text-center">
-                Bénéficiez de notre installation électrique de pointe. Sécurité, fiabilité et innovation à chaque connexion. Choisissez l'excellence électrique avec Éclair & Rénov.
-            </p>
-        </div>
-        <div class="w-full px-4 flex flex-col justify-start items-center">
-            <figure class="mb-4 h-20 w-20 rounded-full bg-[#206296] flex justify-center items-center">
-                <img src="/images/policy.svg" alt="" class="h-10">
-            </figure>
-            <h2 class="mb-3 text-2xl font-semibold text-gray-900 text-center">
-                Rénovation et mise en conformité
-            </h2>
-            <p class="text-sm text-gray-900 text-center">
-                Transformez votre espace avec notre expertise en rénovation et mise en conformité électrique. Assurez votre tranquillité avec des professionnels près de chez vous.
-            </p>
-        </div>
-        <div class="w-full px-4 flex flex-col justify-start items-center">
-            <figure class="mb-4 h-20 w-20 rounded-full bg-[#206296] flex justify-center items-center">
-                <img src="/images/truck2.svg" alt="" class="h-12">
-            </figure>
-            <h2 class="mb-3 text-2xl font-semibold text-gray-900 text-center">
-                Dépannage électrique
-            </h2>
-            <p class="text-sm text-gray-900 text-center">
-                Retrouvez la sérénité avec notre service de dépannage électrique fiable et rapide. Des électriciens à votre disposition 7j/7.
-            </p>
-        </div>
+        <a href="/installations-électriques.php" class="w-full">
+            <div class="w-full px-4 flex flex-col justify-start items-center">
+                <figure class="mb-4 h-20 w-20 rounded-full bg-[#206296] flex justify-center items-center">
+                    <img src="/images/house2.svg" alt="" class="h-10">
+                </figure>
+                <h2 class="mb-3 text-2xl font-semibold text-gray-900 text-center">
+                    Installation électrique
+                </h2>
+                <p class="text-sm text-gray-900 text-center">
+                    Bénéficiez de notre installation électrique de pointe. Sécurité, fiabilité et innovation à chaque connexion. Choisissez l'excellence électrique avec Éclair & Rénov.
+                </p>
+            </div>
+        </a>
+
+        <a href="/rénovation-et-mise-en-conformité.php">
+            <div class="w-full px-4 flex flex-col justify-start items-center">
+                <figure class="mb-4 h-20 w-20 rounded-full bg-[#206296] flex justify-center items-center">
+                    <img src="/images/policy.svg" alt="" class="h-10">
+                </figure>
+                <h2 class="mb-3 text-2xl font-semibold text-gray-900 text-center">
+                    Rénovation et mise en conformité
+                </h2>
+                <p class="text-sm text-gray-900 text-center">
+                    Transformez votre espace avec notre expertise en rénovation et mise en conformité électrique. Assurez votre tranquillité avec des professionnels près de chez vous.
+                </p>
+            </div>
+        </a>
+
+        <a href="/dépannage-électrique.php">
+            <div class="w-full px-4 flex flex-col justify-start items-center">
+                <figure class="mb-4 h-20 w-20 rounded-full bg-[#206296] flex justify-center items-center">
+                    <img src="/images/truck2.svg" alt="" class="h-12">
+                </figure>
+                <h2 class="mb-3 text-2xl font-semibold text-gray-900 text-center">
+                    Dépannage électrique
+                </h2>
+                <p class="text-sm text-gray-900 text-center">
+                    Retrouvez la sérénité avec notre service de dépannage électrique fiable et rapide. Des électriciens à votre disposition 7j/7.
+                </p>
+            </div>
+        </a>
     </section>
 
-    <section class="bg-white pt-24 pb-16 sm:pt-40 sm:pb-24 xl:pb-32">
-        <div class="bg-gray-800 pb-20  xl:pb-7">
-            <div class="mx-auto flex max-w-7xl flex-col items-center gap-y-10 gap-x-8 px-6 sm:gap-y-8 lg:px-8 xl:flex-row xl:items-stretch">
-                <div class="-mt-8 w-full max-w-2xl xl:-mb-14 xl:w-96 xl:flex-none">
+
+    <section class="w-full bg-white pt-36 pb-6 xl:pb-10">
+        <div class="w-full py-10 xl:py-0 bg-[#243441]">
+            <div class="h-full mx-auto flex max-w-7xl flex-col items-center gap-x-8 px-6 lg:px-8 xl:flex-row xl:items-stretch">
+                <div class="w-full py-20 max-w-2xl xl:w-96 xl:flex-none">
                     <div class="relative aspect-[2/1] h-full md:-mx-8 xl:mx-0 xl:aspect-auto">
-                        <img class="absolute inset-0 h-full w-full rounded-t-2xl xl:rounded-2xl object-cover object-center shadow-2xl brightness-125 saturate-0" src="/images/ouvrier electricien.png" alt="ouvrier électricien">
-                        <div class="absolute inset-0 rounded-t-2xl xl:rounded-2xl bg-[#93ccf8] mix-blend-multiply"></div>
+                        <img class="absolute inset-0 h-full w-full object-cover object-center brightness-125 saturate-0" src="/images/ouvrier electricien.png" alt="ouvrier électricien">
+                        <div class="absolute inset-0 bg-[#93ccf8] mix-blend-multiply"></div>
                     </div>
                 </div>
-                <div class="w-full max-w-2xl flex-col xl:max-w-none xl:flex-auto xl:py-7 xl:px-7">
+                <div class="w-full max-w-2xl flex-col xl:max-w-none xl:flex-auto xl:py-14 xl:pl-7">
 
-                    <div class="w-full pt-6 pb-6 flex flex-col justify-center items-center">
-                        <h2 class="w-full text-2xl font-bold text-gray-100 text-left leading-10 z-10">
-                            25 ans d'expérience au service des particuliers et des professionnels
+                    <div class="w-full pt-6 pb-6 flex flex-col justify-center items-start">
+                        <h2 class="py-5 text-3xl font-semibold text-left text-white leading-10">
+                            Votre électricien de confiance avec 25 années d'expérience
                         </h2>
-                        <!-- <span class="h-1 w-60 mt-3 bg-gray-100"></span> -->
                     </div>
 
-
-                    <P class="text-lg font-normal text-justify leading-7 text-white">
-                        Notre entreprise se consacre à vous offrir un service axée sur la satisfaction client. Grâce à notre expertise dans l'installation, la rénovation et le dépannage électrique, nous vous garantissons des solutions fiables et sécurisées. Nous restons à la pointe des dernières avancées et tendances en matière d’électricité afin de vous proposer des services de haute qualité. Que vous soyez un particulier ou un professionnel (entreprise, institution, syndic de copropriété, etc.), nous mettons tout en œuvre pour vous offrir une solution sur mesure, adaptée à votre situation spécifique.
+                    <p class="text-lg font-normal text-justify text-white leading-7">
+                        En cas de souci électrique, de coupure de courant ou pour des travaux de mise aux normes ou d'installation, faites appel à l'expertise d'un <b class="font-bold text-sky-300"> professionnel de l'électricité à Bruxelles</b>.
                     </p>
+
+                    <p class="mt-2 text-lg font-normal text-justify text-white leading-7">
+                        Basée à Saint-Gilles, notre équipe d'électriciens est disponible sept jours sur sept pour convenir d'un rendez-vous selon vos besoins spécifiques ou pour <b class="font-bold text-sky-300">une intervention rapide en cas d'urgence</b> dans les dix-neuf communes de Bruxelles, ainsi que dans le Brabant Wallon et le Brabant Flamand.
+                    </p>
+
+                    <p class="mt-2 text-lg font-normal text-justify text-white leading-7">
+                        Éclair & Rénov vous assure <b class="font-bold text-sky-300">un travail parfait pour tous vos projets électriques</b>, que ce soit pour une nouvelle installation, des réparations, une mise en conformité, la mise en place de systèmes de communication audio/vidéo "parlophone" ou d'éclairage extérieur.
+                    </p>
+
+                    <p class="mt-2 text-lg font-normal text-justify text-white leading-7">
+                        Nos interventions en dépannage sont éffectuées dans <b class="font-bold text-sky-300">les délais les plus courts</b>.
+                    </p>
+
+                    <div class="mt-8 flex flex-col justify-start items-start space-y-3">
+                        <a href="/contact.php" class="px-4 py-2 flex justify-center items-center text-base font-semibold leading-7 text-white bg-[#206296] hover:bg-[#6b94b5] rounded-lg">
+                            Contactez-nous
+                        </a>
+                        <a href="tel:0476 96 32 15" class="text-sm leading-6 text-gray-900 font-semibold hover:text-gray-700 flex justify-start items-center">
+                            <div class="flex h-9 w-9 items-center justify-center rounded-md bg-[#206296]">
+                                <img src="/images/telephone.svg" alt="icon téléphone" class="h-4" />
+                            </div>
+                            <span class="ml-2 text-lg text-gray-200">
+                                0476 96 32 15
+                            </span>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="w-auto xl:w-[1280px] max-w-7xl mt-14 mb-28 p-5 flex flex-col justify-center items-center bg-white border border-gray-100 shadow-md rounded-lg">
+
+    <section class="w-auto xl:w-[1280px] max-w-7xl mt-24 mb-28 px-5 py-10 flex flex-col justify-center items-center bg-white border border-gray-200 rounded-xl">
+
         <h2 class="w-full mr-auto pr-5 mb-8 text-lg text-center font-normal text-gray-900">
-            Nous travaillons avec des marques et des matériaux réputés pour leur fiabilité et leur durabilité tels que <br> Niko - Legrand - BTicino - Tem - Vynckier - Urmet - Elvox...
+            Nous travaillons avec des marques et des <b class="font-bold">matériaux réputés pour leur fiabilité et leur durabilité</b> tels que <br> Niko - Legrand - BTicino - Tem - Vynckier - Urmet - Elvox...
         </h2>
 
         <ul role="list" class="w-full max-w-7xl space-y-2 lg:space-y-0 flex flex-row flex-wrap justify-between items-center">
@@ -132,11 +160,8 @@ require 'layouts/header.php';
         </ul>
     </section>
 
-
-
-
-    <div class="max-w-7xl bg-white pt-5 md:py-14 px-4 md:px-8 border border-gray-200 rounded-2xl">
-        <div class="mx-auto w-full">
+    <section class="w-full px-4">
+        <div class="mx-auto max-w-7xl md:py-20 md:px-8">
 
             <div class="w-full">
                 <h2 class="w-auto text-lg font-bold tracking-tight text-gray-900 sm:text-4xl text-center z-10">
@@ -147,7 +172,7 @@ require 'layouts/header.php';
                 </h2>
             </div>
 
-            <div class="mx-auto mt-8 px-4 2xl:px-0 grid max-w-7xl grid-cols-1 gap-y-20 gap-x-10 lg:grid-cols-2">
+            <div class="mx-auto mt-12 px-4 2xl:px-0 grid max-w-7xl grid-cols-1 gap-y-20 gap-x-10 lg:grid-cols-3">
                 <a href="/installations-électriques.php" class="w-full">
                     <article class="flex flex-col items-start justify-between group/block1 rounded-xl">
                         <div class="w-full">
@@ -219,13 +244,48 @@ require 'layouts/header.php';
                         </div>
                     </article>
                 </a>
+
+                <a href="/parlophone.php" class="w-full">
+                    <article class="flex flex-col items-start justify-between group/block1 rounded-xl">
+                        <div class="w-full">
+                            <img src="/images/camera.webp" alt="un homme appel un électricien" class="aspect-[16/9] w-full rounded-t-xl bg-gray-100 object-cover group-hover/block1:opacity-80">
+                        </div>
+                        <div class="w-full p-5 rounded-b-xl border border-gray-200 shadow-md border-t-none">
+                            <div>
+                                <h3 class="mt-3 text-xl font-semibold leading-6 text-gray-900">
+                                    Contactez-nous
+                                </h3>
+                                <p class="mt-5 text-base leading-6 text-gray-600 line-clamp-3">
+                                    Contactez Éclair & Rénov pour tous vos travaux d'installation, de rénovation ou de dépannage électrique. Autour de Bruxelles ? Le devis est gratuit. Contactez-nous 7 j/7.
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                </a>
+
+                <a href="/parlophone.php" class="w-full">
+                    <article class="flex flex-col items-start justify-between group/block1 rounded-xl">
+                        <div class="w-full">
+                            <img src="/images/contact.webp" alt="un homme appel un électricien" class="aspect-[16/9] w-full rounded-t-xl bg-gray-100 object-cover group-hover/block1:opacity-80">
+                        </div>
+                        <div class="w-full p-5 rounded-b-xl border border-gray-200 shadow-md border-t-none">
+                            <div>
+                                <h3 class="mt-3 text-xl font-semibold leading-6 text-gray-900">
+                                    Contactez-nous
+                                </h3>
+                                <p class="mt-5 text-base leading-6 text-gray-600 line-clamp-3">
+                                    Contactez Éclair & Rénov pour tous vos travaux d'installation, de rénovation ou de dépannage électrique. Autour de Bruxelles ? Le devis est gratuit. Contactez-nous 7 j/7.
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                </a>
             </div>
         </div>
-    </div>
+    </section>
 
 
-
-    <div class="pb-24 pt-10 px-4 md:pt-20 bg-white">
+    <section class="pb-24 pt-10 px-4 md:pt-20 bg-white">
         <div class="mx-auto max-w-2xl text-center">
             <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl leading-7">
                 Devis et Conseils Gratuits ! <br> Contactez-nous 7j/7
@@ -242,9 +302,9 @@ require 'layouts/header.php';
                 </a>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="w-full h-auto mx-auto mt-16 md:pt-20 md:pb-10 px-2 lg:px-20 2xl:px-0 flex flex-row justify-center items-center bg-gray-800">
+    <section class="w-full h-auto mx-auto mt-16 md:pt-20 md:pb-10 px-2 lg:px-20 2xl:px-0 flex flex-row justify-center items-center bg-gray-800">
         <div class="flex flex-col xl:flex-row justify-start items-start max-w-7xl">
             <div class="w-full p-2 md:py-5 md:pl-5 md:pr-5 xl:pr-10 flex flex-col justify-start items-start">
                 <img src="/images/clock.svg" alt="icon horloge" class="w-10 mb-2 p-0">
@@ -295,7 +355,7 @@ require 'layouts/header.php';
             </div>
 
         </div>
-    </div>
+    </section>
 
 </div>
 
