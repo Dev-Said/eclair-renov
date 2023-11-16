@@ -7,10 +7,10 @@ require 'layouts/header.php';
     <h1>Mentions légales</h1>
 
     <p><strong>Nom de l'entreprise :</strong> [Nom de l'Entreprise]</p>
-    <p><strong>Forme juridique :</strong> [Société à responsabilité limitée (SRL), Entreprise individuelle, etc.]</p>
+    <p><strong>Forme juridique :</strong> SPRL</p>
     <p><strong>Adresse du siège social :</strong> [Adresse]</p>
-    <p><strong>Numéro d'entreprise :</strong> [Numéro d'entreprise]</p>
-    <p><strong>Numéro de TVA :</strong> [Numéro de TVA]</p>
+    <p><strong>Numéro d'entreprise :</strong> BE 0809.251.402</p>
+    <p><strong>Numéro de TVA :</strong> BE 0809.251.402</p>
     <p>Inscrite à la Banque-Carrefour des Entreprises de Belgique</p>
     <p><strong>Tribunal compétent :</strong> [Tribunal de commerce compétent]</p>
 

@@ -31,12 +31,12 @@ require 'layouts/header.php';
     </header>
 
 
-    <section class="w-full bg-white py-24 sm:py-32">
-        <div class="mx-auto max-w-7xl px-6 pb-32 lg:px-8 border-b-2 border-gray-200">
-            <div class="mx-auto grid max-w-2xl grid-cols-1 items-start gap-y-16 gap-x-8 sm:gap-y-24 lg:mx-0 lg:max-w-7xl lg:grid-cols-2">
+    <section class="w-full bg-white py-10 lg:py-32">
+        <div class="mx-auto max-w-7xl px-6 pb-10 lg:pb-32 lg:px-8 border-b-2 border-gray-200">
+            <div class="mx-auto grid max-w-2xl grid-cols-1 gap-y-16 gap-x-8 sm:gap-y-24 lg:mx-0 lg:max-w-7xl lg:grid-cols-2">
 
-                <div class="lg:pr-4">
-                    <div class="relative overflow-hidden rounded-3xl bg-gray-900 px-6 pb-9 pt-64 shadow-2xl sm:px-12 lg:max-w-lg lg:px-8 lg:pb-8 xl:px-10 xl:pb-10">
+                <div class="lg:pr-4 my-auto">
+                    <div class="relative overflow-hidden rounded-3xl bg-gray-900 px-6 pb-9 pt-96 shadow-2xl sm:px-12 lg:max-w-lg lg:px-8 lg:pb-8 xl:px-10 xl:pb-10">
                         <img class="absolute inset-0 h-full w-full object-cover brightness-75 saturate-0" src="/images/rénovation électrique.png" alt="électricité salon moderne">
                         <div class="absolute inset-0 bg-[#B5DFFF] mix-blend-multiply"></div>
                         <svg viewBox="0 0 1097 845" aria-hidden="true" class="absolute top-1/2 left-1/2 -ml-16 w-[68.5625rem] -translate-x-1/2 -translate-y-1/2 transform-gpu blur-3xl">
@@ -123,7 +123,8 @@ require 'layouts/header.php';
 
     <section class="bg-white">
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
-            <div class="mx-auto mb-4 md:mb-36 md:mt-4 grid max-w-2xl grid-cols-1 items-start gap-y-16 gap-x-8 sm:gap-y-24 lg:mx-0 lg:max-w-7xl lg:grid-cols-2">
+            <div class="mx-auto mb-2 md:mb-36 md:mt-4 grid max-w-2xl grid-cols-1 gap-y-16 gap-x-8 sm:gap-y-24 lg:mx-0 lg:max-w-7xl lg:grid-cols-2">
+
                 <div class="text-base leading-7 text-gray-700 lg:max-w-lg">
                     <p class="text-base font-semibold leading-7 text-[#206296]">Éclair & Rénov</p>
                     <h2 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">La mise en conformité</h2>
@@ -138,7 +139,7 @@ require 'layouts/header.php';
                     </div>
                 </div>
 
-                <div class="lg:pr-4">
+                <div class="lg:pr-4 my-auto">
                     <div class="relative overflow-hidden rounded-3xl bg-gray-900 px-6 pb-9 pt-64 shadow-2xl sm:px-12 lg:max-w-lg lg:px-8 lg:pb-8 xl:px-10 xl:pb-10">
                         <img class="absolute inset-0 h-full w-full object-cover brightness-150 saturate-0" src="/images/materiel-professionnel-électricité.png" alt="pince électricien">
                         <div class="absolute inset-0 bg-[#69849a] mix-blend-multiply"></div>

@@ -5,35 +5,12 @@ require 'layouts/header.php';
 
 <div class='w-full h-full min-h-[100vh] mt-24 flex flex-col justify-start items-center'>
     <header class="relative w-full flex flex-row justify-between items-center">
-        <!-- <div class="shadow-2xl w-full h-[450px] lg:max-w-full">
-            <img src='images/cuisine.jpg' alt='accueil' class='w-full h-[450px] object-cover'>
-            <div class="absolute inset-0 bg-[#91bde0] mix-blend-multiply"></div>
-        </div>
-        <div class="absolute top-0 bottom-0 left-0 right-0 w-full p-5 flex flex-col justify-center items-center">
-            <span class="absolute top-0 left-0 w-full h-full bg-black opacity-50"></span>
-            <h1 class="w-auto text-xl leading-5 md:text-6xl md:leading-[80px] text-white font-bold text-center z-10">
-                Contactez Éclair & Rénov à Saint-Gilles
-            </h1>
-            <div class="px-5 py-3 mt-4 z-10 flex justify-center items-center bg-[#962320]">
-                <span>
-                    <svg data-bbox="25.849 20.098 148.61 159.903" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 200 200" data-type="shape">
-                        <g>
-                            <path fill-rule="evenodd" fill="white" clip-rule="evenodd" d="M70.759 24.278c-2.483-4.574-7.721-5.499-11.759-2.255L43 35.18c-20.174 16.202-23.035 44.171-6 63.76l56 64.772c17.02 19.572 46.23 21.812 66 5.06l12-10.121c3.953-3.35 4.827-8.637 1-12.145l-28-25.301c-3.815-3.497-9.893-4.152-14-1.012l-15 14.169-45-51.616L84 69.59c4-3.036 6-9.109 4-13.157L70.759 24.278z"></path>
-                        </g>
-                    </svg>
-                </span>
-                <span class="text-white text-2xl font-semibold tracking-wide ml-1">
-                    0476 96 32 15
-                </span>
-            </div>
-        </div> -->
-
-        <section class="w-full pt-5 md:py-20 px-4 md:px-8 bg-gradient-to-r from-[#206396] to-[#243441]">
+        <div class="w-full pt-5 md:py-20 px-4 md:px-8 bg-gradient-to-r from-[#206396] to-[#243441]">
             <div class="mx-auto w-full max-w-7xl flex flex-col lg:grid lg:grid-cols-2 gap-x-10 justify-start items-center">
 
                 <div class="w-full flex flex-col justify-start items-start">
                     <h2 class="w-auto text-lg font-bold tracking-tight text-white lg:text-2xl text-left leading-10 z-10">
-                        25 ans d'expérience<br> au service des particuliers et des professionnels
+                        25 ans d'expérience au service des particuliers et des professionnels
                     </h2>
 
                     <P class="mt-5 text-lg font-normal text-justify leading-7 text-white">
@@ -96,7 +73,7 @@ require 'layouts/header.php';
                                 Envoyer
                             </button>
                         </div>
-                        <p class="mt-4 text-sm leading-6 text-gray-900">En soumettant ce formulaire, j'accepte la <a href="/pc.php" class="font-semibold text-blue-700 underline underline-offset-1">politique&nbsp;de confidentialité.</a>.</p>
+                        <p class="mt-4 text-sm leading-6 text-gray-900">En soumettant ce formulaire, j'accepte la <a href="/pc.php" class="font-semibold text-blue-700 underline underline-offset-1">politique&nbsp;de confidentialité</a> de Éclair & Rénov SPRL.</p>
                     </form>
 
 
@@ -137,6 +114,27 @@ require 'layouts/header.php';
 </div>
 
 
-<?php
-require 'layouts/footer.php';
-?>
+<footer class="bg-gradient-to-r from-[#206396] to-[#243441]">
+    <div class="mx-auto max-w-5xl overflow-hidden pb-8 pt-7 px-6 lg:px-8">
+        <div class="w-full mt-4 flex flex-col md:flex-row justify-start md:justify-center items-center md:space-x-2">
+            <p class="text-left text-xs leading-5 text-gray-100">
+                &copy; <?= date("Y") ?>
+                Éclair & Rénov.Tous droits réservés.
+            </p>
+            <p class="text-left text-xs leading-5 text-gray-100 underline underline-offset-1">
+                <a href="/mentions-légales.php" rel="nofollow">
+                    Mentions légales
+                </a>
+            </p>
+            <p class="text-left text-xs leading-5 text-gray-100 underline underline-offset-1">
+                <a href="/pc.php" rel="nofollow">
+                    Politique de confidentialité.
+                </a>
+            </p>
+        </div>
+    </div>
+</footer>
+
+</body>
+
+</html>

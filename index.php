@@ -3,7 +3,7 @@ $title = "Électricien 1060 Saint-Gilles";
 require 'layouts/header.php';
 ?>
 
-<div class='w-full h-full min-h-[100vh] mt-24 flex flex-col justify-start items-center'>
+<div class='w-full h-full min-h-[100vh] mt-24 px-2 sm:px-0 flex flex-col justify-start items-center'>
 
     <header class="relative w-full flex flex-row justify-between items-center">
         <div class="shadow-2xl w-full h-auto lg:max-w-full">
@@ -32,11 +32,11 @@ require 'layouts/header.php';
 
 
 
-    <section class="w-full max-w-7xl mx-auto mt-24 grid grid-cols-1 md:grid-cols-3 justify-center items-center">
+    <section class="w-full max-w-7xl mx-auto mt-24 grid grid-cols-1 md:grid-cols-3 justify-center items-center gap-y-10 sm:gap-y-0">
         <a href="/installations-électriques.php" class="w-full">
             <div class="w-full px-4 flex flex-col justify-start items-center">
-                <figure class="mb-4 h-20 w-20 rounded-full bg-[#206296] flex justify-center items-center">
-                    <img src="/images/house2.svg" alt="" class="h-10">
+                <figure class="mb-4 h-28 w-28 rounded-full bg-[#206296] hover:bg-[#5084ae] border-[8px] border-[#243441] flex justify-center items-center">
+                    <img src="/images/house2.svg" alt="icon maison" class="h-12">
                 </figure>
                 <h2 class="mb-3 text-2xl font-semibold text-gray-900 text-center">
                     Installation électrique
@@ -49,8 +49,8 @@ require 'layouts/header.php';
 
         <a href="/rénovation-et-mise-en-conformité.php">
             <div class="w-full px-4 flex flex-col justify-start items-center">
-                <figure class="mb-4 h-20 w-20 rounded-full bg-[#206296] flex justify-center items-center">
-                    <img src="/images/policy.svg" alt="" class="h-10">
+                <figure class="mb-4 h-28 w-28 rounded-full bg-[#206296] hover:bg-[#5084ae] border-[8px] border-[#243441] flex justify-center items-center">
+                    <img src="/images/policy.svg" alt="icon certificat" class="h-12">
                 </figure>
                 <h2 class="mb-3 text-2xl font-semibold text-gray-900 text-center">
                     Rénovation et mise en conformité
@@ -63,8 +63,8 @@ require 'layouts/header.php';
 
         <a href="/dépannage-électrique.php">
             <div class="w-full px-4 flex flex-col justify-start items-center">
-                <figure class="mb-4 h-20 w-20 rounded-full bg-[#206296] flex justify-center items-center">
-                    <img src="/images/truck2.svg" alt="" class="h-12">
+                <figure class="mb-4 h-28 w-28 rounded-full bg-[#206296] hover:bg-[#5084ae] border-[8px] border-[#243441] flex justify-center items-center">
+                    <img src="/images/truck2.svg" alt="icon camionnette" class="h-14">
                 </figure>
                 <h2 class="mb-3 text-2xl font-semibold text-gray-900 text-center">
                     Dépannage électrique
@@ -77,13 +77,13 @@ require 'layouts/header.php';
     </section>
 
 
-    <section class="w-full bg-white pt-36 pb-6 xl:pb-10">
-        <div class="w-full py-10 xl:py-0 bg-[#243441]">
-            <div class="h-full mx-auto flex max-w-7xl flex-col items-center gap-x-8 px-6 lg:px-8 xl:flex-row xl:items-stretch">
+    <section class="w-full bg-white pt-36 pb-6 xl:pb-10 rounded-2xl">
+        <div class="w-full max-w-7xl mx-auto py-10 xl:py-0 bg-[#243441] rounded-2xl">
+            <div class="h-full mx-auto flex max-w-7xl flex-col items-center gap-x-8 px-6 lg:px-14 xl:flex-row xl:items-stretch">
                 <div class="w-full py-20 max-w-2xl xl:w-96 xl:flex-none">
                     <div class="relative aspect-[2/1] h-full md:-mx-8 xl:mx-0 xl:aspect-auto">
-                        <img class="absolute inset-0 h-full w-full object-cover object-center brightness-125 saturate-0" src="/images/ouvrier electricien.png" alt="ouvrier électricien">
-                        <div class="absolute inset-0 bg-[#93ccf8] mix-blend-multiply"></div>
+                        <img class="absolute inset-0 h-full w-full object-cover object-center " src="/images/ouvrier electricien.png" alt="ouvrier électricien">
+                        <!-- <div class="absolute inset-0 bg-[#93ccf8] mix-blend-multiply"></div> -->
                     </div>
                 </div>
                 <div class="w-full max-w-2xl flex-col xl:max-w-none xl:flex-auto xl:py-14 xl:pl-7">
@@ -110,8 +110,8 @@ require 'layouts/header.php';
                         Nos interventions en dépannage sont éffectuées dans <b class="font-bold text-sky-300">les délais les plus courts</b>.
                     </p>
 
-                    <div class="mt-8 flex flex-col justify-start items-start space-y-3">
-                        <a href="/contact.php" class="px-4 py-2 flex justify-center items-center text-base font-semibold leading-7 text-white bg-[#206296] hover:bg-[#6b94b5] rounded-lg">
+                    <!-- <div class="mt-8 flex flex-col justify-start items-start space-y-3">
+                        <a href="/contact.php" class="px-4 py-2 flex justify-center items-center text-lg font-semibold leading-7 text-white bg-[#206296] hover:bg-[#6b94b5] rounded-lg">
                             Contactez-nous
                         </a>
                         <a href="tel:0476 96 32 15" class="text-sm leading-6 text-gray-900 font-semibold hover:text-gray-700 flex justify-start items-center">
@@ -122,46 +122,47 @@ require 'layouts/header.php';
                                 0476 96 32 15
                             </span>
                         </a>
-                    </div>
+                    </div> -->
+                </div>
+            </div>
+
+
+            <div class="pb-20 pt-16 mb-10 mt-5 w-full max-w-3xl mx-auto flex flex-col justify-center items-center bg-[#243441] border-t border-gray-400">
+                <h2 class="text-3xl text-center font-bold tracking-wide text-gray-100 sm:text-4xl leading-10">
+                    Devis et Conseils Gratuits ! <br> Contactez-nous 7j/7
+                </h2>
+                <p class="mt-6 max-w-xl text-lg text-center leading-7 text-gray-100">
+                    Contactez Éclair & Rénov pour tous vos travaux d'installation, de rénovation ou de dépannage électrique dans la région Bruxelloise et sa périphérie.
+                </p>
+                <div class="mt-10 flex items-center justify-center gap-x-6">
+                    <a href="tel:0476 96 32 15" class="rounded-md bg-[#206296] h-14 px-5 text-lg font-semibold text-white shadow-sm hover:bg-[#407aa5] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#206296] flex justify-center items-center">
+                        <img src="/images/telephone.svg" alt="icon téléphone" class="h-5" />
+                        <span class="ml-2 text-lg text-gray-100">
+                            0476 96 32 15
+                        </span>
+                    </a>
+                    <a href="mailto:eclairenov@gmail.com" class="rounded-md bg-[#206296] h-14 px-5 text-lg font-semibold text-white shadow-sm hover:bg-[#407aa5] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#206296] flex justify-center items-center">
+                        <img src="/images/envelope.svg" alt="icon envelope" class="h-4" />
+                        <span class="ml-2 text-lg text-gray-100">
+                            eclairenov@gmail.com
+                        </span>
+                    </a>
+                    <a href="/contact.php" class="h-14 px-5 py-2 flex justify-center items-center text-lg font-semibold leading-7 text-white bg-[#206296] hover:bg-[#6b94b5] rounded-lg">
+                        Contactez-nous
+                    </a>
                 </div>
             </div>
         </div>
     </section>
 
 
-    <section class="w-auto xl:w-[1280px] max-w-7xl mt-24 mb-28 px-5 py-10 flex flex-col justify-center items-center bg-white border border-gray-200 rounded-xl">
 
-        <h2 class="w-full mr-auto pr-5 mb-8 text-lg text-center font-normal text-gray-900">
-            Nous travaillons avec des marques et des <b class="font-bold">matériaux réputés pour leur fiabilité et leur durabilité</b> tels que <br> Niko - Legrand - BTicino - Tem - Vynckier - Urmet - Elvox...
-        </h2>
 
-        <ul role="list" class="w-full max-w-7xl space-y-2 lg:space-y-0 flex flex-row flex-wrap justify-between items-center">
-            <li class="h-24 px-4 border border-gray-200 rounded-lg flex justify-center items-center">
-                <img class="w-32 h-auto" src="/images/niko.webp" alt="Niko">
-            </li>
-            <li class="h-24 px-4 border border-gray-200 rounded-lg flex justify-center items-center">
-                <img class="w-32 h-auto" src="/images/legrand.webp" alt="legrand">
-            </li>
-            <li class="h-24 px-4 border border-gray-200 rounded-lg flex justify-center items-center">
-                <img class="w-32 h-auto" src="/images/bticino.webp" alt="bticino">
-            </li>
-            <li class="h-24 px-4 border border-gray-200 rounded-lg flex justify-center items-center">
-                <img class="w-32 h-auto" src="/images/Vynkier.webp" alt="Vynkier">
-            </li>
-            <li class="h-24 px-4 border border-gray-200 rounded-lg flex justify-center items-center">
-                <img class="w-32 h-auto" src="/images/urmet.webp" alt="urmet">
-            </li>
-            <li class="h-24 px-4 border border-gray-200 rounded-lg flex justify-center items-center">
-                <img class="w-32 h-auto" src="/images/Elvox.webp" alt="Elvox">
-            </li>
-            <li class="h-24 px-4 border border-gray-200 rounded-lg flex justify-center items-center">
-                <img class="w-32 h-auto" src="/images/tem.webp" alt="tem">
-            </li>
-        </ul>
-    </section>
+
+
 
     <section class="w-full px-4">
-        <div class="mx-auto max-w-7xl md:py-20 md:px-8">
+        <div class="mx-auto max-w-7xl md:py-20 px-2 md:px-0">
 
             <div class="w-full">
                 <h2 class="w-auto text-lg font-bold tracking-tight text-gray-900 sm:text-4xl text-center z-10">
@@ -199,7 +200,7 @@ require 'layouts/header.php';
                         <div class="w-full p-5 rounded-b-xl border border-gray-200 shadow-md border-t-none">
                             <div>
                                 <h3 class="mt-3 text-xl font-semibold leading-6 text-gray-900">
-                                    Une large expérience en rénovation électrique et en mise en conformité électrique
+                                    Une large expérience en rénovation et en mise en conformité électrique
                                 </h3>
                                 <p class="mt-5 text-base leading-6 text-gray-600 line-clamp-3">
                                     Au fil des années, votre installation électrique peut devenir moins performante tout en restant trop énergivore. Eclair & Rénov rénove votre installation électrique de A à Z : mise en conformité, modernisation du système…
@@ -285,7 +286,42 @@ require 'layouts/header.php';
     </section>
 
 
-    <section class="pb-24 pt-10 px-4 md:pt-20 bg-white">
+
+    <section class="w-auto xl:w-[1280px] max-w-7xl mt-4 mb-20 py-10 flex flex-col justify-center items-center bg-white ">
+
+<div class="py-10 w-full bg-[#243441] rounded-2xl">
+    <h2 class="w-full mr-auto text-xl leading-10 text-center font-normal text-gray-100">
+        Nous travaillons avec des marques et des <b class="font-bold">matériaux réputés pour leur fiabilité et leur durabilité</b> <br> tels que Niko - Legrand - BTicino - Tem - Vynckier - Urmet - Elvox...
+    </h2>
+</div>
+
+    <ul role="list" class="w-full max-w-7xl space-y-2 lg:space-y-0 flex flex-row flex-wrap justify-between items-center">
+        <li class="h-24 px-4 border border-gray-200 rounded-lg flex justify-center items-center">
+            <img class="w-32 h-auto" src="/images/niko.webp" alt="Niko">
+        </li>
+        <li class="h-24 px-4 border border-gray-200 rounded-lg flex justify-center items-center">
+            <img class="w-32 h-auto" src="/images/legrand.webp" alt="legrand">
+        </li>
+        <li class="h-24 px-4 border border-gray-200 rounded-lg flex justify-center items-center">
+            <img class="w-32 h-auto" src="/images/bticino.webp" alt="bticino">
+        </li>
+        <li class="h-24 px-4 border border-gray-200 rounded-lg flex justify-center items-center">
+            <img class="w-32 h-auto" src="/images/Vynkier.webp" alt="Vynkier">
+        </li>
+        <li class="h-24 px-4 border border-gray-200 rounded-lg flex justify-center items-center">
+            <img class="w-32 h-auto" src="/images/urmet.webp" alt="urmet">
+        </li>
+        <li class="h-24 px-4 border border-gray-200 rounded-lg flex justify-center items-center">
+            <img class="w-32 h-auto" src="/images/Elvox.webp" alt="Elvox">
+        </li>
+        <li class="h-24 px-4 border border-gray-200 rounded-lg flex justify-center items-center">
+            <img class="w-32 h-auto" src="/images/tem.webp" alt="tem">
+        </li>
+    </ul>
+</section>
+
+
+    <!-- <section class="pb-24 pt-10 px-4 md:pt-20 bg-white">
         <div class="mx-auto max-w-2xl text-center">
             <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl leading-7">
                 Devis et Conseils Gratuits ! <br> Contactez-nous 7j/7
@@ -302,7 +338,7 @@ require 'layouts/header.php';
                 </a>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <section class="w-full h-auto mx-auto mt-16 md:pt-20 md:pb-10 px-2 lg:px-20 2xl:px-0 flex flex-row justify-center items-center bg-gray-800">
         <div class="flex flex-col xl:flex-row justify-start items-start max-w-7xl">

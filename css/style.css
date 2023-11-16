@@ -57,3 +57,31 @@
   }
 }
 
+
+/* Menu transition */
+/* CSS pour le menu mobile */
+#mobile-menu {
+    /* Autres styles du menu */
+
+    /* Initialisation de la transition */
+    transition: transform 0.5s ease-in-out;
+}
+
+/* Classe pour activer/désactiver la transition */
+.menu-transition {
+    transition: transform 0.5s ease-in-out;
+}
+
+
+.h_transition_24 {
+    height: 96px; /* Hauteur lorsque la classe h-24 est appliquée */
+    transition: height 0.2s ease-in-out; /* Transition de 0.3 seconde */
+}
+
+.h_transition_18 {
+    height: 72px; /* Hauteur lorsque la classe h-18 est appliquée */
+    transition: height 0.2s ease-in-out; /* Transition de 0.3 seconde */
+}
+
+
+
