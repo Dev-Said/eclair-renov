@@ -35,7 +35,7 @@ require 'layouts/header.php';
     <section class="w-full max-w-7xl mx-auto mt-24 grid grid-cols-1 md:grid-cols-3 justify-center items-center gap-y-10 sm:gap-y-0">
         <a href="/installations-électriques.php" class="w-full">
             <div class="w-full px-4 flex flex-col justify-start items-center">
-                <figure class="mb-4 h-28 w-28 rounded-full bg-[#206296] hover:bg-[#5084ae] border-[8px] border-[#243441] flex justify-center items-center">
+                <figure class="mb-4 h-28 w-28 rounded-full bg-[#206296] hover:bg-[#5084ae] border-[12px] border-[#20967D] flex justify-center items-center">
                     <img src="/images/house2.svg" alt="icon maison" class="h-12">
                 </figure>
                 <h2 class="mb-3 text-2xl font-semibold text-gray-900 text-center">
@@ -49,7 +49,7 @@ require 'layouts/header.php';
 
         <a href="/rénovation-et-mise-en-conformité.php">
             <div class="w-full px-4 flex flex-col justify-start items-center">
-                <figure class="mb-4 h-28 w-28 rounded-full bg-[#206296] hover:bg-[#5084ae] border-[8px] border-[#243441] flex justify-center items-center">
+                <figure class="mb-4 h-28 w-28 rounded-full bg-[#206296] hover:bg-[#5084ae] border-[12px] border-[#20967D] flex justify-center items-center">
                     <img src="/images/policy.svg" alt="icon certificat" class="h-12">
                 </figure>
                 <h2 class="mb-3 text-2xl font-semibold text-gray-900 text-center">
@@ -63,7 +63,7 @@ require 'layouts/header.php';
 
         <a href="/dépannage-électrique.php">
             <div class="w-full px-4 flex flex-col justify-start items-center">
-                <figure class="mb-4 h-28 w-28 rounded-full bg-[#206296] hover:bg-[#5084ae] border-[8px] border-[#243441] flex justify-center items-center">
+                <figure class="mb-4 h-28 w-28 rounded-full bg-[#206296] hover:bg-[#5084ae] border-[12px] border-[#20967D] flex justify-center items-center">
                     <img src="/images/truck2.svg" alt="icon camionnette" class="h-14">
                 </figure>
                 <h2 class="mb-3 text-2xl font-semibold text-gray-900 text-center">
@@ -158,20 +158,23 @@ require 'layouts/header.php';
 
 
 
+ 
+
+
 
 
 
     <section class="w-full px-4">
-        <div class="mx-auto max-w-7xl md:py-20 px-2 md:px-0">
+        <div class="mx-auto max-w-7xl md:pb-20 px-2 md:px-0">
 
-            <div class="w-full">
+            <!-- <div class="w-full">
                 <h2 class="w-auto text-lg font-bold tracking-tight text-gray-900 sm:text-4xl text-center z-10">
                     Professionnels de l'Électricité
                 </h2>
                 <h2 class="w-auto text-base mt-4 font-semibold tracking-tight text-gray-900 sm:text-2xl text-center z-10">
                     Installation - Rénovation - Dépannage
                 </h2>
-            </div>
+            </div> -->
 
             <div class="mx-auto mt-12 px-4 2xl:px-0 grid max-w-7xl grid-cols-1 gap-y-20 gap-x-10 lg:grid-cols-3">
                 <a href="/installations-électriques.php" class="w-full">
@@ -287,38 +290,39 @@ require 'layouts/header.php';
 
 
 
-    <section class="w-auto xl:w-[1280px] max-w-7xl mt-4 mb-20 py-10 flex flex-col justify-center items-center bg-white ">
 
-<div class="py-10 w-full bg-[#243441] rounded-2xl">
-    <h2 class="w-full mr-auto text-xl leading-10 text-center font-normal text-gray-100">
-        Nous travaillons avec des marques et des <b class="font-bold">matériaux réputés pour leur fiabilité et leur durabilité</b> <br> tels que Niko - Legrand - BTicino - Tem - Vynckier - Urmet - Elvox...
-    </h2>
-</div>
+    <section class="w-auto xl:w-[1280px] max-w-7xl mt-4 mb-10 pb-10 flex flex-col justify-center items-center bg-white ">
+        <div class="py-10 mb-5 w-full border border-gray-200 rounded-2xl shadow-md">
+            <h2 class="w-full mr-auto text-xl leading-10 text-center font-normal text-gray-900">
+                Nous travaillons avec des marques et des <b class="font-bold">matériaux réputés pour leur fiabilité et leur durabilité</b> <br> tels que Niko - Legrand - BTicino - Tem - Vynckier - Urmet - Elvox...
+            </h2>
+        </div>
 
-    <ul role="list" class="w-full max-w-7xl space-y-2 lg:space-y-0 flex flex-row flex-wrap justify-between items-center">
-        <li class="h-24 px-4 border border-gray-200 rounded-lg flex justify-center items-center">
-            <img class="w-32 h-auto" src="/images/niko.webp" alt="Niko">
-        </li>
-        <li class="h-24 px-4 border border-gray-200 rounded-lg flex justify-center items-center">
-            <img class="w-32 h-auto" src="/images/legrand.webp" alt="legrand">
-        </li>
-        <li class="h-24 px-4 border border-gray-200 rounded-lg flex justify-center items-center">
-            <img class="w-32 h-auto" src="/images/bticino.webp" alt="bticino">
-        </li>
-        <li class="h-24 px-4 border border-gray-200 rounded-lg flex justify-center items-center">
-            <img class="w-32 h-auto" src="/images/Vynkier.webp" alt="Vynkier">
-        </li>
-        <li class="h-24 px-4 border border-gray-200 rounded-lg flex justify-center items-center">
-            <img class="w-32 h-auto" src="/images/urmet.webp" alt="urmet">
-        </li>
-        <li class="h-24 px-4 border border-gray-200 rounded-lg flex justify-center items-center">
-            <img class="w-32 h-auto" src="/images/Elvox.webp" alt="Elvox">
-        </li>
-        <li class="h-24 px-4 border border-gray-200 rounded-lg flex justify-center items-center">
-            <img class="w-32 h-auto" src="/images/tem.webp" alt="tem">
-        </li>
-    </ul>
-</section>
+        <ul role="list" class="w-full max-w-7xl space-y-2 lg:space-y-0 flex flex-row flex-wrap justify-between items-center">
+            <li class="h-24 px-4 border border-gray-200 rounded-lg flex justify-center items-center shadow-md">
+                <img class="w-32 h-auto" src="/images/niko.webp" alt="Niko">
+            </li>
+            <li class="h-24 px-4 border border-gray-200 rounded-lg flex justify-center items-center shadow-md">
+                <img class="w-32 h-auto" src="/images/legrand.webp" alt="legrand">
+            </li>
+            <li class="h-24 px-4 border border-gray-200 rounded-lg flex justify-center items-center shadow-md">
+                <img class="w-32 h-auto" src="/images/bticino.webp" alt="bticino">
+            </li>
+            <li class="h-24 px-4 border border-gray-200 rounded-lg flex justify-center items-center shadow-md">
+                <img class="w-32 h-auto" src="/images/Vynkier.webp" alt="Vynkier">
+            </li>
+            <li class="h-24 px-4 border border-gray-200 rounded-lg flex justify-center items-center shadow-md">
+                <img class="w-32 h-auto" src="/images/urmet.webp" alt="urmet">
+            </li>
+            <li class="h-24 px-4 border border-gray-200 rounded-lg flex justify-center items-center shadow-md">
+                <img class="w-32 h-auto" src="/images/Elvox.webp" alt="Elvox">
+            </li>
+            <li class="h-24 px-4 border border-gray-200 rounded-lg flex justify-center items-center shadow-md">
+                <img class="w-32 h-auto" src="/images/tem.webp" alt="tem">
+            </li>
+        </ul>
+    </section>
+
 
 
     <!-- <section class="pb-24 pt-10 px-4 md:pt-20 bg-white">
