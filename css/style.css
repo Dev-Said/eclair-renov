@@ -58,7 +58,7 @@
 }
 
 
-/* Menu transition */
+/* Menu transition ------------------------------------------------ */
 /* CSS pour le menu mobile */
 #mobile-menu {
     /* Autres styles du menu */
@@ -72,7 +72,6 @@
     transition: transform 0.5s ease-in-out;
 }
 
-
 .h_transition_24 {
     height: 96px; /* Hauteur lorsque la classe h-24 est appliquée */
     transition: height 0.2s ease-in-out; /* Transition de 0.3 seconde */
@@ -83,5 +82,21 @@
     transition: height 0.2s ease-in-out; /* Transition de 0.3 seconde */
 }
 
+/* Animation flottement  ----------------------------------------------*/
+.floating {
+  animation: floatingAnimation 3s ease-in-out infinite;
+}
+
+@keyframes floatingAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-3px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
 
 

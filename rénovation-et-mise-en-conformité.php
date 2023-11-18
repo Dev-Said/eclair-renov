@@ -13,7 +13,7 @@ require 'layouts/header.php';
 
         <div class="absolute top-0 bottom-0 left-0 right-0 w-full p-5 flex flex-col justify-center items-center">
             <h1 class="w-auto text-xl leading-5 md:text-6xl md:leading-[80px] text-white font-bold text-center z-10">
-                Éclair & Rénov <br> Spécialiste en rénovation électrique <br> et mise en conformité électrique à Saint-Gilles
+                Éclair & Rénov <br> Spécialiste en Rénovation Électrique <br> et Mise en Conformité Électrique à Saint-Gilles
             </h1>
             <div class="px-5 py-3 mt-4 z-10 flex justify-center items-center bg-[#962320]">
                 <span>

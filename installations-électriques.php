@@ -15,7 +15,7 @@ require 'layouts/header.php';
         <div class="absolute top-0 bottom-0 left-0 right-0 w-full p-5 flex flex-col justify-center items-center">
             <span class="absolute top-0 left-0 w-full h-full bg-black opacity-50"></span>
             <h1 class="w-auto text-xl leading-5 md:text-6xl md:leading-[80px] text-white font-bold text-center z-10">
-                Éclair & Rénov <br> Installations et rénovations électriques <br> à Uccle, Saint-Gilles, Forest, Bruxelles
+                Éclair & Rénov <br> Installations et Rénovations Électriques <br> à Uccle, Saint-Gilles, Forest, Bruxelles
             </h1>
             <div class="px-5 py-3 mt-4 z-10 flex justify-center items-center bg-[#962320]">
                 <span>

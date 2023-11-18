@@ -9,9 +9,9 @@ require 'layouts/header.php';
             <div class="mx-auto w-full max-w-7xl flex flex-col lg:grid lg:grid-cols-2 gap-x-10 justify-start items-center">
 
                 <div class="w-full flex flex-col justify-start items-start">
-                    <h2 class="w-auto text-lg font-bold tracking-tight text-white lg:text-2xl text-left leading-10 z-10">
+                    <h1 class="w-auto text-lg font-bold tracking-tight text-white lg:text-2xl text-left leading-10 z-10">
                         25 ans d'expérience au service des particuliers et des professionnels
-                    </h2>
+                    </h1>
 
                     <P class="mt-5 text-lg font-normal text-justify leading-7 text-white">
                         Grâce à notre expertise dans l'installation, la rénovation et le dépannage électrique, nous vous garantissons des solutions fiables et sécurisées. Nous restons à la pointe des dernières avancées et tendances en matière d’électricité afin de vous proposer des services de haute qualité. Que vous soyez un particulier ou un professionnel (entreprise, institution, syndic de copropriété, etc.), nous mettons tout en œuvre pour vous offrir une solution sur mesure, adaptée à votre situation spécifique.
