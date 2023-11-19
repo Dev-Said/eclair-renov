@@ -15,17 +15,19 @@ require 'layouts/header.php';
             <h1 class="w-auto text-xl leading-5 md:text-6xl md:leading-[80px] text-white font-bold text-center z-10">
                 Éclair & Rénov <br> Spécialiste en Rénovation Électrique <br> et Mise en Conformité Électrique à Saint-Gilles
             </h1>
-            <div class="px-5 py-3 mt-4 z-10 flex justify-center items-center bg-[#962320]">
-                <span>
-                    <svg data-bbox="25.849 20.098 148.61 159.903" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 200 200" data-type="shape">
-                        <g>
-                            <path fill-rule="evenodd" fill="white" clip-rule="evenodd" d="M70.759 24.278c-2.483-4.574-7.721-5.499-11.759-2.255L43 35.18c-20.174 16.202-23.035 44.171-6 63.76l56 64.772c17.02 19.572 46.23 21.812 66 5.06l12-10.121c3.953-3.35 4.827-8.637 1-12.145l-28-25.301c-3.815-3.497-9.893-4.152-14-1.012l-15 14.169-45-51.616L84 69.59c4-3.036 6-9.109 4-13.157L70.759 24.278z"></path>
-                        </g>
-                    </svg>
-                </span>
-                <span class="text-white text-2xl font-semibold tracking-wide ml-1">
-                    0476 96 32 15
-                </span>
+            <div class="px-5 py-3 mt-4 z-10 rounded-lg flex justify-center items-center bg-[#962320]">
+                <a href="tel:0476 96 32 15" class="text-sm leading-6 text-gray-900 font-semibold hover:text-gray-700 flex justify-start items-center">
+                    <span>
+                        <svg data-bbox="25.849 20.098 148.61 159.903" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 200 200" data-type="shape">
+                            <g>
+                                <path fill-rule="evenodd" fill="white" clip-rule="evenodd" d="M70.759 24.278c-2.483-4.574-7.721-5.499-11.759-2.255L43 35.18c-20.174 16.202-23.035 44.171-6 63.76l56 64.772c17.02 19.572 46.23 21.812 66 5.06l12-10.121c3.953-3.35 4.827-8.637 1-12.145l-28-25.301c-3.815-3.497-9.893-4.152-14-1.012l-15 14.169-45-51.616L84 69.59c4-3.036 6-9.109 4-13.157L70.759 24.278z"></path>
+                            </g>
+                        </svg>
+                    </span>
+                    <span class="text-white text-xl xl:text-2xl font-semibold tracking-wide ml-1">
+                        0476 96 32 15
+                    </span>
+                </a>
             </div>
         </div>
     </header>
@@ -58,7 +60,7 @@ require 'layouts/header.php';
                             </blockquote>
                             <figcaption class="mt-6 text-sm leading-6 text-gray-300">
                                 <strong class="font-semibold text-white">
-                                    Votre électricien 
+                                    Votre électricien
                                 </strong>
                                 près de chez vous
                             </figcaption>
@@ -162,7 +164,7 @@ require 'layouts/header.php';
                             </blockquote>
                             <figcaption class="mt-6 text-sm leading-6 text-gray-300">
                                 <strong class="font-semibold text-white">
-                                    Votre électricien 
+                                    Votre électricien
                                 </strong>
                                 près de chez vous
                             </figcaption>
@@ -173,14 +175,6 @@ require 'layouts/header.php';
         </div>
     </section>
 
-    <!-- <section class="w-full py-20 bg-gray-800 text-gray-200 text-lg flex justify-center items-center">
-        <div class="flex items-start">
-            <img src="/images/patch-check.svg" class="h-8 mr-3">
-            <p class="w-2xl md:w-6xl md:max-w-6xl text-left">
-                Dans tous les cas, nos travaux sont réalisés soigneusement et selon des standards élevés, incluant du matériel performant et fiable. Nos réalisations allient la fonctionnalité, la sécurité et l'esthétique.
-            </p>
-        </div>
-    </section> -->
 
     <section class="w-full h-auto flex justify-center items-center bg-gray-800">
         <div class="mx-auto max-w-4xl py-8 md:pt-28 md:pb-5 grid grid-cols-1 md:grid-cols-[288px_1fr] md:gap-x-4 items-start justify-center md:items-start md:justify-start bg-gray-800">

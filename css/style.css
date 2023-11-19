@@ -4,37 +4,12 @@
   font-family: "Roboto", sans-serif;
 }
 
-@keyframes flotter {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-10px);
-  }
-  100% {
-    transform: translateY(0);
-  }
-}
-
-.flottant1 {
-  animation: flotter 6s ease-in-out infinite;
-}
-
-.flottant2 {
-  animation: flotter 6s ease-in-out infinite;
-  animation-delay: 2s;
-}
-
-.flottant3 {
-  animation: flotter 6s ease-in-out infinite;
-  animation-delay: 1s;
-}
-
 /* iframe style responsive */
 .responsive-iframe-container {
   position: relative;
   width: 100%;
-  padding-top: 56.25%; /* Rapport largeur/hauteur (16:9) */
+  height: 450px;
+  max-height: 450px;
 }
 
 .responsive-iframe-container iframe {
@@ -61,9 +36,6 @@
 /* Menu transition ------------------------------------------------ */
 /* CSS pour le menu mobile */
 #mobile-menu {
-    /* Autres styles du menu */
-
-    /* Initialisation de la transition */
     transition: transform 0.5s ease-in-out;
 }
 
@@ -82,7 +54,8 @@
     transition: height 0.2s ease-in-out; /* Transition de 0.3 seconde */
 }
 
-/* Animation flottement  ----------------------------------------------*/
+
+/* Animation flottement ----------------------------------------------*/
 .floating {
   animation: floatingAnimation 3s ease-in-out infinite;
 }
@@ -92,7 +65,7 @@
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-3px);
+    transform: translateY(-5px);
   }
   100% {
     transform: translateY(0);
@@ -100,3 +73,51 @@
 }
 
 
+/* animation underline on hover menu items --------------------------------------*/
+
+.hover-underline-animation {
+  position: relative;
+  color: #0087ca;
+}
+
+.hover-underline-animation::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+
+.hover-underline-animation-white {
+  position: relative;
+  color: #ffffff;
+}
+
+.hover-underline-animation-white::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #ffffff;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation-white:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}

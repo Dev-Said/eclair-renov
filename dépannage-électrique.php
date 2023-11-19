@@ -17,59 +17,28 @@ require 'layouts/header.php';
             <h1 class="w-auto text-xl leading-5 md:text-6xl md:leading-[80px] text-white font-bold text-center z-10">
                 Éclair & Rénov <br> 24/7 Dépannage Électrique d'Urgence <br> à Bruxelles (Saint-Gilles, Uccle, Forest, Ixelles)
             </h1>
-            <div class="px-5 py-3 mt-4 z-10 flex justify-center items-center bg-[#962320]">
-                <span>
-                    <svg data-bbox="25.849 20.098 148.61 159.903" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 200 200" data-type="shape">
-                        <g>
-                            <path fill-rule="evenodd" fill="white" clip-rule="evenodd" d="M70.759 24.278c-2.483-4.574-7.721-5.499-11.759-2.255L43 35.18c-20.174 16.202-23.035 44.171-6 63.76l56 64.772c17.02 19.572 46.23 21.812 66 5.06l12-10.121c3.953-3.35 4.827-8.637 1-12.145l-28-25.301c-3.815-3.497-9.893-4.152-14-1.012l-15 14.169-45-51.616L84 69.59c4-3.036 6-9.109 4-13.157L70.759 24.278z"></path>
-                        </g>
-                    </svg>
-                </span>
-                <span class="text-white text-2xl font-semibold tracking-wide ml-1">
-                    0476 96 32 15
-                </span>
+            <div class="px-5 py-3 mt-4 z-10 rounded-lg flex justify-center items-center bg-[#962320]">
+                <a href="tel:0476 96 32 15" class="text-sm leading-6 text-gray-900 font-semibold hover:text-gray-700 flex justify-start items-center">
+                    <span>
+                        <svg data-bbox="25.849 20.098 148.61 159.903" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 200 200" data-type="shape">
+                            <g>
+                                <path fill-rule="evenodd" fill="white" clip-rule="evenodd" d="M70.759 24.278c-2.483-4.574-7.721-5.499-11.759-2.255L43 35.18c-20.174 16.202-23.035 44.171-6 63.76l56 64.772c17.02 19.572 46.23 21.812 66 5.06l12-10.121c3.953-3.35 4.827-8.637 1-12.145l-28-25.301c-3.815-3.497-9.893-4.152-14-1.012l-15 14.169-45-51.616L84 69.59c4-3.036 6-9.109 4-13.157L70.759 24.278z"></path>
+                            </g>
+                        </svg>
+                    </span>
+                    <span class="text-white text-xl xl:text-2xl font-semibold tracking-wide ml-1">
+                        0476 96 32 15
+                    </span>
+                </a>
             </div>
         </div>
     </header>
 
 
     <div class="w-full bg-white pt-24 md:pt-32">
-        <section class="mx-auto max-w-7xl px-6 pb-32 lg:px-8 border-b-2 border-gray-200">
+        <section class="mx-auto max-w-7xl px-6 pb-14 lg:pb-32 lg:px-8 border-b-2 border-gray-200">
             <div class="mx-auto lg:pl-12 grid max-w-2xl grid-cols-1 items-start gap-y-16 gap-x-8 sm:gap-y-24 lg:mx-0 lg:max-w-7xl lg:grid-cols-2">
-
-                <!-- <div class="lg:pr-4">
-                    <div class="relative overflow-hidden rounded-3xl bg-gray-900 px-6 pb-9 pt-64 shadow-2xl sm:px-12 lg:max-w-lg lg:px-8 lg:pb-8 xl:px-10 xl:pb-10"> <img class="absolute inset-0 h-full w-full object-cover brightness-125 saturate-0" src="/images/outils électricien.png" alt="">
-                        <div class="absolute inset-0 bg-[#7199b9] mix-blend-multiply"></div> <svg viewBox="0 0 1097 845" aria-hidden="true" class="absolute top-1/2 left-1/2 -ml-16 w-[68.5625rem] -translate-x-1/2 -translate-y-1/2 transform-gpu blur-3xl">
-                            <path fill="url(#e7ccf164-908d-46dd-9194-2f8a16ad5a93)" fill-opacity=".4" d="M301.174 646.641 193.541 844.786 0 546.172l301.174 100.469 193.845-356.855c1.241 164.891 42.802 431.935 199.124 180.978 195.402-313.696 143.295-588.18 284.729-419.266 113.148 135.13 124.068 367.989 115.378 467.527L811.753 372.553l20.102 451.119-530.681-177.031Z" />
-                            <defs>
-                                <linearGradient id="e7ccf164-908d-46dd-9194-2f8a16ad5a93" x1="1097.04" x2="-141.165" y1=".22" y2="363.075" gradientUnits="userSpaceOnUse">
-                                    <stop stop-color="#206296" />
-                                    <stop offset="1" stop-color="#66a5e8" />
-                                </linearGradient>
-                            </defs>
-                        </svg>
-                        <figure class="relative isolate">
-                            <div class="w-full flex justify-start items-center">
-                                <img src="/images/logo.svg" alt="" class="h-8 w-auto">
-                                <span class="ml-1 text-base font-semibold text-white">Électricité</span>
-                            </div>
-                            <blockquote class="mt-4 text-lg font-semibold leading-8 text-white">
-                                <p>
-                                    Profitez d'un service de dépannage électrique rapide et efficace qui mettra fin à vos problèmes en un éclair !
-                                </p>
-                            </blockquote>
-                            <figcaption class="mt-6 text-sm leading-6 text-gray-300">
-                                <strong class="font-semibold text-white">
-                                    Votre électricien
-                                </strong>
-                                près de chez vous
-                            </figcaption>
-                        </figure>
-                    </div>
-                </div> -->
-
-
-                <div class="lg:pr-4">
+               <div class="lg:pr-4">
                     <div class="relative overflow-hidden rounded-3xl bg-gray-900 px-6 pb-9 pt-48 shadow-2xl sm:px-12 lg:max-w-lg lg:px-8 lg:pb-8 xl:px-10 xl:pb-10">
                         <img class="absolute inset-0 h-full w-full object-cover brightness-125 saturate-0" src="/images/camionette.png" alt="camionette électricien">
                         <div class="absolute inset-0 bg-[#89c6f5] mix-blend-multiply"></div>
@@ -124,7 +93,7 @@ require 'layouts/header.php';
             </div>
         </section>
 
-        <section class="bg-white pt-5 md:pt-28">
+        <section class="bg-white pt-14 md:pt-28">
             <div class="mx-auto max-w-7xl px-6 lg:px-8">
                 <div class="mx-auto mb-4 md:mb-14 md:mt-4 flex flex-col max-w-2xl justify-start items-center  lg:max-w-7xl">
                     <p class="text-base font-semibold text-[#206296]">

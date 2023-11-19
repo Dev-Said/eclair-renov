@@ -26,9 +26,7 @@ hamburgerBtn.addEventListener('click', () => {
 
 
 const nav = document.getElementById('nav');
-console.log('window.scrollY  ', window.scrollY)
 window.addEventListener('scroll', function() {
-
     if (window.scrollY > 72) {
         nav.classList.remove('h_transition_24');
         nav.classList.add('h_transition_18');

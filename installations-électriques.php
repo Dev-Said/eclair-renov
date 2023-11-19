@@ -17,17 +17,19 @@ require 'layouts/header.php';
             <h1 class="w-auto text-xl leading-5 md:text-6xl md:leading-[80px] text-white font-bold text-center z-10">
                 Éclair & Rénov <br> Installations et Rénovations Électriques <br> à Uccle, Saint-Gilles, Forest, Bruxelles
             </h1>
-            <div class="px-5 py-3 mt-4 z-10 flex justify-center items-center bg-[#962320]">
-                <span>
-                    <svg data-bbox="25.849 20.098 148.61 159.903" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 200 200" data-type="shape">
-                        <g>
-                            <path fill-rule="evenodd" fill="white" clip-rule="evenodd" d="M70.759 24.278c-2.483-4.574-7.721-5.499-11.759-2.255L43 35.18c-20.174 16.202-23.035 44.171-6 63.76l56 64.772c17.02 19.572 46.23 21.812 66 5.06l12-10.121c3.953-3.35 4.827-8.637 1-12.145l-28-25.301c-3.815-3.497-9.893-4.152-14-1.012l-15 14.169-45-51.616L84 69.59c4-3.036 6-9.109 4-13.157L70.759 24.278z"></path>
-                        </g>
-                    </svg>
-                </span>
-                <span class="text-white text-2xl font-semibold tracking-wide ml-1">
-                    0476 96 32 15
-                </span>
+            <div class="px-5 py-3 mt-4 z-10 rounded-lg flex justify-center items-center bg-[#962320]">
+                <a href="tel:0476 96 32 15" class="text-sm leading-6 text-gray-900 font-semibold hover:text-gray-700 flex justify-start items-center">
+                    <span>
+                        <svg data-bbox="25.849 20.098 148.61 159.903" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 200 200" data-type="shape">
+                            <g>
+                                <path fill-rule="evenodd" fill="white" clip-rule="evenodd" d="M70.759 24.278c-2.483-4.574-7.721-5.499-11.759-2.255L43 35.18c-20.174 16.202-23.035 44.171-6 63.76l56 64.772c17.02 19.572 46.23 21.812 66 5.06l12-10.121c3.953-3.35 4.827-8.637 1-12.145l-28-25.301c-3.815-3.497-9.893-4.152-14-1.012l-15 14.169-45-51.616L84 69.59c4-3.036 6-9.109 4-13.157L70.759 24.278z"></path>
+                            </g>
+                        </svg>
+                    </span>
+                    <span class="text-white text-xl xl:text-2xl font-semibold tracking-wide ml-1">
+                        0476 96 32 15
+                    </span>
+                </a>
             </div>
         </div>
     </header>
@@ -38,9 +40,9 @@ require 'layouts/header.php';
             <div class="mx-auto grid max-w-2xl grid-cols-1 gap-y-16 gap-x-8 sm:gap-y-24 lg:mx-0 lg:max-w-none lg:grid-cols-2">
 
                 <div class="lg:pr-4 mt-12">
-                    <div class="relative overflow-hidden rounded-3xl bg-gray-900 px-6 pb-9 pt-96 shadow-2xl sm:px-12 lg:max-w-lg lg:px-8 lg:pb-8 xl:px-10 xl:pb-10"> 
+                    <div class="relative overflow-hidden rounded-3xl bg-gray-900 px-6 pb-9 pt-96 shadow-2xl sm:px-12 lg:max-w-lg lg:px-8 lg:pb-8 xl:px-10 xl:pb-10">
                         <img class="absolute inset-0 h-full w-full object-cover brightness-125 saturate-0" src="/images/installation électrique.png" alt="installation électrique">
-                        <div class="absolute inset-0 bg-[#4d697e] mix-blend-multiply"></div> 
+                        <div class="absolute inset-0 bg-[#4d697e] mix-blend-multiply"></div>
                         <svg viewBox="0 0 1097 845" aria-hidden="true" class="absolute top-1/2 left-1/2 -ml-16 w-[68.5625rem] -translate-x-1/2 -translate-y-1/2 transform-gpu blur-3xl">
                             <path fill="url(#e7ccf164-908d-46dd-9194-2f8a16ad5a93)" fill-opacity=".4" d="M301.174 646.641 193.541 844.786 0 546.172l301.174 100.469 193.845-356.855c1.241 164.891 42.802 431.935 199.124 180.978 195.402-313.696 143.295-588.18 284.729-419.266 113.148 135.13 124.068 367.989 115.378 467.527L811.753 372.553l20.102 451.119-530.681-177.031Z" />
                             <defs>
@@ -62,7 +64,7 @@ require 'layouts/header.php';
                             </blockquote>
                             <figcaption class="mt-6 text-sm leading-6 text-gray-300">
                                 <strong class="font-semibold text-white">
-                                    Votre électricien 
+                                    Votre électricien
                                 </strong>
                                 près de chez vous
                             </figcaption>
@@ -200,20 +202,20 @@ require 'layouts/header.php';
 
 
 
-    
+
     <section class="w-full h-auto flex justify-center items-center bg-white">
         <div class="mx-auto max-w-4xl py-8 md:pt-28 md:pb-20 grid grid-cols-1 md:grid-cols-[288px_1fr] md:gap-x-4 items-start justify-center md:items-start md:justify-start bg-white">
 
-        <div class="w-72 h-72 rounded-xl lg:rounded-3xl relative overflow-hidden shadow-2xl">
-            <img class="absolute inset-0 h-full w-full object-cover brightness-125 saturate-0" src="/images/secrétaire électricien.png" alt="secrétaire électricien">
-            <div class="absolute inset-0 bg-[#80a4c0] mix-blend-multiply"></div>
-        </div>
+            <div class="w-72 h-72 rounded-xl lg:rounded-3xl relative overflow-hidden shadow-2xl">
+                <img class="absolute inset-0 h-full w-full object-cover brightness-125 saturate-0" src="/images/secrétaire électricien.png" alt="secrétaire électricien">
+                <div class="absolute inset-0 bg-[#80a4c0] mix-blend-multiply"></div>
+            </div>
             <div class="h-full w-auto px-4 pb-4 md:px-0 ml-0 md:ml-4 text-gray-900 flex flex-col justify-center items-start">
                 <h2 class="text-2xl text-gray-900 font-bold">
-                Pour une installation électrique neuve, complète ou partielle, appelez un électricien chevronné !
+                    Pour une installation électrique neuve, complète ou partielle, appelez un électricien chevronné !
                 </h2>
                 <p class="w-2xl md:w-6xl md:max-w-6xl mt-1 md:mt-2 text-left">
-                Nous intervenons auprès des particuliers et des professionnels. Nous sommes disponibles 7 j/7 autour de Bruxelles.(Uccle, Forest, Saint-Gilles, Ixelles)
+                    Nous intervenons auprès des particuliers et des professionnels. Nous sommes disponibles 7 j/7 autour de Bruxelles.(Uccle, Forest, Saint-Gilles, Ixelles)
                 </p>
                 <div class="mt-5 flex flex-col justify-start items-start space-y-2">
                     <a href="mailto:eclairenov@gmail.com" class="text-sm leading-6 text-gray-900 font-semibold hover:text-gray-700 flex justify-start items-center">

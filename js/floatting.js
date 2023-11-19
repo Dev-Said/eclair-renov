@@ -7,11 +7,11 @@ elem1.classList.add('floating');
 
 setTimeout(() => {
     elem2.classList.add('floating');
-}, 300);
+}, 200);
 
 setTimeout(() => {
     elem3.classList.add('floating');
-}, 150);
+}, 100);
 
 
 

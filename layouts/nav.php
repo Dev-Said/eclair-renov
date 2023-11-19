@@ -24,60 +24,62 @@ $current_page = basename(urldecode($url));
             </div>
 
             <div class="relative h-full flex flex-1 items-center justify-center sm:items-stretch">
-                <div class="hidden sm:flex sm:space-x-8 text-base">
+                <div class="hidden sm:flex sm:space-x-8 text-base items-center">
                     <div class="h-full flex flex-shrink-0 items-center">
                         <a href="/"><img class="hidden h-16 w-auto lg:block" src="/images/logo.png" alt="logo Éclair & Rénov" /></a>
                     </div>
 
-                    <a href="/" class="menu-item inline-flex items-center px-1 hover:text-blue-700 uppercase <?= ($current_page == "") ? 'font-bold text-blue-800' : 'font-normal text-gray-700'; ?>">
+                    <a href="/" class="hover-underline-animation h-10 menu-item inline-flex items-center px-1 hover:text-blue-700 uppercase <?= ($current_page == "") ? 'font-bold text-blue-800' : 'font-normal text-gray-800'; ?>">
                         Éclair & Rénov
                     </a>
 
-                    <a href="installations-électriques.php" class="menu-item inline-flex items-center px-1   hover:text-blue-700 uppercase <?= ($current_page == 'installations-électriques.php') ? 'font-bold text-blue-800' : 'font-normal text-gray-700'; ?>">
+                    <a href="installations-électriques.php" class="hover-underline-animation h-10 menu-item inline-flex items-center px-1   hover:text-blue-700 uppercase <?= ($current_page == 'installations-électriques.php') ? 'font-bold text-blue-800' : 'font-normal text-gray-800'; ?>">
                         Installations électriques
                     </a>
 
-                    <a href="rénovation-et-mise-en-conformité.php" class="menu-item inline-flex items-center px-1  hover:text-blue-700 uppercase <?= ($current_page == 'rénovation-et-mise-en-conformité.php') ? 'font-bold text-blue-800' : 'font-normal text-gray-700'; ?>">
+                    <a href="rénovation-et-mise-en-conformité.php" class="hover-underline-animation h-10 menu-item inline-flex items-center px-1  hover:text-blue-700 uppercase <?= ($current_page == 'rénovation-et-mise-en-conformité.php') ? 'font-bold text-blue-800' : 'font-normal text-gray-800'; ?>">
                         Rénovation et mise en conformité
                     </a>
 
-                    <a href="dépannage-électrique.php" class="menu-item inline-flex items-center px-1  hover:text-blue-700 uppercase <?= ($current_page == 'dépannage-électrique.php') ? 'font-bold text-blue-800' : 'font-normal text-gray-700'; ?>">
+                    <a href="dépannage-électrique.php" class="hover-underline-animation h-10 menu-item inline-flex items-center px-1  hover:text-blue-700 uppercase <?= ($current_page == 'dépannage-électrique.php') ? 'font-bold text-blue-800' : 'font-normal text-gray-800'; ?>">
                         Dépannage électrique
                     </a>
 
-                    <a href="contact.php" class="menu-item inline-flex items-center px-5 bg-[#206296] uppercase <?= ($current_page == 'contact.php') ? 'font-bold text-white' : 'font-normal text-white'; ?>">
-                        Contact - Devis Gratuit
-                    </a>
+                    <div class="h-full flex items-center px-5 bg-[#206296]">
+                        <a href="contact.php" class="hover-underline-animation-white h-10 menu-item inline-flex items-center  uppercase <?= ($current_page == 'contact.php') ? 'font-bold text-white' : 'font-normal text-white'; ?>">
+                            Contact - Devis Gratuit
+                        </a>
+                        </divef=>
+                    </div>
                 </div>
+
             </div>
-
         </div>
-    </div>
-    <!-- Mobile menu, show/hide based on menu state. -->
-    <div class="sm:hidden bg-sky-50 -translate-x-full" id="mobile-menu">
-        <div class="space-y-1 pt-2 text-base">
+        <!-- Mobile menu, show/hide based on menu state. -->
+        <div class="sm:hidden bg-sky-50 -translate-x-full" id="mobile-menu">
+            <div class="space-y-1 pt-2 text-base">
 
-            <a href="/" class="block py-3 pl-3 pr-4  hover:bg-gray-50 hover:text-blue-700 uppercase border-y border-gray-300 <?= ($current_page == "") ? 'font-bold text-blue-800' : 'font-normal text-gray-700'; ?>">
-                Éclair & Rénov
-            </a>
+                <a href="/" class="block py-3 pl-3 pr-4  hover:bg-gray-50 hover:text-blue-700 uppercase border-y border-gray-300 <?= ($current_page == "") ? 'font-bold text-blue-800' : 'font-normal text-gray-800'; ?>">
+                    Éclair & Rénov
+                </a>
 
-            <a href="installations-électriques.php" class="block py-3 pl-3 pr-4  hover:bg-gray-50 hover:text-blue-700 uppercase border-b border-gray-300 <?= ($current_page == 'installations-électriques.php') ? 'font-bold text-blue-800' : 'font-normal text-gray-700'; ?>">
-                Installations électriques
-            </a>
+                <a href="installations-électriques.php" class="block py-3 pl-3 pr-4  hover:bg-gray-50 hover:text-blue-700 uppercase border-b border-gray-300 <?= ($current_page == 'installations-électriques.php') ? 'font-bold text-blue-800' : 'font-normal text-gray-800'; ?>">
+                    Installations électriques
+                </a>
 
-            <a href="rénovation-et-mise-en-conformité.php" class="block py-3 pl-3 pr-4  hover:bg-gray-50 hover:text-blue-700 uppercase border-b border-gray-300 <?= ($current_page == 'rénovation-et-mise-en-conformité.php') ? 'font-bold text-blue-800' : 'font-normal text-gray-700'; ?>">
-                Rénovation et mise en conformité
-            </a>
+                <a href="rénovation-et-mise-en-conformité.php" class="block py-3 pl-3 pr-4  hover:bg-gray-50 hover:text-blue-700 uppercase border-b border-gray-300 <?= ($current_page == 'rénovation-et-mise-en-conformité.php') ? 'font-bold text-blue-800' : 'font-normal text-gray-800'; ?>">
+                    Rénovation et mise en conformité
+                </a>
 
-            <a href="dépannage-électrique.php" class="block py-3 pl-3 pr-4  hover:bg-gray-50 hover:text-blue-700 uppercase border-b border-gray-300 <?= ($current_page == 'dépannage-électrique.php') ? 'font-bold text-blue-800' : 'font-normal text-gray-700'; ?>">
-                Dépannage électrique
-            </a>
+                <a href="dépannage-électrique.php" class="block py-3 pl-3 pr-4  hover:bg-gray-50 hover:text-blue-700 uppercase border-b border-gray-300 <?= ($current_page == 'dépannage-électrique.php') ? 'font-bold text-blue-800' : 'font-normal text-gray-800'; ?>">
+                    Dépannage électrique
+                </a>
 
-            <a href="contact.php" class="block py-3 pl-3 pr-4  hover:bg-gray-50 hover:text-blue-700 uppercase border-b border-gray-300 <?= ($current_page == 'contact.php') ? 'font-bold text-blue-800' : 'font-normal text-gray-700'; ?>">
-                Contact - Devis Gratuit
-            </a>
+                <a href="contact.php" class="block py-3 pl-3 pr-4  hover:bg-gray-50 hover:text-blue-700 uppercase border-b border-gray-300 <?= ($current_page == 'contact.php') ? 'font-bold text-blue-800' : 'font-normal text-gray-800'; ?>">
+                    Contact - Devis Gratuit
+                </a>
+            </div>
         </div>
-    </div>
 </nav>
 
 <script src="/js/menu.js"></script>
