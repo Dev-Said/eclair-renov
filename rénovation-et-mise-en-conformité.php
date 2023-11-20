@@ -12,10 +12,10 @@ require 'layouts/header.php';
         </div>
 
         <div class="absolute top-0 bottom-0 left-0 right-0 w-full p-5 flex flex-col justify-center items-center">
-            <h1 class="w-auto text-xl leading-5 md:text-6xl md:leading-[80px] text-white font-bold text-center z-10">
-                Éclair & Rénov <br> Spécialiste en Rénovation Électrique <br> et Mise en Conformité Électrique à Saint-Gilles
+            <h1 class="w-auto text-4xl leading-[50px] xl:text-5xl xl:leading-[60px] min-[1740px]:text-6xl min-[1740px]:leading-[80px] text-white font-bold text-center z-10">
+                Éclair & Rénov <br> Spécialiste en Rénovation Électrique <br> et Mise en Conformité Électrique <span class="hidden lg:inline">à Saint-Gilles</span><br> <span class="inline lg:hidden text-xl leading-[20px] lg:text-2xl lg:leading-[30px] xl:text-4xl xl:leading-[60px] min-[1740px]:text-4xl min-[1740px]:leading-[80px]">À Saint-Gilles</span>
             </h1>
-            <div class="px-5 py-3 mt-4 z-10 rounded-lg flex justify-center items-center bg-[#962320]">
+            <div class="px-5 py-3 mt-6 z-10 rounded-lg flex justify-center items-center bg-[#962320] hover:scale-105 transition-all ease-in-out duration-300">
                 <a href="tel:0476 96 32 15" class="text-sm leading-6 text-gray-900 font-semibold hover:text-gray-700 flex justify-start items-center">
                     <span>
                         <svg data-bbox="25.849 20.098 148.61 159.903" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 200 200" data-type="shape">
@@ -34,11 +34,11 @@ require 'layouts/header.php';
 
 
     <section class="w-full bg-white py-10 lg:py-32">
-        <div class="mx-auto max-w-7xl px-6 pb-10 lg:pb-32 lg:px-8 border-b-2 border-gray-200">
-            <div class="mx-auto grid max-w-2xl grid-cols-1 gap-y-16 gap-x-8 sm:gap-y-24 lg:mx-0 lg:max-w-7xl lg:grid-cols-2">
+        <div class="mx-auto max-w-7xl px-6 pb-10 lg:pb-32 border-b-2 border-gray-200">
+            <div class="mx-auto grid max-w-4xl grid-cols-1 gap-y-16 gap-x-8 sm:gap-y-24 lg:mx-0 lg:max-w-7xl lg:grid-cols-2">
 
-                <div class="lg:pr-4 my-auto">
-                    <div class="relative overflow-hidden rounded-3xl bg-gray-900 px-6 pb-9 pt-96 shadow-2xl sm:px-12 lg:max-w-lg lg:px-8 lg:pb-8 xl:px-10 xl:pb-10">
+                <div class="lg:pr-4 my-auto order-2 lg:order-1">
+                    <div class="relative overflow-hidden rounded-3xl bg-gray-900 px-6 pb-9 pt-28 md:pt-40 lg:pt-96 shadow-2xl sm:px-12 lg:max-w-lg lg:px-8 lg:pb-8 xl:px-10 xl:pb-10">
                         <img class="absolute inset-0 h-full w-full object-cover brightness-75 saturate-0" src="/images/rénovation électrique.png" alt="électricité salon moderne">
                         <div class="absolute inset-0 bg-[#B5DFFF] mix-blend-multiply"></div>
                         <svg viewBox="0 0 1097 845" aria-hidden="true" class="absolute top-1/2 left-1/2 -ml-16 w-[68.5625rem] -translate-x-1/2 -translate-y-1/2 transform-gpu blur-3xl">
@@ -68,7 +68,7 @@ require 'layouts/header.php';
                     </div>
                 </div>
 
-                <div class="text-base leading-7 text-gray-700 lg:max-w-lg">
+                <div class="text-base leading-7 text-gray-700 lg:max-w-lg order-1 lg:order-2">
                     <p class="text-base font-semibold leading-7 text-[#206296]">Éclair & Rénov</p>
                     <h2 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">La rénovation électrique</h2>
                     <div class="max-w-xl">
@@ -124,8 +124,8 @@ require 'layouts/header.php';
     </section>
 
     <section class="bg-white">
-        <div class="mx-auto max-w-7xl px-6 lg:px-8">
-            <div class="mx-auto mb-2 md:mb-36 md:mt-4 grid max-w-2xl grid-cols-1 gap-y-16 gap-x-8 sm:gap-y-24 lg:mx-0 lg:max-w-7xl lg:grid-cols-2">
+        <div class="mx-auto max-w-7xl px-6">
+            <div class="mx-auto mb-2 md:mb-36 md:mt-4 grid max-w-4xl grid-cols-1 gap-y-16 gap-x-8 sm:gap-y-24 lg:mx-0 lg:max-w-7xl lg:grid-cols-2">
 
                 <div class="text-base leading-7 text-gray-700 lg:max-w-lg">
                     <p class="text-base font-semibold leading-7 text-[#206296]">Éclair & Rénov</p>
@@ -192,6 +192,9 @@ require 'layouts/header.php';
                 <p class="w-2xl md:w-6xl md:max-w-6xl mt-1 md:mt-2 text-left">
                     Contactez Éclair & Rénov pour toutes les rénovations et la mise en conformité électrique de vos installations à Bruxelles.
                 </p>
+                <h3 class="text-white text-lg pt-5 font-semibold">
+                    Contactez-nous
+                </h3>
                 <div class="mt-5 flex flex-col justify-start items-start space-y-2">
                     <a href="mailto:eclairenov@gmail.com" class="text-sm leading-6 text-gray-900 font-semibold hover:text-gray-700 flex justify-start items-center">
                         <div class="flex h-9 w-9 items-center justify-center rounded-md bg-[#206296]">

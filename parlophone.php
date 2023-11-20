@@ -17,7 +17,7 @@ require 'layouts/header.php';
             <h1 class="w-auto text-xl leading-5 md:text-6xl md:leading-[80px] text-white font-bold text-center z-10">
                 Éclair & Rénov <br> Installations et rénovations électriques <br> à Uccle, Saint-Gilles, Forest, Bruxelles
             </h1>
-            <div class="px-5 py-3 mt-4 z-10 rounded-lg flex justify-center items-center bg-[#962320]">
+            <div class="px-5 py-3 mt-6 z-10 rounded-lg flex justify-center items-center bg-[#962320] hover:scale-105 transition-all ease-in-out duration-300">
                 <a href="tel:0476 96 32 15" class="text-sm leading-6 text-gray-900 font-semibold hover:text-gray-700 flex justify-start items-center">
                     <span>
                         <svg data-bbox="25.849 20.098 148.61 159.903" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 200 200" data-type="shape">

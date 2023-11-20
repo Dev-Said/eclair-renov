@@ -14,10 +14,10 @@ require 'layouts/header.php';
 
         <div class="absolute top-0 bottom-0 left-0 right-0 w-full p-5 flex flex-col justify-center items-center">
             <span class="absolute top-0 left-0 w-full h-full bg-black opacity-50"></span>
-            <h1 class="w-auto text-xl leading-5 md:text-6xl md:leading-[80px] text-white font-bold text-center z-10">
-                Éclair & Rénov <br> Installations et Rénovations Électriques <br> à Uccle, Saint-Gilles, Forest, Bruxelles
+            <h1 class="w-auto text-3xl leading-[40px] md:text-4xl md:leading-[40px] xl:text-5xl xl:leading-[60px] min-[1740px]:text-6xl min-[1740px]:leading-[80px] text-white font-bold text-center z-10">
+                Éclair & Rénov <br> Installations et Rénovations Électriques <br> <span class="text-xl leading-[20px] lg:text-2xl lg:leading-[30px] xl:text-4xl xl:leading-[60px] min-[1740px]:text-4xl min-[1740px]:leading-[80px]">À Uccle, Saint-Gilles, Forest, Bruxelles</span>
             </h1>
-            <div class="px-5 py-3 mt-4 z-10 rounded-lg flex justify-center items-center bg-[#962320]">
+            <div class="px-5 py-3 mt-6 z-10 rounded-lg flex justify-center items-center bg-[#962320] hover:scale-105 transition-all ease-in-out duration-300">
                 <a href="tel:0476 96 32 15" class="text-sm leading-6 text-gray-900 font-semibold hover:text-gray-700 flex justify-start items-center">
                     <span>
                         <svg data-bbox="25.849 20.098 148.61 159.903" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 200 200" data-type="shape">
@@ -217,6 +217,9 @@ require 'layouts/header.php';
                 <p class="w-2xl md:w-6xl md:max-w-6xl mt-1 md:mt-2 text-left">
                     Nous intervenons auprès des particuliers et des professionnels. Nous sommes disponibles 7 j/7 autour de Bruxelles.(Uccle, Forest, Saint-Gilles, Ixelles)
                 </p>
+                <h3 class="text-gray-900 text-lg pt-5 font-semibold">
+                    Contactez-nous
+                </h3>
                 <div class="mt-5 flex flex-col justify-start items-start space-y-2">
                     <a href="mailto:eclairenov@gmail.com" class="text-sm leading-6 text-gray-900 font-semibold hover:text-gray-700 flex justify-start items-center">
                         <div class="flex h-9 w-9 items-center justify-center rounded-md bg-[#206296]">
