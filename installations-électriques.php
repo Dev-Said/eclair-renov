@@ -37,10 +37,10 @@ require 'layouts/header.php';
 
     <div class="bg-white py-24 sm:py-32">
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
-            <div class="mx-auto grid max-w-2xl grid-cols-1 gap-y-16 gap-x-8 sm:gap-y-24 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+            <div class="mx-auto grid max-w-4xl grid-cols-1 gap-y-16 gap-x-8 sm:gap-y-24 lg:mx-0 lg:max-w-none lg:grid-cols-2">
 
-                <div class="lg:pr-4 mt-12">
-                    <div class="relative overflow-hidden rounded-3xl bg-gray-900 px-6 pb-9 pt-96 shadow-2xl sm:px-12 lg:max-w-lg lg:px-8 lg:pb-8 xl:px-10 xl:pb-10">
+                <div class="hidden lg:block lg:pr-4 lg:mt-12">
+                    <div class="relative overflow-hidden rounded-3xl bg-gray-900 px-6 pb-9 pt-28 md:pt-40 lg:pt-96 shadow-2xl sm:px-12 lg:max-w-lg lg:px-8 lg:pb-8 xl:px-10 xl:pb-10">
                         <img class="absolute inset-0 h-full w-full object-cover brightness-125 saturate-0" src="/images/installation électrique.png" alt="installation électrique">
                         <div class="absolute inset-0 bg-[#4d697e] mix-blend-multiply"></div>
                         <svg viewBox="0 0 1097 845" aria-hidden="true" class="absolute top-1/2 left-1/2 -ml-16 w-[68.5625rem] -translate-x-1/2 -translate-y-1/2 transform-gpu blur-3xl">
@@ -203,14 +203,14 @@ require 'layouts/header.php';
 
 
 
-    <section class="w-full h-auto flex justify-center items-center bg-white">
-        <div class="mx-auto max-w-4xl py-8 md:pt-28 md:pb-20 grid grid-cols-1 md:grid-cols-[288px_1fr] md:gap-x-4 items-start justify-center md:items-start md:justify-start bg-white">
+    <section class="w-full h-auto px-4 md:px-8 flex justify-center items-center bg-white">
+        <div class="mx-auto max-w-4xl py-8 md:pt-28 md:pb-20 grid grid-cols-1 md:grid-cols-[288px_1fr] md:gap-x-4 items-start justify-center bg-white">
 
-            <div class="w-72 h-72 rounded-xl lg:rounded-3xl relative overflow-hidden shadow-2xl">
+            <div class="w-72 h-72 hidden md:block rounded-xl lg:rounded-3xl relative overflow-hidden shadow-2xl">
                 <img class="absolute inset-0 h-full w-full object-cover brightness-125 saturate-0" src="/images/secrétaire électricien.png" alt="secrétaire électricien">
                 <div class="absolute inset-0 bg-[#80a4c0] mix-blend-multiply"></div>
             </div>
-            <div class="h-full w-auto px-4 pb-4 md:px-0 ml-0 md:ml-4 text-gray-900 flex flex-col justify-center items-start">
+            <div class="h-full w-auto px-2 pb-4 md:px-0 pt-10 md:pt-0 ml-0 md:ml-4 text-gray-900 flex flex-col justify-center items-start">
                 <h2 class="text-2xl text-gray-900 font-bold">
                     Pour une installation électrique neuve, complète ou partielle, appelez un électricien chevronné !
                 </h2>

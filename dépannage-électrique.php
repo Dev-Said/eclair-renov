@@ -37,8 +37,8 @@ require 'layouts/header.php';
 
     <div class="w-full bg-white pt-24 md:pt-32">
         <section class="mx-auto max-w-7xl px-6 pb-14 lg:pb-32 lg:px-8 border-b-2 border-gray-200">
-            <div class="mx-auto lg:pl-12 grid max-w-2xl grid-cols-1 items-start gap-y-16 gap-x-8 sm:gap-y-24 lg:mx-0 lg:max-w-7xl lg:grid-cols-2">
-                <div class="lg:pr-4">
+            <div class="mx-auto lg:pl-12 grid max-w-4xl grid-cols-1 items-start gap-y-16 gap-x-8 sm:gap-y-24 lg:mx-0 lg:max-w-7xl lg:grid-cols-2">
+                <div class="lg:pr-4 hidden lg:block">
                     <div class="relative overflow-hidden rounded-3xl bg-gray-900 px-6 pb-9 pt-48 shadow-2xl sm:px-12 lg:max-w-lg lg:px-8 lg:pb-8 xl:px-10 xl:pb-10">
                         <img class="absolute inset-0 h-full w-full object-cover brightness-125 saturate-0" src="/images/camionette.png" alt="camionette électricien">
                         <div class="absolute inset-0 bg-[#89c6f5] mix-blend-multiply"></div>
@@ -72,11 +72,11 @@ require 'layouts/header.php';
                 </div>
 
 
-                <div class="text-base leading-7 text-gray-700 lg:max-w-lg">
+                <div class="text-base leading-7 text-gray-700 lg:max-w-lg flex flex-col justify-start items-center lg:items-start">
                     <p class="text-base font-semibold text-[#206296]">Éclair & Rénov</p>
-                    <h2 class="mt-2 text-3xl font-bold leading-8 tracking-tight text-gray-900 sm:text-4xl">
+                    <h2 class="w-full mt-2 text-3xl text-center lg:text-left font-bold leading-8 tracking-tight text-gray-900 sm:text-4xl">
                         Un dépannage électrique rapide et efficace</h2>
-                    <div class="max-w-xl">
+                    <div class="max-w-4xl lg:max-w-xl">
                         <p class="mt-6 text-justify">
                             La sécurité électrique est un enjeu majeur de toutes les structures publiques et privées. Votre dispositif de sécurité ne répond plus ? Votre éclairage est défaillant ? Le compteur électrique est bloqué ?
                         </p>
@@ -84,7 +84,7 @@ require 'layouts/header.php';
                             Depuis 25 ans, Éclair & Rénov intervient en cas de petite panne ou de dysfonctionnement général. Nous intervenons rapidement à Bruxelles (Saint-Gilles, Forest, Uccle, Ixelles) afin de rétablir le fonctionnement optimal de toutes les installations électriques.
                         </p>
 
-                        <div class="mt-10 flex">
+                        <div class="mt-10 flex justify-center lg:justify-start">
                             <a href="/contact.php" class="px-4 py-2 flex justify-center items-center text-base font-semibold leading-7 text-white bg-[#206296] rounded-lg">Demandez votre devis gratuit <span aria-hidden="true"> &nbsp; &rarr;</span>
                             </a>
                         </div>
@@ -132,10 +132,10 @@ require 'layouts/header.php';
             </div>
         </section>
 
-        <section class="w-full h-auto px-5 lg:px-0 flex justify-center items-center bg-gray-800">
-            <div class="mx-auto max-w-4xl py-8 md:pt-28 md:pb-5 grid grid-cols-1 md:grid-cols-[288px_1fr] md:gap-x-4 items-start justify-center md:items-start md:justify-start bg-gray-800">
+        <section class="w-full h-auto px-4 md:px-8 flex justify-center items-center bg-gray-800">
+            <div class="mx-auto max-w-4xl py-8 pt-20 md:pt-28 md:pb-5 grid grid-cols-1 md:grid-cols-[288px_1fr] md:gap-x-4 items-start justify-center md:items-start md:justify-start bg-gray-800">
 
-                <div class="w-72 h-72 mx-auto md:mx-0 rounded-xl lg:rounded-3xl relative overflow-hidden shadow-2xl">
+                <div class="w-72 h-72 hidden md:block mx-auto md:mx-0 rounded-xl lg:rounded-3xl relative overflow-hidden shadow-2xl">
                     <img class="absolute inset-0 h-full w-full object-cover brightness-125 saturate-0" src="/images/expert électricien.png" alt="expert électricien">
                     <div class="absolute inset-0 bg-[#9dd2fa] mix-blend-multiply"></div>
                 </div>

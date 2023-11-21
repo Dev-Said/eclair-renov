@@ -6,8 +6,8 @@ require 'layouts/header.php';
 <div class='w-full h-full min-h-[100vh] mt-24 flex flex-col justify-start items-center'>
 
     <header class="relative w-full flex flex-row justify-between items-center">
-        <div class="shadow-2xl w-full h-auto overflow-hidden lg:max-w-full">
-            <img class="w-full min-h-[350px] object-cover brightness-125 saturate-0" src="/images/cable électrique.png" alt="">
+        <div class="shadow-2xl w-full h-auto max-h-[450px] overflow-hidden lg:max-w-full">
+            <img class="w-full min-h-[350px] max-h-[450px] object-cover brightness-125 saturate-0" src="/images/cable électrique 2.png" alt="cables et materiel électriques">
             <div class="w-full max-h-full absolute inset-0 bg-[#284257] mix-blend-hard-light"></div>
         </div>
 
@@ -15,20 +15,20 @@ require 'layouts/header.php';
             <h1 class="w-auto text-3xl leading-[40px] md:text-4xl md:leading-[40px] xl:text-5xl xl:leading-[60px] min-[1740px]:text-6xl min-[1740px]:leading-[80px] text-white font-bold text-center z-10">
                 Éclair & Rénov <br>Votre Installateur Électricien de Confiance <br> <span class="text-xl leading-[20px] lg:text-2xl lg:leading-[30px] xl:text-4xl xl:leading-[60px] min-[1740px]:text-4xl min-[1740px]:leading-[80px]">À Bruxelles (Saint-Gilles, Forest, Uccle, Ixelles)</span>
             </h1>
-            <div class="px-8 py-3 mt-6 z-10 rounded-lg flex justify-center items-center bg-[#962320] hover:scale-105 transition-all ease-in-out duration-300">
-                <a href="tel:0476 96 32 15" class="text-sm leading-6 text-gray-900 font-semibold hover:text-gray-700 flex justify-start items-center">
-                    <span>
-                        <svg data-bbox="25.849 20.098 148.61 159.903" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 200 200" data-type="shape">
-                            <g>
-                                <path fill-rule="evenodd" fill="white" clip-rule="evenodd" d="M70.759 24.278c-2.483-4.574-7.721-5.499-11.759-2.255L43 35.18c-20.174 16.202-23.035 44.171-6 63.76l56 64.772c17.02 19.572 46.23 21.812 66 5.06l12-10.121c3.953-3.35 4.827-8.637 1-12.145l-28-25.301c-3.815-3.497-9.893-4.152-14-1.012l-15 14.169-45-51.616L84 69.59c4-3.036 6-9.109 4-13.157L70.759 24.278z"></path>
-                            </g>
-                        </svg>
-                    </span>
-                    <span class="text-white text-xl xl:text-2xl font-semibold tracking-wide ml-1">
-                        0476 96 32 15
-                    </span>
-                </a>
-            </div>
+            <!-- <div class="px-8 py-3 mt-6 z-10 rounded-lg flex justify-center items-center bg-[#962320] hover:scale-105 transition-all ease-in-out duration-300"> -->
+            <a href="tel:0476 96 32 15" class="px-8 py-3 mt-6 z-10 rounded-lg flex justify-center items-center bg-[#962320] hover:scale-105 transition-all ease-in-out duration-300">
+                <span>
+                    <svg data-bbox="25.849 20.098 148.61 159.903" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 200 200" data-type="shape">
+                        <g>
+                            <path fill-rule="evenodd" fill="white" clip-rule="evenodd" d="M70.759 24.278c-2.483-4.574-7.721-5.499-11.759-2.255L43 35.18c-20.174 16.202-23.035 44.171-6 63.76l56 64.772c17.02 19.572 46.23 21.812 66 5.06l12-10.121c3.953-3.35 4.827-8.637 1-12.145l-28-25.301c-3.815-3.497-9.893-4.152-14-1.012l-15 14.169-45-51.616L84 69.59c4-3.036 6-9.109 4-13.157L70.759 24.278z"></path>
+                        </g>
+                    </svg>
+                </span>
+                <span class="text-white text-xl xl:text-2xl font-semibold tracking-wide ml-1">
+                    0476 96 32 15
+                </span>
+            </a>
+            <!-- </div> -->
         </div>
     </header>
 
@@ -143,12 +143,12 @@ require 'layouts/header.php';
 
 
     <section class="w-auto xl:w-[1280px] max-w-7xl mx-auto px-4 mt-4 md:mt-10 mb-20 pb-10 flex flex-col justify-center items-center bg-white">
-        <div class="py-10 px-2 lg:px-0 w-auto">
-            <h2 class="w-full max-w-4xl text-2xl leading-8 md:text-2xl md:leading-10 lg:text-4xl xl:text-4xl xl:leading-[40px] text-center font-bold text-gray-900">
-                Nous travaillons avec des marques et des matériaux réputés pour leur fiabilité et leur durabilité
+        <div class="py-10 px-2 lg:px-0 w-auto flex flex-col justify-start items-center">
+            <h2 class="w-full max-w-4xl text-2xl leading-8 md:leading-10 lg:text-4xl xl:text-4xl xl:leading-[40px] text-center font-bold text-gray-900">
+                Matériaux de haute qualité
             </h2>
-            <h3 class="w-full mt-2 lg:mt-5 text-lg md:text-xl lg:text-2xl leading-5 md:leading-8 lg:leading-10 text-center font-normal text-gray-900">
-                tels que Niko - Legrand - BTicino - Tem - Vynckier - Urmet - Elvox...
+            <h3 class="w-full max-w-2xl lg:max-w-3xl mt-2 lg:mt-5 text-lg lg:text-xl leading-6 lg:leading-7 text-center font-normal text-gray-900">
+                Nous travaillons avec des marques et des matériaux réputés pour leur fiabilité et leur durabilité tels que Niko - Legrand - BTicino - Tem - Vynckier - Urmet - Elvox...
             </h3>
         </div>
 
@@ -368,3 +368,16 @@ require 'layouts/footer.php';
 ?>
 
 <script src="/js/floatting.js"></script>
+
+<script>
+    let prevScreenWidth = window.screen.width;
+
+    function getScreenWidth() {
+        if (window.screen.width !== prevScreenWidth) {
+            console.log('La largeur de l\'écran a changé ! Nouvelle largeur : ' + window.screen.width);
+            prevScreenWidth = window.screen.width;  
+        }
+    }
+
+    window.addEventListener('resize', getScreenWidth);
+</script>

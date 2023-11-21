@@ -176,10 +176,10 @@ require 'layouts/header.php';
     </section>
 
 
-    <section class="w-full h-auto flex justify-center items-center bg-gray-800">
+    <section class="w-full h-auto px-4 md:px-8 flex justify-center items-center bg-gray-800">
         <div class="mx-auto max-w-4xl py-8 md:pt-28 md:pb-5 grid grid-cols-1 md:grid-cols-[288px_1fr] md:gap-x-4 items-start justify-center md:items-start md:justify-start bg-gray-800">
 
-            <div class="w-full hidden px-2 md:px-4 md:block shadow-2xl rounded-3xl">
+            <div class="w-full hidden md:block shadow-2xl rounded-3xl">
                 <img class="w-72 rounded-xl bg-indigo-50 lg:rounded-3xl" src="/images/ouvrier électricien.png" alt="ouvrier électricien">
             </div>
             <div class="h-full w-auto px-4 pb-4 md:px-0 ml-0 md:ml-4 text-gray-200 flex flex-col justify-center items-start">

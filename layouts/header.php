@@ -43,7 +43,6 @@ $root_url = 'https://' . $_SERVER['HTTP_HOST'] . '/';
     <!-- css -->
     <link rel="stylesheet" href="<?= $root_url ?>css/output.css">
     <link rel="stylesheet" href="<?= $root_url ?>css/style.css">
-    <link rel="stylesheet" href="<?= $root_url ?>css/slider.css">
 
 
     <!-- social -->
