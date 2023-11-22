@@ -7,13 +7,13 @@ require 'layouts/header.php';
     <header class="relative w-full flex flex-row justify-between items-center">
 
         <div class="shadow-2xl w-full h-auto lg:max-w-full">
-            <img class=" h-[450px] w-full object-cover brightness-125 saturate-0" src="/images/228ec3_01c02db517e946babe00aad6f71bc1c3~mv2.webp" alt="">
+            <img class=" h-[450px] w-full object-cover brightness-125 saturate-0" src="/images/rénovation-électrique.png" alt="">
             <div class="absolute inset-0 bg-[#2f485d] mix-blend-hard-light"></div>
         </div>
 
         <div class="absolute top-0 bottom-0 left-0 right-0 w-full p-5 flex flex-col justify-center items-center">
-            <h1 class="w-auto text-4xl leading-[50px] xl:text-5xl xl:leading-[60px] min-[1740px]:text-6xl min-[1740px]:leading-[80px] text-white font-bold text-center z-10">
-                Éclair & Rénov <br> Spécialiste en Rénovation Électrique <br> et Mise en Conformité Électrique <span class="hidden lg:inline">à Saint-Gilles</span><br> <span class="inline lg:hidden text-xl leading-[20px] lg:text-2xl lg:leading-[30px] xl:text-4xl xl:leading-[60px] min-[1740px]:text-4xl min-[1740px]:leading-[80px]">À Saint-Gilles</span>
+            <h1 class="w-auto text-2xl leading-[35px] lg:text-4xl lg:leading-[50px] xl:text-5xl xl:leading-[60px] text-white font-bold text-center z-10">
+                <span class="text-5xl md:text-6xl xl:text-7xl">Éclair & Rénov</span> <br> Spécialiste en Rénovation Électrique <br> et Mise en Conformité Électrique <span class="hidden lg:inline">à Saint-Gilles</span><br> <span class="inline lg:hidden text-xl leading-[20px] lg:text-2xl lg:leading-[30px] xl:text-4xl xl:leading-[60px] min-[1740px]:text-4xl min-[1740px]:leading-[80px]">À Saint-Gilles</span>
             </h1>
             <div class="px-5 py-3 mt-6 z-10 rounded-lg flex justify-center items-center bg-[#962320] hover:scale-105 transition-all ease-in-out duration-300">
                 <a href="tel:0476 96 32 15" class="text-sm leading-6 text-gray-900 font-semibold hover:text-gray-700 flex justify-start items-center">
@@ -37,7 +37,7 @@ require 'layouts/header.php';
         <div class="mx-auto max-w-7xl px-6 pb-10 lg:pb-32 border-b-2 border-gray-200">
             <div class="mx-auto grid max-w-4xl grid-cols-1 gap-y-16 gap-x-8 sm:gap-y-24 lg:mx-0 lg:max-w-7xl lg:grid-cols-2">
 
-                <div class="lg:pr-4 my-auto order-2 lg:order-1">
+                <div class="hidden lg:block lg:pr-4 my-auto order-2 lg:order-1">
                     <div class="relative overflow-hidden rounded-3xl bg-gray-900 px-6 pb-9 pt-28 md:pt-40 lg:pt-96 shadow-2xl sm:px-12 lg:max-w-lg lg:px-8 lg:pb-8 xl:px-10 xl:pb-10">
                         <img class="absolute inset-0 h-full w-full object-cover brightness-75 saturate-0" src="/images/rénovation électrique.png" alt="électricité salon moderne">
                         <div class="absolute inset-0 bg-[#B5DFFF] mix-blend-multiply"></div>
@@ -125,12 +125,12 @@ require 'layouts/header.php';
 
     <section class="bg-white">
         <div class="mx-auto max-w-7xl px-6">
-            <div class="mx-auto mb-2 md:mb-36 md:mt-4 grid max-w-4xl grid-cols-1 gap-y-16 gap-x-8 sm:gap-y-24 lg:mx-0 lg:max-w-7xl lg:grid-cols-2">
+            <div class="mx-auto mb-2 lg:mb-36 md:mt-4 grid max-w-4xl grid-cols-1 gap-y-16 gap-x-8 sm:gap-y-24 lg:mx-0 lg:max-w-7xl lg:grid-cols-2">
 
-                <div class="text-base leading-7 text-gray-700 lg:max-w-lg">
+                <div class="text-base leading-7 text-gray-700 lg:max-w-7xl">
                     <p class="text-base font-semibold leading-7 text-[#206296]">Éclair & Rénov</p>
                     <h2 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">La mise en conformité</h2>
-                    <div class="max-w-xl">
+                    <div class="max-w-xl md:pr-4">
                         <p class="mt-6 text-justify">
                             Experts en rénovation électrique, nous mettons en conformité l'ensemble de votre installation. Nous pouvons aussi vous assister lors d'un rendez-vous avec l'organisme chargé du contrôle de conformité. Enfin, notre certification nous permet de vous délivrer un document attestant de la mise aux normes de votre installation électrique.
                         </p>
@@ -141,34 +141,32 @@ require 'layouts/header.php';
                     </div>
                 </div>
 
-                <div class="lg:pr-4 my-auto">
-                    <div class="relative overflow-hidden rounded-3xl bg-gray-900 px-6 pb-9 pt-64 shadow-2xl sm:px-12 lg:max-w-lg lg:px-8 lg:pb-8 xl:px-10 xl:pb-10">
-                        <img class="absolute inset-0 h-full w-full object-cover brightness-150 saturate-0" src="/images/materiel-professionnel-électricité.png" alt="pince électricien">
-                        <div class="absolute inset-0 bg-[#69849a] mix-blend-multiply"></div>
-                        <svg viewBox="0 0 1097 845" aria-hidden="true" class="absolute top-1/2 left-1/2 -ml-16 w-[68.5625rem] -translate-x-1/2 -translate-y-1/2 transform-gpu blur-3xl">
-                            <path fill="url(#e7ccf164-908d-46dd-9194-2f8a16ad5a93)" fill-opacity=".4" d="M301.174 646.641 193.541 844.786 0 546.172l301.174 100.469 193.845-356.855c1.241 164.891 42.802 431.935 199.124 180.978 195.402-313.696 143.295-588.18 284.729-419.266 113.148 135.13 124.068 367.989 115.378 467.527L811.753 372.553l20.102 451.119-530.681-177.031Z" />
-                            <defs>
-                                <linearGradient id="e7ccf164-908d-46dd-9194-2f8a16ad5a93" x1="1097.04" x2="-141.165" y1=".22" y2="363.075" gradientUnits="userSpaceOnUse">
-                                    <stop stop-color="#282096" />
-                                    <stop offset="1" stop-color="#66a5e8" />
-                                </linearGradient>
-                            </defs>
-                        </svg>
-                        <figure class="relative isolate">
-                            <div class="w-full flex justify-start items-center">
-                                <img src="/images/logo.svg" alt="" class="h-8 w-auto">
-                                <span class="ml-1 text-base font-semibold text-white">Électricité</span>
-                            </div>
-                            <blockquote class="mt-4 text-lg font-semibold leading-8 text-white">
-                                <p>La mise en conformité électrique garantit la sécurité et la légalité de votre installation, vous offrant la tranquillité d'esprit que vous méritez.”</p>
-                            </blockquote>
-                            <figcaption class="mt-6 text-sm leading-6 text-gray-300">
-                                <strong class="font-semibold text-white">
-                                    Votre électricien
-                                </strong>
-                                près de chez vous
-                            </figcaption>
-                        </figure>
+                <div class="pb-10 lg:pb-0 lg:pr-4 my-auto">
+                    <div class="overflow-hidden bg-white lg:border-l border-gray-200 sm:rounded-lg">
+                        <div class="py-5 lg:px-6">
+                            <h3 class="text-lg font-semibold leading-6 text-gray-900">Avantages :</h3>
+                            <p class="mt-1 max-w-2xl text-sm text-gray-500">Evitez les futurs tracas et profitez des bénéfices.</p>
+                        </div>
+                        <ul class="py-3 lg:px-6 grid grid-cols-3 gap-4">
+                            <li class="pb-2 text-sm font-semibold text-gray-700 border-b border-r border-gray-200">
+                                Amélioration de la sécurité électrique
+                            </li>
+                            <li class="pb-2 text-sm font-semibold text-gray-700 border-b border-r border-gray-200">
+                                Réduction des risques d'incendie
+                            </li>
+                            <li class="pb-2 text-sm font-semibold text-gray-700 border-b border-gray-200">
+                                Conformité aux normes et réglementations en vigueur
+                            </li>
+                            <li class="pb-2 text-sm font-semibold text-gray-700 border-r border-gray-200">
+                                Augmentation de la valeur du bien immobilier
+                            </li>
+                            <li class="pb-2 text-sm font-semibold text-gray-700 border-r border-gray-200">
+                                Économies d'énergie grâce à une installation plus efficiente
+                            </li>
+                            <li class="pb-2 text-sm font-semibold text-gray-700">
+                                Diminution des risques d'électrocution
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>

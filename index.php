@@ -7,13 +7,13 @@ require 'layouts/header.php';
 
     <header class="relative w-full flex flex-row justify-between items-center">
         <div class="shadow-2xl w-full h-auto max-h-[450px] overflow-hidden lg:max-w-full">
-            <img class="w-full min-h-[350px] max-h-[450px] object-cover brightness-125 saturate-0" src="/images/cable électrique 2.png" alt="cables et materiel électriques">
+            <img id="img_index" class="w-full min-h-[350px] max-h-[450px] object-cover brightness-125 saturate-0" src="/images/cable électrique.png" alt="cables et materiel électriques">
             <div class="w-full max-h-full absolute inset-0 bg-[#284257] mix-blend-hard-light"></div>
         </div>
 
         <div class="absolute top-0 bottom-0 left-0 right-0 w-full p-5 flex flex-col justify-center items-center">
-            <h1 class="w-auto text-3xl leading-[40px] md:text-4xl md:leading-[40px] xl:text-5xl xl:leading-[60px] min-[1740px]:text-6xl min-[1740px]:leading-[80px] text-white font-bold text-center z-10">
-                Éclair & Rénov <br>Votre Installateur Électricien de Confiance <br> <span class="text-xl leading-[20px] lg:text-2xl lg:leading-[30px] xl:text-4xl xl:leading-[60px] min-[1740px]:text-4xl min-[1740px]:leading-[80px]">À Bruxelles (Saint-Gilles, Forest, Uccle, Ixelles)</span>
+            <h1 class="w-auto text-3xl leading-[40px] lg:text-4xl lg:leading-[40px] xl:text-5xl xl:leading-[60px] min-[1740px]:text-6xl min-[1740px]:leading-[80px] text-white font-bold text-center z-10">
+            <span class="text-5xl md:text-6xl xl:text-7xl">Éclair & Rénov</span> <br>Votre Installateur Électricien de Confiance <br> <span class="text-xl leading-[20px] lg:text-2xl lg:leading-[30px] xl:text-4xl xl:leading-[60px] min-[1740px]:text-4xl min-[1740px]:leading-[80px]">À Bruxelles (Saint-Gilles, Forest, Uccle, Ixelles)</span>
             </h1>
             <!-- <div class="px-8 py-3 mt-6 z-10 rounded-lg flex justify-center items-center bg-[#962320] hover:scale-105 transition-all ease-in-out duration-300"> -->
             <a href="tel:0476 96 32 15" class="px-8 py-3 mt-6 z-10 rounded-lg flex justify-center items-center bg-[#962320] hover:scale-105 transition-all ease-in-out duration-300">
@@ -82,17 +82,17 @@ require 'layouts/header.php';
     <section class="w-full bg-white pt-6 md:pt-20 lg:pt-28 pb-6 px-2 xl:px-5 2xl:px-0 rounded-2xl">
         <div class="w-full max-w-7xl mx-auto py-10 xl:py-0 bg-[#243441] rounded-2xl">
             <div class="h-full mx-auto flex max-w-7xl flex-col items-center gap-x-8 px-6 lg:px-14 xl:flex-row xl:items-stretch">
-                <div class="w-full py-4 xl:pb-20 xl:pt-28 max-w-2xl xl:w-96 flex justify-center">
+                <div class="hidden xl:flex w-full py-4 xl:pb-20 xl:pt-28 max-w-2xl xl:w-96 justify-center">
                     <div class="relative aspect-[1/1] h-full w-full md:-mx-8 xl:mx-0 xl:aspect-auto flex justify-center">
                         <img class="absolute inset-0 h-full w-full object-cover object-center " src="/images/ouvrier electricien.png" alt="ouvrier électricien">
-                        <!-- <div class="absolute inset-0 bg-[#93ccf8] mix-blend-multiply"></div> -->
+                        <div class="absolute inset-0 bg-[#93ccf8] mix-blend-multiply"></div>
                     </div>
                 </div>
                 <div class="w-full max-w-2xl flex-col xl:max-w-none xl:flex-auto xl:py-14 xl:pl-7">
 
                     <div class="w-full pt-6 pb-6 flex flex-col justify-center items-start">
                         <h2 class="py-5 text-3xl font-semibold text-left text-white leading-10">
-                            Votre électricien de confiance depuis 25 ans
+                            Votre spécialiste en électricité depuis 25 ans
                         </h2>
                     </div>
 
@@ -105,7 +105,7 @@ require 'layouts/header.php';
                     </p>
 
                     <p class="mt-2 text-lg font-normal text-justify text-white leading-7">
-                        Éclair & Rénov vous assure <b class="font-bold text-sky-300">un travail parfait pour tous vos projets</b>, que ce soit pour une nouvelle installation, des réparations, une mise en conformité, la mise en place de systèmes de communication audio/vidéo "parlophone" ou d'éclairage extérieur.
+                        Éclair & Rénov vous assure <b class="font-bold text-sky-300">un travail parfait pour tous vos projets</b>, que ce soit pour une nouvelle installation, des réparations, une mise en conformité, la mise en place de systèmes d'interphones ou d'éclairage extérieur.
                     </p>
 
                     <p class="mt-2 text-lg font-normal text-justify text-white leading-7">
@@ -370,12 +370,19 @@ require 'layouts/footer.php';
 <script src="/js/floatting.js"></script>
 
 <script>
-    let prevScreenWidth = window.screen.width;
+    let prevScreenWidth = window.innerWidth;
+    let imgIndex = document.getElementById('img_index');
 
     function getScreenWidth() {
-        if (window.screen.width !== prevScreenWidth) {
-            console.log('La largeur de l\'écran a changé ! Nouvelle largeur : ' + window.screen.width);
-            prevScreenWidth = window.screen.width;  
+        let currentWidth = window.innerWidth;
+        if (currentWidth !== prevScreenWidth) {
+            console.log('La largeur de l\'écran a changé ! Nouvelle largeur : ' + currentWidth);
+            if (currentWidth <= 1040) {
+                imgIndex.src = '/images/cable électrique 2.png';
+            } else {
+                imgIndex.src = '/images/cable électrique.png';
+            }
+            prevScreenWidth = currentWidth;
         }
     }
 

@@ -14,8 +14,8 @@ require 'layouts/header.php';
 
         <div class="absolute top-0 bottom-0 left-0 right-0 w-full p-5 flex flex-col justify-center items-center">
             <span class="absolute top-0 left-0 w-full h-full bg-black opacity-50"></span>
-            <h1 class="w-auto text-3xl leading-[40px] md:text-4xl md:leading-[40px] xl:text-5xl xl:leading-[60px] min-[1740px]:text-6xl min-[1740px]:leading-[80px] text-white font-bold text-center z-10">
-                Éclair & Rénov <br> Installations et Rénovations Électriques <br> <span class="text-xl leading-[20px] lg:text-2xl lg:leading-[30px] xl:text-4xl xl:leading-[60px] min-[1740px]:text-4xl min-[1740px]:leading-[80px]">À Uccle, Saint-Gilles, Forest, Bruxelles</span>
+            <h1 class="w-auto text-4xl leading-[50px] md:text-5xl md:leading-[60px] min-[1740px]:text-6xl min-[1740px]:leading-[80px] text-white font-bold text-center z-10">
+                <span class="text-5xl md:text-6xl xl:text-7xl">Éclair & Rénov</span> <br> Installations et Rénovations Électriques <br> <span class="text-2xl md:text-3xl lg:leading-[30px] lg:text-4xl xl:leading-[60px] min-[1740px]:text-4xl min-[1740px]:leading-[80px]">À Uccle, Saint-Gilles, Forest, Bruxelles</span>
             </h1>
             <div class="px-5 py-3 mt-6 z-10 rounded-lg flex justify-center items-center bg-[#962320] hover:scale-105 transition-all ease-in-out duration-300">
                 <a href="tel:0476 96 32 15" class="text-sm leading-6 text-gray-900 font-semibold hover:text-gray-700 flex justify-start items-center">

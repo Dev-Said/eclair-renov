@@ -4,7 +4,7 @@
   font-family: "Roboto", sans-serif;
 }
 
-/* iframe style responsive */
+/* iframe style responsive -------------------------------------------- */
 .responsive-iframe-container {
   position: relative;
   width: 100%;
@@ -46,12 +46,12 @@
 
 .h_transition_24 {
     height: 96px; /* Hauteur lorsque la classe h-24 est appliquée */
-    transition: height 0.2s ease-in-out; /* Transition de 0.3 seconde */
+    transition: height 0.1s ease-in; /* Transition de 0.3 seconde */
 }
 
 .h_transition_18 {
     height: 72px; /* Hauteur lorsque la classe h-18 est appliquée */
-    transition: height 0.2s ease-in-out; /* Transition de 0.3 seconde */
+    transition: height 0.1s ease-in; /* Transition de 0.3 seconde */
 }
 
 
@@ -98,7 +98,7 @@
   transform-origin: bottom left;
 }
 
-
+/* pour contact devis */
 .hover-underline-animation-white {
   position: relative;
   color: #ffffff;

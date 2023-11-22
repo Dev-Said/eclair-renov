@@ -10,7 +10,7 @@ $current_page = basename(urldecode($url));
         <div id="nav" class=" relative flex h-24 justify-between bg-sky-50">
 
             <div class="absolute inset-y-0 left-5 flex items-center sm:hidden">
-                <button type="button" id="hamburger-btn" class="z-10 h-10 w-10 inline-flex items-center justify-center rounded-md p-2 text-gray-600 hover:bg-gray-200 hover:text-gray-800 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500 cursor-pointer bg-gray-300">
+                <button type="button" id="hamburger-btn" class="z-10 h-10 w-10 inline-flex items-center justify-center rounded-md p-2 text-gray-600 hover:bg-gray-200 hover:text-gray-800 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500 cursor-pointer bg-red-300">
                     <span class="sr-only">Open main menu</span>
                     <!-- Icon when menu is closed -->
                     <svg class="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
