@@ -44,7 +44,7 @@ require 'layouts/header.php';
                     Installation <span class="hidden md:inline">électrique</span>
                 </h2>
                 <p class="text-sm text-gray-900 text-center hidden md:block">
-                    Bénéficiez de notre installation électrique de pointe. Sécurité, fiabilité et innovation à chaque connexion. Choisissez l'excellence électrique avec Éclair & Rénov.
+                    Sécurité, fiabilité et innovation. Avec Éclair & Rénov vous avez la garantie d'une installation électrique de pointe et d'un budget maîtrisé.
                 </p>
             </div>
         </a>
@@ -72,7 +72,7 @@ require 'layouts/header.php';
                     Dépannage <span class="hidden md:inline">électrique</span>
                 </h2>
                 <p class="text-sm text-gray-900 text-center hidden md:block">
-                    Retrouvez la sérénité avec notre service de dépannage électrique fiable et rapide. Des électriciens à votre disposition 7j/7.
+                    Retrouvez la sérénité avec notre service de dépannage électrique fiable et rapide. Nos électriciens sont à votre disposition 7j/7.
                 </p>
             </div>
         </a>
@@ -202,7 +202,7 @@ require 'layouts/header.php';
                                 <h3 class="mt-3 text-xl text-center font-semibold leading-6 text-gray-900">
                                     Des installations électriques performantes et résistantes
                                 </h3>
-                                <p class="mt-5 text-base text-center leading-6 text-gray-600 line-clamp-3">
+                                <p class="mt-5 text-base text-center leading-6 text-gray-600">
                                     Vous faites construire un bien neuf ? Vous emménagez et vous désirez rénover l’installation électrique au niveau des éclairages, du chauffage ou encore de l’accès ? Nous sommes à votre disposition.
                                 </p>
                             </div>
@@ -220,8 +220,8 @@ require 'layouts/header.php';
                                 <h3 class="mt-3 text-xl text-center font-semibold leading-6 text-gray-900">
                                     Une large expérience en rénovation et en mise en conformité électrique
                                 </h3>
-                                <p class="mt-5 text-base text-center leading-6 text-gray-600 line-clamp-3">
-                                    Au fil des années, votre installation électrique peut devenir moins performante tout en restant trop énergivore. Eclair & Rénov rénove votre installation électrique de A à Z : mise en conformité, modernisation du système…
+                                <p class="mt-5 text-base text-center leading-6 text-gray-600">
+                                    Au fil des années, votre installation électrique peut devenir moins performante tout en restant trop énergivore. Eclair & Rénov améliore votre installation électrique de A à Z : mise en conformité, modernisation du système…
                                 </p>
                             </div>
                         </div>
@@ -238,7 +238,7 @@ require 'layouts/header.php';
                                 <h3 class="mt-3 text-xl text-center font-semibold leading-6 text-gray-900">
                                     Dépannage d'urgence 7 j/7
                                 </h3>
-                                <p class="mt-5 text-base text-center leading-6 text-gray-600 line-clamp-3">
+                                <p class="mt-5 text-base text-center leading-6 text-gray-600">
                                     Quel que soit votre problème électrique (court-circuit, panne de compteur, d'éclairage...), appelez-nous tous les jours de 9 h à 22 h. Nous vous proposons des solutions efficaces rapidement.
                                 </p>
                             </div>
@@ -256,7 +256,7 @@ require 'layouts/header.php';
                                 <h3 class="mt-3 text-xl text-center font-semibold leading-6 text-gray-900">
                                     Contactez-nous
                                 </h3>
-                                <p class="mt-5 text-base text-center leading-6 text-gray-600 line-clamp-3">
+                                <p class="mt-5 text-base text-center leading-6 text-gray-600">
                                     Contactez Éclair & Rénov pour tous vos travaux d'installation, de rénovation ou de dépannage électrique. Autour de Bruxelles ? Le devis est gratuit. Contactez-nous 7 j/7.
                                 </p>
                             </div>
@@ -274,7 +274,7 @@ require 'layouts/header.php';
                                 <h3 class="mt-3 text-xl text-center font-semibold leading-6 text-gray-900">
                                     Contactez-nous
                                 </h3>
-                                <p class="mt-5 text-base text-center leading-6 text-gray-600 line-clamp-3">
+                                <p class="mt-5 text-base text-center leading-6 text-gray-600">
                                     Contactez Éclair & Rénov pour tous vos travaux d'installation, de rénovation ou de dépannage électrique. Autour de Bruxelles ? Le devis est gratuit. Contactez-nous 7 j/7.
                                 </p>
                             </div>
@@ -292,7 +292,7 @@ require 'layouts/header.php';
                                 <h3 class="mt-3 text-xl text-center font-semibold leading-6 text-gray-900">
                                     Contactez-nous
                                 </h3>
-                                <p class="mt-5 text-base text-center leading-6 text-gray-600 line-clamp-3">
+                                <p class="mt-5 text-base text-center leading-6 text-gray-600">
                                     Contactez Éclair & Rénov pour tous vos travaux d'installation, de rénovation ou de dépannage électrique. Autour de Bruxelles ? Le devis est gratuit. Contactez-nous 7 j/7.
                                 </p>
                             </div>
@@ -353,8 +353,8 @@ require 'layouts/header.php';
                 </div>
             </div>
 
-            <div class="responsive-iframe-container mt-4 xl:mt-0">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2520.318552331692!2d4.348297777339662!3d50.825263192709!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c45dda3de36d%3A0xe3b38bff1607a309!2sChau.%20de%20Waterloo%20284%2C%201060%20Saint-Gilles%2C%20Belgique!5e0!3m2!1sfr!2sfr!4v1699029871049!5m2!1sfr!2sfr" frameborder="0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="responsive-iframe-container mt-6 xl:mt-0 rounded-xl">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2520.318552331692!2d4.348297777339662!3d50.825263192709!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c45dda3de36d%3A0xe3b38bff1607a309!2sChau.%20de%20Waterloo%20284%2C%201060%20Saint-Gilles%2C%20Belgique!5e0!3m2!1sfr!2sfr!4v1699029871049!5m2!1sfr!2sfr" class="rounded-xl" frameborder="0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
 
         </div>

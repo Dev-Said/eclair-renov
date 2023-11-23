@@ -40,8 +40,8 @@ require 'layouts/header.php';
             <div class="mx-auto lg:pl-12 grid max-w-4xl grid-cols-1 items-start gap-y-16 gap-x-8 sm:gap-y-24 lg:mx-0 lg:max-w-7xl lg:grid-cols-2">
                 <div class="lg:pr-4 hidden lg:block">
                     <div class="relative overflow-hidden rounded-3xl bg-gray-900 px-6 pb-9 pt-48 shadow-2xl sm:px-12 lg:max-w-lg lg:px-8 lg:pb-8 xl:px-10 xl:pb-10">
-                        <img class="absolute inset-0 h-full w-full object-cover brightness-125 saturate-0" src="/images/camionette.png" alt="camionette électricien">
-                        <div class="absolute inset-0 bg-[#89c6f5] mix-blend-multiply"></div>
+                        <img class="absolute inset-0 h-full w-full object-cover" src="/images/camionette.png" alt="camionette électricien">
+                        <div class="absolute inset-x-0 top-[10%] bottom-0 h-[90%] bg-gradient-to-b from-transparent to-[#203240] opacity-100"></div>
                         <svg viewBox="0 0 1097 845" aria-hidden="true" class="absolute top-1/2 left-1/2 -ml-16 w-[68.5625rem] -translate-x-1/2 -translate-y-1/2 transform-gpu blur-3xl">
                             <path fill="url(#e7ccf164-908d-46dd-9194-2f8a16ad5a93)" fill-opacity=".4" d="M301.174 646.641 193.541 844.786 0 546.172l301.174 100.469 193.845-356.855c1.241 164.891 42.802 431.935 199.124 180.978 195.402-313.696 143.295-588.18 284.729-419.266 113.148 135.13 124.068 367.989 115.378 467.527L811.753 372.553l20.102 451.119-530.681-177.031Z" />
                             <defs>
