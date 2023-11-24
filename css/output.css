@@ -1273,6 +1273,11 @@ video {
   background-color: rgb(47 72 93 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#4b708e\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(75 112 142 / var(--tw-bg-opacity));
+}
+
 .bg-\[\#5498df\] {
   --tw-bg-opacity: 1;
   background-color: rgb(84 152 223 / var(--tw-bg-opacity));
@@ -1281,11 +1286,6 @@ video {
 .bg-\[\#80a4c0\] {
   --tw-bg-opacity: 1;
   background-color: rgb(128 164 192 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#87b5d8\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(135 181 216 / var(--tw-bg-opacity));
 }
 
 .bg-\[\#91bde0\] {
@@ -1367,14 +1367,14 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-\[\#5985a9\] {
+.bg-\[\#3c6384\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(89 133 169 / var(--tw-bg-opacity));
+  background-color: rgb(60 99 132 / var(--tw-bg-opacity));
 }
 
-.bg-\[\#4b708e\] {
+.bg-\[\#4b789f\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(75 112 142 / var(--tw-bg-opacity));
+  background-color: rgb(75 120 159 / var(--tw-bg-opacity));
 }
 
 .bg-gradient-to-b {
@@ -1741,10 +1741,6 @@ video {
   line-height: 20px;
 }
 
-.leading-\[35px\] {
-  line-height: 35px;
-}
-
 .leading-\[40px\] {
   line-height: 40px;
 }
@@ -1884,11 +1880,6 @@ video {
 
 .blur-3xl {
   --tw-blur: blur(64px);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
-.brightness-100 {
-  --tw-brightness: brightness(1);
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
@@ -2125,6 +2116,11 @@ video {
     line-height: 2rem;
   }
 
+  .sm\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
   .sm\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
@@ -2137,6 +2133,10 @@ video {
 
   .sm\:leading-6 {
     line-height: 1.5rem;
+  }
+
+  .sm\:leading-9 {
+    line-height: 2.25rem;
   }
 
   .sm\:shadow-md {

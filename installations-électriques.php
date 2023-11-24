@@ -6,8 +6,8 @@ require 'layouts/header.php';
 <div class='w-full h-full min-h-[100vh] mt-24 flex flex-col justify-start items-center'>
     <header class="relative w-full flex flex-row justify-between items-center">
         <div class="shadow-2xl w-full h-[450px] lg:max-w-full">
-            <!-- <img class=" h-full w-full object-cover brightness-125 saturate-0" src="/images/schema electrique 3.png" alt=""> -->
-            <img class=" h-full w-full object-cover brightness-150 saturate-0" src="/images/cuisine2.jpg" alt="">
+            <img class=" h-full w-full object-cover brightness-125 saturate-0" src="/images/schema electrique 3.png" alt="">
+            <!-- <img id="img_index" class="w-full h-full object-cover brightness-125 saturate-0" src="/images/ampoule.png" alt="cables et materiel électriques"> -->
             <div class="absolute inset-0 bg-[#4b708e] mix-blend-hard-light"></div>
         </div>
 

@@ -8,14 +8,14 @@ require 'layouts/header.php';
         <!-- <img src='images/cuisine.jpg' alt='accueil' class='w-full h-[500px] object-cover'> -->
 
         <div class="shadow-2xl w-full h-[450px] lg:max-w-full">
-            <img class=" h-[450px] w-full object-cover brightness-100 saturate-50" src="/images/prises électrique.png" alt="">
-            <div class="absolute inset-0 bg-[#91bde0] mix-blend-multiply"></div>
+            <img class=" h-[450px] w-full object-cover brightness-200 saturate-0" src="/images/lumières-nocturnes.png" alt="">
+            <div class="absolute inset-0 bg-[#4b789f] mix-blend-hard-light"></div>
         </div>
 
         <div class="absolute top-0 bottom-0 left-0 right-0 w-full p-5 flex flex-col justify-center items-center">
             <span class="absolute top-0 left-0 w-full h-full bg-black opacity-50"></span>
-            <h1 class="w-auto text-xl leading-5 md:text-6xl md:leading-[80px] text-white font-bold text-center z-10">
-                Éclair & Rénov <br> 24/7 Dépannage Électrique d'Urgence <br> à Bruxelles (Saint-Gilles, Uccle, Forest, Ixelles)
+            <h1 class="w-auto text-2xl leading-8 sm:text-3xl sm:leading-9 lg:text-4xl lg:leading-[50px] xl:text-5xl xl:leading-[60px] text-white font-bold text-center z-10">
+                <span class="text-5xl md:text-6xl xl:text-7xl">Éclair & Rénov</span> <br> 24/7 Dépannage Électrique d'Urgence <br> à Bruxelles (Saint-Gilles, Uccle, Forest, Ixelles)
             </h1>
             <div class="px-5 py-3 mt-6 z-10 rounded-lg flex justify-center items-center bg-[#962320] hover:scale-105 transition-all ease-in-out duration-300">
                 <a href="tel:0476 96 32 15" class="text-sm leading-6 text-gray-900 font-semibold hover:text-gray-700 flex justify-start items-center">
@@ -41,7 +41,7 @@ require 'layouts/header.php';
                 <div class="lg:pr-4 hidden lg:block">
                     <div class="relative overflow-hidden rounded-3xl bg-gray-900 px-6 pb-9 pt-48 shadow-2xl sm:px-12 lg:max-w-lg lg:px-8 lg:pb-8 xl:px-10 xl:pb-10">
                         <img class="absolute inset-0 h-full w-full object-cover" src="/images/camionette.png" alt="camionette électricien">
-                        <div class="absolute inset-x-0 top-[10%] bottom-0 h-[90%] bg-gradient-to-b from-transparent to-[#203240] opacity-100"></div>
+                        <!-- <div class="absolute inset-0 h-full bg-gradient-to-b from-transparent to-[#203240] opacity-100"></div> -->
                         <svg viewBox="0 0 1097 845" aria-hidden="true" class="absolute top-1/2 left-1/2 -ml-16 w-[68.5625rem] -translate-x-1/2 -translate-y-1/2 transform-gpu blur-3xl">
                             <path fill="url(#e7ccf164-908d-46dd-9194-2f8a16ad5a93)" fill-opacity=".4" d="M301.174 646.641 193.541 844.786 0 546.172l301.174 100.469 193.845-356.855c1.241 164.891 42.802 431.935 199.124 180.978 195.402-313.696 143.295-588.18 284.729-419.266 113.148 135.13 124.068 367.989 115.378 467.527L811.753 372.553l20.102 451.119-530.681-177.031Z" />
                             <defs>

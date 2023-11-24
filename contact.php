@@ -20,7 +20,7 @@ require 'layouts/header.php';
 
 
                 <div class="relative aspect-[2/1] h-full md:-mx-8 xl:mx-0 xl:aspect-auto">
-                    <img class="absolute inset-0 h-full w-full object-cover object-top brightness-125 saturate-0" src="/images/ouvrier electricien.png" alt="ouvrier électricien">
+                    <img class="absolute inset-0 h-full w-full object-cover object-top brightness-125 saturate-0" src="/images/technicien-électricitéa.png" alt="ouvrier électricien">
                     <div class="absolute inset-0 bg-[#93ccf8] mix-blend-multiply"></div>
                 </div>
             </div>

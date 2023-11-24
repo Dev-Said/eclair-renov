@@ -231,7 +231,7 @@ require 'layouts/header.php';
                 <a href="/dépannage-électrique.php" class="w-full">
                     <article class="pb-5 flex flex-col items-start justify-between group/block1 rounded-xl bg-white transition-all ease-in-out duration-300 hover:shadow-xl">
                         <div class="w-full overflow-hidden rounded-t-xl">
-                            <img src="/images/hero2.jpg" alt="tableau électrique" class="aspect-[16/9] w-full rounded-t-xl bg-gray-100 object-cover transition-all ease-in-out duration-300 group-hover/block1:scale-110">
+                            <img src="/images/dépannage-électricien.png" alt="tableau électrique" class="aspect-[16/9] w-full rounded-t-xl bg-gray-100 object-cover transition-all ease-in-out duration-300 group-hover/block1:scale-110">
                         </div>
                         <div class="w-full p-5 rounded-b-xl">
                             <div>
@@ -377,7 +377,7 @@ require 'layouts/footer.php';
         let currentWidth = window.innerWidth;
         if (currentWidth !== prevScreenWidth) {
             console.log('La largeur de l\'écran a changé ! Nouvelle largeur : ' + currentWidth);
-            if (currentWidth <= 1040) {
+            if (currentWidth <= 160) {
                 imgIndex.src = '/images/cable électrique 2.png';
             } else {
                 imgIndex.src = '/images/cable électrique.png';
