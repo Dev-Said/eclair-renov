@@ -6,14 +6,14 @@ require 'layouts/header.php';
 <div class="w-full mt-24 bg-white">
     <header class="relative w-full flex flex-row justify-between items-center">
         <div class="shadow-2xl w-full h-[450px] lg:max-w-full">
-            <img class=" h-full w-full object-cover brightness-200 saturate-0" src="/images/vidéophone.png" alt="">
+            <img class=" h-full w-full object-cover brightness-150 saturate-0" src="/images/lustres.png" alt="">
             <div class="absolute inset-0 bg-[#9AD2FC] mix-blend-multiply"></div>
         </div>
 
         <div class="absolute top-0 bottom-0 left-0 right-0 w-full p-5 flex flex-col justify-center items-center">
             <span class="absolute top-0 left-0 w-full h-full bg-black opacity-50"></span>
             <h1 class="w-auto text-3xl leading-10 lg:text-4xl lg:leading-[50px] xl:text-5xl xl:leading-[60px] text-white font-bold text-center z-10">
-                <span class="text-5xl md:text-6xl xl:text-7xl">Éclair & Rénov</span> <br> Des solutions complètes de parlophone et vidéophone  
+                <span class="text-5xl md:text-6xl xl:text-7xl">Éclair & Rénov</span> <br> Nous optimisons votre éclairage pour vous garantir <br> une efficacité énergétique maximale
             </h1>
             <div class="px-5 py-3 mt-6 z-10 rounded-lg flex justify-center items-center bg-[#962320] hover:scale-105 transition-all ease-in-out duration-300">
                 <a href="tel:0476 96 32 15" class="text-sm leading-6 text-gray-900 font-semibold hover:text-gray-700 flex justify-start items-center">
@@ -35,26 +35,38 @@ require 'layouts/header.php';
     <section class="bg-white py-32 px-6 lg:px-8">
         <div class="mx-auto max-w-3xl text-base leading-7 text-gray-700">
             <h1 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                Parlophonie : Les Solutions d'un Électricien Qualifié
+                L'Optimisation des Éclairages
             </h1>
             <p class="mt-4  leading-8">
-                Dans le monde dynamique d'aujourd'hui, la sécurité et la commodité sont des aspects essentiels de toute habitation moderne. Une manière efficace d'atteindre ces objectifs est d'investir dans des systèmes de parlophonie et de vidéophonie. En tant qu'électricien qualifié, je suis passionné par l'intégration de ces technologies pour offrir à mes clients une tranquillité d'esprit et une facilité d'accès.
+                L'éclairage est bien plus qu'une simple fonctionnalité dans votre espace – c'est un élément clé pour créer une ambiance agréable, améliorer la productivité et promouvoir l'efficacité énergétique. En tant qu'électricien qualifié, je souhaite partager l'importance de l'optimisation des éclairages et comment cela peut transformer votre environnement de vie.
             </p>
+            <figure class="mt-10">
+                <img class="aspect-video rounded-xl bg-gray-50 object-cover" src="/images/éclairage-ampoules.png" alt="">
+            </figure>
 
             <h2 class="mt-8 text-2xl font-bold tracking-tight text-gray-900">
-                L'Évolution de la Parlophonie et de la Vidéophonie
+                Découvrez les Avantages de l'Optimisation des Éclairages
             </h2>
+            <h3 class="mt-6 text-xl font-bold tracking-tight text-gray-900">
+                Ambiance Personnalisée
+            </h3>
             <p class="mt-4">
-                La parlophonie et la vidéophonie ne se limitent plus à de simples dispositifs de communication. Grâce aux avancées technologiques, ces systèmes sont devenus des éléments essentiels de la sécurité résidentielle. Les électriciens qualifiés comprennent l'importance de ces dispositifs et sont bien équipés pour les intégrer de manière experte dans votre domicile.
-
+                L'optimisation des éclairages permet de créer une ambiance personnalisée dans chaque espace de votre domicile. Des éclairages bien choisis et correctement positionnés peuvent influencer votre humeur et transformer une pièce banale en un lieu accueillant et chaleureux.
             </p>
-            <h2 class="mt-8 text-2xl font-bold tracking-tight text-gray-900">
-                Sécurité Renforcée
-            </h2>
+            <h3 class="mt-6 text-xl font-bold tracking-tight text-gray-900">
+                Économies d'Énergie Intelligentes
+            </h3>
             <p class="mt-4">
-                La parlophonie et la vidéophonie permettent une identification facile des visiteurs avant même d'ouvrir la porte. Cela offre une couche supplémentaire de sécurité, en particulier dans les quartiers densément peuplés. Un électricien qualifié peut installer des systèmes avec des fonctionnalités telles que la vision nocturne et l'enregistrement vidéo, renforçant ainsi la sécurité de votre domicile.
+                Des solutions d'éclairage optimisées ne se limitent pas à l'esthétique, elles sont également économiques. L'intégration de technologies telles que les ampoules LED et les systèmes de gradation peut considérablement réduire votre consommation d'énergie, contribuant ainsi à des factures d'électricité plus basses.
+            </p>
+            <h3 class="mt-6 text-xl font-bold tracking-tight text-gray-900">
+                Productivité Améliorée
+            </h3>
+            <p class="mt-4">
+                Dans les espaces de travail, l'éclairage joue un rôle crucial dans la productivité. L'optimisation des éclairages permet de créer un environnement propice à la concentration et à la performance, en ajustant l'intensité et la tonalité des lumières en fonction des tâches à accomplir.
             </p>
 
+            
             <div class="p-10 my-10 w-full text-left bg-gradient-to-r from-[#dbeefd] to-[#8ba9c2]">
                 <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl leading-7">
                     Devis et Conseils Gratuits ! <br> Contactez-nous 7j/7
@@ -82,26 +94,29 @@ require 'layouts/header.php';
             </div>
 
             <h2 class="mt-8 text-2xl font-bold tracking-tight text-gray-900">
-                Commodité à Votre Portée
+                Le Processus d'Optimisation
             </h2>
+            <h3 class="mt-6 text-xl font-bold tracking-tight text-gray-900">
+                Évaluation Professionnelle
+            </h3>
             <p class="mt-4">
-                Au-delà de la sécurité, la parlophonie et la vidéophonie ajoutent une dimension de commodité à votre vie quotidienne. Imaginez pouvoir répondre à la porte sans même vous déplacer de votre canapé ou vérifier qui est à la porte lorsque vous êtes en déplacement. Les électriciens qualifiés sont capables d'intégrer ces fonctionnalités de manière transparente dans votre système électrique existant.
+                Un électricien qualifié peut évaluer votre espace pour déterminer les meilleures solutions d'optimisation des éclairages. Cette évaluation tient compte de la disposition de la pièce, de l'utilisation prévue, et de vos préférences esthétiques.
             </p>
-            <h2 class="mt-8 text-2xl font-bold tracking-tight text-gray-900">
-                Installation Professionnelle, Paix d'Esprit Durable
-            </h2>
+            <h3 class="mt-6 text-xl font-bold tracking-tight text-gray-900">
+                Sélection Adaptée des Luminaires
+            </h3>
             <p class="mt-4">
-                L'installation de systèmes de parlophonie et de vidéophonie nécessite une expertise technique. Faire appel à un électricien qualifié garantit une installation professionnelle, évitant les erreurs courantes qui pourraient compromettre la performance du système. De plus, une installation professionnelle assure une durabilité à long terme, minimisant les besoins de dépannage.
+                Choisir les luminaires appropriés est essentiel pour une optimisation réussie. Un électricien qualifié peut vous guider dans la sélection de luminaires écoénergétiques, modernes et esthétiquement adaptés à votre espace.
             </p>
-
-            <figure class="mt-10">
-                <img class="aspect-video rounded-xl bg-gray-50 object-cover" src="/images/camera.webp" alt="">
-            </figure>
-
-            <p class="mt-8">
-                En investissant dans la parlophonie et la vidéophonie, vous investissez dans votre sécurité et votre confort. Un électricien qualifié est votre partenaire idéal pour intégrer ces technologies de manière efficace et esthétique dans votre maison. Ne laissez pas la sécurité et la commodité être des éléments négligés de votre quotidien. Optez pour l'excellence avec un électricien qualifié et donnez à votre domicile la protection qu'il mérite.
+            <h3 class="mt-6 text-xl font-bold tracking-tight text-gray-900">
+                Installation Expertisée
+            </h3>
+            <p class="mt-4">
+                L'installation des nouveaux éclairages doit être réalisée avec expertise pour garantir le bon fonctionnement et la sécurité. Faire appel à un électricien qualifié assure une installation professionnelle et minimise les risques liés à des erreurs d'installation.
             </p>
-
+            <p class="mt-4">
+                L'optimisation des éclairages va au-delà de l'esthétique – c'est une stratégie intelligente pour améliorer votre qualité de vie, réduire votre empreinte écologique et créer des espaces fonctionnels et agréables. Consultez un électricien qualifié pour bénéficier de conseils personnalisés et d'une mise en œuvre professionnelle, illuminant ainsi votre quotidien de manière optimale.
+            </p>
         </div>
     </section>
 

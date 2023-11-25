@@ -7,7 +7,6 @@ require 'layouts/header.php';
     <header class="relative w-full flex flex-row justify-between items-center">
         <div class="shadow-2xl w-full h-[450px] lg:max-w-full">
             <img class=" h-full w-full object-cover brightness-125 saturate-0" src="/images/schema electrique 3.png" alt="">
-            <!-- <img id="img_index" class="w-full h-full object-cover brightness-125 saturate-0" src="/images/ampoule.png" alt="cables et materiel électriques"> -->
             <div class="absolute inset-0 bg-[#4b708e] mix-blend-hard-light"></div>
         </div>
 
@@ -33,8 +32,8 @@ require 'layouts/header.php';
         </div>
     </header>
 
-
-    <div class="bg-white py-24 sm:py-32">
+<!-- bg-[url('/images/prise-électrique-blanche.webp')] bg-cover bg-no-repeat -->
+    <section class="py-24 sm:py-32">
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
             <div class="mx-auto grid max-w-4xl grid-cols-1 gap-y-16 gap-x-8 sm:gap-y-24 lg:mx-0 lg:max-w-none lg:grid-cols-2">
 
@@ -148,11 +147,11 @@ require 'layouts/header.php';
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
 
 
-    <div class="w-full bg-gray-800 py-24 sm:py-32">
+    <section class="w-full bg-gray-800 py-24 sm:py-32">
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
             <div class="mx-auto max-w-2xl lg:text-center">
                 <h2 class="text-base font-semibold leading-7 text-gray-400">Devis rapide</h2>
@@ -196,7 +195,7 @@ require 'layouts/header.php';
                 </dl>
             </div>
         </div>
-    </div>
+    </section>
 
 
 

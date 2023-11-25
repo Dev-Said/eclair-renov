@@ -33,11 +33,11 @@ require 'layouts/header.php';
     </header>
 
 
-    <section class="w-full max-w-7xl mx-auto mt-10 lg:mt-24 grid grid-cols-3 justify-center items-start gap-y-10 lg:gap-y-0">
+    <section class="w-full max-w-7xl mx-auto mt-10 pb-5 lg:mt-20 grid grid-cols-3 justify-center items-start gap-y-10 lg:gap-y-0 gap-x-4">
 
         <a href="/installations-électriques.php">
-            <div class="w-full px-4 flex flex-col justify-start items-center">
-                <figure id="floatingElement1" class="mb-4 h-24 lg:h-28 w-24 lg:w-28 rounded-full bg-[#206296] hover:bg-[#203D96] border-[12px] border-[#20967D] flex justify-center items-center">
+            <div class="group/index w-full flex flex-col justify-start items-center bg-white hover:bg-gray-50 border border-gray-200 px-5 py-10 rounded-xl">
+                <figure id="floatingElement1" class="mb-4 h-24 lg:h-28 w-24 lg:w-28 rounded-full bg-[#206296] group-hover/index:bg-[#203D96] border-[12px] border-[#20967D] flex justify-center items-center">
                     <img src="/images/house2.svg" alt="icon maison" class="h-8 lg:h-12">
                 </figure>
                 <h2 class="mb-3 text-xl xl:text-2xl font-semibold text-gray-900 text-center">
@@ -50,8 +50,8 @@ require 'layouts/header.php';
         </a>
 
         <a href="/rénovation-et-mise-en-conformité.php">
-            <div class="w-full px-4 flex flex-col justify-start items-center">
-                <figure id="floatingElement2" class="mb-4 h-24 lg:h-28 w-24 lg:w-28 rounded-full bg-[#206296] hover:bg-[#203D96] border-[12px] border-[#20967D] flex justify-center items-center">
+            <div class="group/index w-full flex flex-col justify-start items-center bg-white hover:bg-gray-50 border border-gray-200 px-5 py-10 rounded-xl">
+                <figure id="floatingElement2" class="mb-4 h-24 lg:h-28 w-24 lg:w-28 rounded-full bg-[#206296] group-hover/index:bg-[#203D96] border-[12px] border-[#20967D] flex justify-center items-center">
                     <img src="/images/policy.svg" alt="icon certificat" class="h-8 lg:h-12">
                 </figure>
                 <h2 class="mb-3 text-xl xl:text-2xl font-semibold text-gray-900 text-center">
@@ -64,8 +64,8 @@ require 'layouts/header.php';
         </a>
 
         <a href="/dépannage-électrique.php">
-            <div class="w-full px-4 flex flex-col justify-start items-center">
-                <figure id="floatingElement3" class="mb-4 h-24 lg:h-28 w-24 lg:w-28 rounded-full bg-[#206296] hover:bg-[#203D96] border-[12px] border-[#20967D] flex justify-center items-center">
+            <div class="group/index w-full flex flex-col justify-start items-center bg-white hover:bg-gray-50 border border-gray-200 px-5 py-10 rounded-xl">
+                <figure id="floatingElement3" class="mb-4 h-24 lg:h-28 w-24 lg:w-28 rounded-full bg-[#206296] group-hover/index:bg-[#203D96] border-[12px] border-[#20967D] flex justify-center items-center">
                     <img src="/images/truck2.svg" alt="icon camionnette" class="h-10 lg:h-14">
                 </figure>
                 <h2 class="mb-3 text-xl xl:text-2xl font-semibold text-gray-900 text-center">
@@ -246,15 +246,15 @@ require 'layouts/header.php';
                     </article>
                 </a>
 
-                <a href="/contact.php" class="w-full">
+                <a href="/eclairage.php" class="w-full">
                     <article class="pb-5 flex flex-col items-start justify-between group/block1 rounded-xl bg-white transition-all ease-in-out duration-300 hover:shadow-xl">
                         <div class="w-full overflow-hidden rounded-t-xl">
-                            <img src="/images/contact.webp" alt="un homme appel un électricien" class="aspect-[16/9] w-full rounded-t-xl bg-gray-100 object-cover transition-all ease-in-out duration-300 group-hover/block1:scale-110">
+                            <img src="/images/éclairage-ampoules.png" alt="un homme appel un électricien" class="aspect-[16/9] w-full rounded-t-xl bg-gray-100 object-cover transition-all ease-in-out duration-300 group-hover/block1:scale-110">
                         </div>
                         <div class="w-full p-5 rounded-b-xl">
                             <div>
                                 <h3 class="mt-3 text-xl text-center font-semibold leading-6 text-gray-900">
-                                    Contactez-nous
+                                    Optimisation de votre éclairage
                                 </h3>
                                 <p class="mt-5 text-base text-center leading-6 text-gray-600">
                                     Contactez Éclair & Rénov pour tous vos travaux d'installation, de rénovation ou de dépannage électrique. Autour de Bruxelles ? Le devis est gratuit. Contactez-nous 7 j/7.
@@ -282,7 +282,7 @@ require 'layouts/header.php';
                     </article>
                 </a>
 
-                <a href="/parlophone.php" class="w-full">
+                <a href="/contact.php" class="w-full">
                     <article class="pb-5 flex flex-col items-start justify-between group/block1 rounded-xl bg-white transition-all ease-in-out duration-300 hover:shadow-xl">
                         <div class="w-full overflow-hidden rounded-t-xl">
                             <img src="/images/contact.webp" alt="un homme appel un électricien" class="aspect-[16/9] w-full rounded-t-xl bg-gray-100 object-cover transition-all ease-in-out duration-300 group-hover/block1:scale-110">

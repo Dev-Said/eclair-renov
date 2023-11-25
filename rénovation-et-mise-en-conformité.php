@@ -12,8 +12,8 @@ require 'layouts/header.php';
         </div>
 
         <div class="absolute top-0 bottom-0 left-0 right-0 w-full p-5 flex flex-col justify-center items-center">
-            <h1 class="w-auto text-2xl leading-7 sm:text-3xl sm:leading-9 lg:text-4xl lg:leading-[50px] xl:text-5xl xl:leading-[60px] text-white font-bold text-center z-10">
-                <span class="text-5xl md:text-6xl xl:text-7xl">Éclair & Rénov</span> <br> Spécialiste en Rénovation Électrique <br> et Mise en Conformité Électrique <span class="hidden lg:inline">à Saint-Gilles</span><br> <span class="inline lg:hidden text-xl leading-[20px] lg:text-2xl lg:leading-[30px] xl:text-4xl xl:leading-[60px] min-[1740px]:text-4xl min-[1740px]:leading-[80px]">À Saint-Gilles</span>
+            <h1 class="w-auto max-w-5xl text-4xl leading-[50px] md:text-5xl md:leading-[60px] text-white font-bold text-center z-10">
+                <span class="text-5xl md:text-6xl xl:text-7xl">Éclair & Rénov</span> <br> Spécialiste en Rénovation Électrique et Mise en Conformité Électrique <span class="hidden lg:inline">à Saint-Gilles</span><br> <span class="inline lg:hidden text-xl leading-[30px] md:text-2xl lg:text3xl lg:leading-[30px] xl:text-4xl xl:leading-[60px] min-[1740px]:text-4xl min-[1740px]:leading-[80px]">À Saint-Gilles</span>
             </h1>
             <div class="px-5 py-3 mt-6 z-10 rounded-lg flex justify-center items-center bg-[#962320] hover:scale-105 transition-all ease-in-out duration-300">
                 <a href="tel:0476 96 32 15" class="text-sm leading-6 text-gray-900 font-semibold hover:text-gray-700 flex justify-start items-center">
