@@ -4,10 +4,10 @@ $current_page = basename(urldecode($url));
 ?>
 
 
-<nav class="fixed top-0 left-0 w-full h_transition sm:shadow-md z-20 bg-transparent">
+<nav class="fixed top-0 left-0 w-full h_transition md:shadow-md z-20 bg-transparent">
     <div class="w-full h-full">
 
-        <div id="nav" class=" relative flex h-24 justify-between bg-sky-50">
+        <div id="nav" class=" relative flex h-24 justify-between bg-white">
 
             <div class="absolute inset-y-0 left-5 flex items-center md:hidden">
                 <button type="button" id="hamburger-btn" class="z-10 h-10 w-10 inline-flex items-center justify-center rounded-md p-2 text-gray-50 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500 cursor-pointer bg-sky-800">

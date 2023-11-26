@@ -6,7 +6,7 @@ require 'layouts/header.php';
 <div class="w-full mt-24 bg-white">
     <header class="relative w-full flex flex-row justify-between items-center">
         <div class="shadow-2xl w-full h-[450px] lg:max-w-full">
-            <img class=" h-full w-full object-cover brightness-150 saturate-0" src="/images/lustres.png" alt="">
+            <img class=" h-full w-full object-cover brightness-150 saturate-0" src="/images/lustres.webp" alt="">
             <div class="absolute inset-0 bg-[#9AD2FC] mix-blend-multiply"></div>
         </div>
 
@@ -41,7 +41,7 @@ require 'layouts/header.php';
                 L'éclairage est bien plus qu'une simple fonctionnalité dans votre espace – c'est un élément clé pour créer une ambiance agréable, améliorer la productivité et promouvoir l'efficacité énergétique. En tant qu'électricien qualifié, je souhaite partager l'importance de l'optimisation des éclairages et comment cela peut transformer votre environnement de vie.
             </p>
             <figure class="mt-10">
-                <img class="aspect-video rounded-xl bg-gray-50 object-cover" src="/images/éclairage-ampoules.png" alt="">
+                <img class="aspect-video rounded-xl bg-gray-50 object-cover" src="/images/lustre-trois-ampoules.webp" alt="">
             </figure>
 
             <h2 class="mt-8 text-2xl font-bold tracking-tight text-gray-900">
@@ -66,7 +66,7 @@ require 'layouts/header.php';
                 Dans les espaces de travail, l'éclairage joue un rôle crucial dans la productivité. L'optimisation des éclairages permet de créer un environnement propice à la concentration et à la performance, en ajustant l'intensité et la tonalité des lumières en fonction des tâches à accomplir.
             </p>
 
-            
+
             <div class="p-10 my-10 w-full text-left bg-gradient-to-r from-[#dbeefd] to-[#8ba9c2]">
                 <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl leading-7">
                     Devis et Conseils Gratuits ! <br> Contactez-nous 7j/7
@@ -124,14 +124,14 @@ require 'layouts/header.php';
         <div class="mx-auto max-w-4xl py-8 md:pt-28 md:pb-5 grid grid-cols-1 md:grid-cols-[288px_1fr] md:gap-x-4 items-start justify-center md:items-start md:justify-start bg-gray-800">
 
             <div class="relative w-full hidden md:block shadow-2xl rounded-3xl">
-                <img class="w-72 h-72 rounded-xl object-cover bg-indigo-50 lg:rounded-3xl" src="/images/interphone-video.png" alt="interphone parlophone">
+                <img class="w-72 h-72 rounded-xl object-cover bg-indigo-50 lg:rounded-3xl" src="/images/economies-d-energie.webp" alt="ampoule et feuille verte">
             </div>
             <div class="h-full w-auto px-4 pb-4 md:px-0 ml-0 md:ml-4 text-gray-200 flex flex-col justify-center items-start">
                 <h2 class="text-2xl text-white font-bold">
-                    Vous souhaitez installer un parlophone ou un vidéophone ?
+                    Éclairage Personnalisé et économie d'énergie
                 </h2>
                 <p class="w-2xl md:w-6xl md:max-w-6xl mt-1 md:mt-2 text-left">
-                    Ces solutions innovantes assurent non seulement une sécurité renforcée en permettant une identification préalable des visiteurs, mais offrent également une communication visuelle et audio pratique pour un contrôle accru des accès à votre domicile.
+                    Vous recherchez à améliorer l'efficacité de vos éclairages ? Nos solutions de luminaires sont conçues sur mesure pour maximiser la luminosité et réduire la consommation énergétique.
                 </p>
                 <p class="w-2xl md:w-6xl md:max-w-6xl mt-1 md:mt-2 text-left">
                     Contactez Éclair & Rénov pour un travail soigné et rapide à Bruxelles, dans le Brabant Wallon et dans le Brabant Flamand.

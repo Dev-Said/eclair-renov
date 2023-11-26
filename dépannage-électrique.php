@@ -5,10 +5,9 @@ require 'layouts/header.php';
 
 <div class='w-full h-full min-h-[100vh] mt-24 flex flex-col justify-start items-center'>
     <header class="relative w-full flex flex-row justify-between items-center">
-        <!-- <img src='images/cuisine.jpg' alt='accueil' class='w-full h-[500px] object-cover'> -->
 
         <div class="shadow-2xl w-full h-[450px] lg:max-w-full">
-            <img class=" h-[450px] w-full object-cover brightness-200 saturate-0" src="/images/lumières-nocturnes.png" alt="">
+            <img class=" h-[450px] w-full object-cover brightness-200 saturate-0" src="/images/lumières-nocturnes.webp" alt="route de nuit avec éclairage lampadaires">
             <div class="absolute inset-0 bg-[#4b789f] mix-blend-hard-light"></div>
         </div>
 
@@ -40,8 +39,7 @@ require 'layouts/header.php';
             <div class="mx-auto lg:pl-12 grid max-w-4xl grid-cols-1 items-start gap-y-16 gap-x-8 sm:gap-y-24 lg:mx-0 lg:max-w-7xl lg:grid-cols-2">
                 <div class="lg:pr-4 hidden lg:block">
                     <div class="relative overflow-hidden rounded-3xl bg-gray-900 px-6 pb-9 pt-48 shadow-2xl sm:px-12 lg:max-w-lg lg:px-8 lg:pb-8 xl:px-10 xl:pb-10">
-                        <img class="absolute inset-0 h-full w-full object-cover" src="/images/camionette.png" alt="camionette électricien">
-                        <!-- <div class="absolute inset-0 h-full bg-gradient-to-b from-transparent to-[#203240] opacity-100"></div> -->
+                        <img class="absolute inset-0 h-full w-full object-cover" src="/images/camionette-électricien.webp" alt="camionette électricien">
                         <svg viewBox="0 0 1097 845" aria-hidden="true" class="absolute top-1/2 left-1/2 -ml-16 w-[68.5625rem] -translate-x-1/2 -translate-y-1/2 transform-gpu blur-3xl">
                             <path fill="url(#e7ccf164-908d-46dd-9194-2f8a16ad5a93)" fill-opacity=".4" d="M301.174 646.641 193.541 844.786 0 546.172l301.174 100.469 193.845-356.855c1.241 164.891 42.802 431.935 199.124 180.978 195.402-313.696 143.295-588.18 284.729-419.266 113.148 135.13 124.068 367.989 115.378 467.527L811.753 372.553l20.102 451.119-530.681-177.031Z" />
                             <defs>
@@ -136,7 +134,7 @@ require 'layouts/header.php';
             <div class="mx-auto max-w-4xl py-8 pt-20 md:pt-28 md:pb-5 grid grid-cols-1 md:grid-cols-[288px_1fr] md:gap-x-4 items-start justify-center md:items-start md:justify-start bg-gray-800">
 
                 <div class="w-72 h-72 hidden md:block mx-auto md:mx-0 rounded-xl lg:rounded-3xl relative overflow-hidden shadow-2xl">
-                    <img class="absolute inset-0 h-full w-full object-cover brightness-125 saturate-0" src="/images/expert électricien.png" alt="expert électricien">
+                    <img class="absolute inset-0 h-full w-full object-cover brightness-125 saturate-0" src="/images/expert-électricien.webp" alt="expert électricien">
                     <div class="absolute inset-0 bg-[#9dd2fa] mix-blend-multiply"></div>
                 </div>
                 <div class="h-full w-auto px-2 pb-4 md:px-0 ml-0 md:ml-4 text-gray-200 flex flex-col justify-center items-start">

@@ -855,10 +855,6 @@ video {
   height: 450px;
 }
 
-.h-\[500px\] {
-  height: 500px;
-}
-
 .h-\[90\%\] {
   height: 90%;
 }
@@ -869,6 +865,10 @@ video {
 
 .h-full {
   height: 100%;
+}
+
+.max-h-\[350px\] {
+  max-height: 350px;
 }
 
 .max-h-\[450px\] {
@@ -1258,11 +1258,6 @@ video {
   border-color: rgb(17 24 39 / 0.1);
 }
 
-.border-red-700 {
-  --tw-border-opacity: 1;
-  border-color: rgb(185 28 28 / var(--tw-border-opacity));
-}
-
 .bg-\[\#206296\] {
   --tw-bg-opacity: 1;
   background-color: rgb(32 98 150 / var(--tw-bg-opacity));
@@ -1377,8 +1372,12 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'\/imgages\/prise-\E9lectrique-blanche\.webp\'\)\] {
-  background-image: url('/imgages/prise-électrique-blanche.webp');
+.bg-\[url\(\'\/images\/led\.jpg\'\)\] {
+  background-image: url('/images/led.jpg');
+}
+
+.bg-\[url\(\'\/images\/prise-\E9lectrique-blanche\.webp\'\)\] {
+  background-image: url('/images/prise-électrique-blanche.webp');
 }
 
 .bg-gradient-to-b {
@@ -1387,10 +1386,6 @@ video {
 
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
-}
-
-.bg-\[url\(\'\/images\/prise-\E9lectrique-blanche\.webp\'\)\] {
-  background-image: url('/images/prise-électrique-blanche.webp');
 }
 
 .from-\[\#206396\] {
@@ -1427,8 +1422,8 @@ video {
   background-size: cover;
 }
 
-.bg-right {
-  background-position: right;
+.bg-center {
+  background-position: center;
 }
 
 .bg-no-repeat {
@@ -1549,11 +1544,6 @@ video {
   padding-bottom: 8rem;
 }
 
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
@@ -1574,10 +1564,6 @@ video {
 
 .pb-2 {
   padding-bottom: 0.5rem;
-}
-
-.pb-20 {
-  padding-bottom: 5rem;
 }
 
 .pb-4 {
@@ -1622,10 +1608,6 @@ video {
 
 .pt-14 {
   padding-top: 3.5rem;
-}
-
-.pt-16 {
-  padding-top: 4rem;
 }
 
 .pt-2 {
@@ -1846,9 +1828,9 @@ video {
   color: rgb(17 24 39 / var(--tw-text-opacity));
 }
 
-.text-sky-300 {
+.text-sky-400 {
   --tw-text-opacity: 1;
-  color: rgb(125 211 252 / var(--tw-text-opacity));
+  color: rgb(56 189 248 / var(--tw-text-opacity));
 }
 
 .text-white {
@@ -1866,6 +1848,10 @@ video {
 
 .opacity-100 {
   opacity: 1;
+}
+
+.opacity-5 {
+  opacity: 0.05;
 }
 
 .opacity-50 {
@@ -2063,6 +2049,36 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.group\/block2:hover .group-hover\/block2\:scale-110 {
+  --tw-scale-x: 1.1;
+  --tw-scale-y: 1.1;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.group\/block3:hover .group-hover\/block3\:scale-110 {
+  --tw-scale-x: 1.1;
+  --tw-scale-y: 1.1;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.group\/block4:hover .group-hover\/block4\:scale-110 {
+  --tw-scale-x: 1.1;
+  --tw-scale-y: 1.1;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.group\/block5:hover .group-hover\/block5\:scale-110 {
+  --tw-scale-x: 1.1;
+  --tw-scale-y: 1.1;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.group\/block6:hover .group-hover\/block6\:scale-110 {
+  --tw-scale-x: 1.1;
+  --tw-scale-y: 1.1;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .group\/index:hover .group-hover\/index\:bg-\[\#203D96\] {
   --tw-bg-opacity: 1;
   background-color: rgb(32 61 150 / var(--tw-bg-opacity));
@@ -2144,12 +2160,6 @@ video {
   .sm\:leading-9 {
     line-height: 2.25rem;
   }
-
-  .sm\:shadow-md {
-    --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-    --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
-    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-  }
 }
 
 @media (min-width: 768px) {
@@ -2185,6 +2195,10 @@ video {
 
   .md\:mt-10 {
     margin-top: 2.5rem;
+  }
+
+  .md\:mt-16 {
+    margin-top: 4rem;
   }
 
   .md\:mt-2 {
@@ -2391,6 +2405,12 @@ video {
 
   .md\:leading-\[60px\] {
     line-height: 60px;
+  }
+
+  .md\:shadow-md {
+    --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 }
 
@@ -2654,8 +2674,16 @@ video {
     margin-bottom: 0.5rem;
   }
 
+  .xl\:mb-20 {
+    margin-bottom: 5rem;
+  }
+
   .xl\:mt-0 {
     margin-top: 0px;
+  }
+
+  .xl\:mt-28 {
+    margin-top: 7rem;
   }
 
   .xl\:flex {
@@ -2730,10 +2758,6 @@ video {
     padding-bottom: 2.5rem;
   }
 
-  .xl\:pb-20 {
-    padding-bottom: 5rem;
-  }
-
   .xl\:pl-7 {
     padding-left: 1.75rem;
   }
@@ -2744,10 +2768,6 @@ video {
 
   .xl\:pr-10 {
     padding-right: 2.5rem;
-  }
-
-  .xl\:pt-28 {
-    padding-top: 7rem;
   }
 
   .xl\:text-2xl {

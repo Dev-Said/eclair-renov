@@ -7,7 +7,7 @@ require 'layouts/header.php';
     <header class="relative w-full flex flex-row justify-between items-center">
 
         <div class="shadow-2xl w-full h-auto lg:max-w-full">
-            <img class=" h-[450px] w-full object-cover brightness-125 saturate-0" src="/images/rénovation-électrique.png" alt="">
+            <img class=" h-[450px] w-full object-cover brightness-125 saturate-0" src="/images/rénovation-électrique.webp" alt="materiels d'installation électrique">
             <div class="absolute inset-0 bg-[#2f485d] mix-blend-hard-light"></div>
         </div>
 
@@ -39,7 +39,7 @@ require 'layouts/header.php';
 
                 <div class="hidden lg:block lg:pr-4 my-auto order-2 lg:order-1">
                     <div class="relative overflow-hidden rounded-3xl bg-gray-900 px-6 pb-9 pt-28 md:pt-40 lg:pt-96 shadow-2xl sm:px-12 lg:max-w-lg lg:px-8 lg:pb-8 xl:px-10 xl:pb-10">
-                        <img class="absolute inset-0 h-full w-full object-cover" src="/images/rénovation électrique.png" alt="électricité salon moderne">
+                        <img class="absolute inset-0 h-full w-full object-cover" src="/images/renovation-electrique.webp" alt="électricité salon moderne">
                         <div class="absolute inset-x-0 top-[10%] bottom-0 h-[90%] bg-gradient-to-b from-transparent to-[#203240] opacity-100"></div>
                         <svg viewBox="0 0 1097 845" aria-hidden="true" class="absolute top-1/2 left-1/2 -ml-16 w-[68.5625rem] -translate-x-1/2 -translate-y-1/2 transform-gpu blur-3xl">
                             <path fill="url(#e7ccf164-908d-46dd-9194-2f8a16ad5a93)" fill-opacity=".4" d="M301.174 646.641 193.541 844.786 0 546.172l301.174 100.469 193.845-356.855c1.241 164.891 42.802 431.935 199.124 180.978 195.402-313.696 143.295-588.18 284.729-419.266 113.148 135.13 124.068 367.989 115.378 467.527L811.753 372.553l20.102 451.119-530.681-177.031Z" />
@@ -178,7 +178,7 @@ require 'layouts/header.php';
         <div class="mx-auto max-w-4xl py-8 md:pt-28 md:pb-5 grid grid-cols-1 md:grid-cols-[288px_1fr] md:gap-x-4 items-start justify-center md:items-start md:justify-start bg-gray-800">
 
             <div class="w-full hidden md:block shadow-2xl rounded-3xl">
-                <img class="w-72 rounded-xl bg-indigo-50 lg:rounded-3xl" src="/images/ouvrier électricien.png" alt="ouvrier électricien">
+                <img class="w-72 rounded-xl bg-indigo-50 lg:rounded-3xl" src="/images/ouvrier-électricien.webp" alt="ouvrier électricien">
             </div>
             <div class="h-full w-auto px-4 pb-4 md:px-0 ml-0 md:ml-4 text-gray-200 flex flex-col justify-center items-start">
                 <h2 class="text-2xl text-white font-bold">

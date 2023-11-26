@@ -6,7 +6,7 @@ require 'layouts/header.php';
 <div class="w-full mt-24 bg-white">
     <header class="relative w-full flex flex-row justify-between items-center">
         <div class="shadow-2xl w-full h-[450px] lg:max-w-full">
-            <img class=" h-full w-full object-cover brightness-200 saturate-0" src="/images/vidéophone.png" alt="">
+            <img class=" h-full w-full object-cover brightness-200 saturate-0" src="/images/vidéophone.webp" alt="immeuble avec parlophone">
             <div class="absolute inset-0 bg-[#9AD2FC] mix-blend-multiply"></div>
         </div>
 
@@ -109,7 +109,7 @@ require 'layouts/header.php';
         <div class="mx-auto max-w-4xl py-8 md:pt-28 md:pb-5 grid grid-cols-1 md:grid-cols-[288px_1fr] md:gap-x-4 items-start justify-center md:items-start md:justify-start bg-gray-800">
 
             <div class="relative w-full hidden md:block shadow-2xl rounded-3xl">
-                <img class="w-72 h-72 rounded-xl object-cover bg-indigo-50 lg:rounded-3xl" src="/images/interphone-video.png" alt="interphone parlophone">
+                <img class="w-72 h-72 rounded-xl object-cover bg-indigo-50 lg:rounded-3xl" src="/images/interphone-video.webp" alt="interphone parlophone">
             </div>
             <div class="h-full w-auto px-4 pb-4 md:px-0 ml-0 md:ml-4 text-gray-200 flex flex-col justify-center items-start">
                 <h2 class="text-2xl text-white font-bold">
