@@ -24,12 +24,12 @@ require 'layouts/header.php';
                     <div class="absolute inset-0 bg-[#93ccf8] mix-blend-multiply"></div>
                 </div>
             </div>
-        </section>
+            </section>
     </header>
 
 
     <div class="w-full bg-white">
-        <div class="relative isolate bg-white py-8 px-6 md:py-10 lg:px-8"> 
+        <div class="relative isolate bg-white py-8 px-6 md:py-10 lg:px-8">
             <svg class="absolute inset-0 -z-10 h-full w-full stroke-gray-200 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]" aria-hidden="true">
                 <defs>
                     <pattern id="83fd4e5a-9d52-42fc-97b6-718e5d7ee527" width="200" height="200" x="50%" y="-64" patternUnits="userSpaceOnUse">
@@ -51,7 +51,8 @@ require 'layouts/header.php';
 
                 <div class="mt-4 md:mt-10 flex flex-col md:gap-16 sm:gap-y-16 lg:flex-row">
 
-                    <form method="POST" action="sendmail.php" class="lg:flex-auto">
+                    <!-- action="sendmail.php" -->
+                    <form id="contact-form" method="POST" action="recaptcha.php" class="lg:flex-auto">
                         <div class="grid grid-cols-1 md:gap-y-6 gap-x-8 sm:grid-cols-2">
                             <div> <label for="first-name" class="mt-2 md:mt-0 block text-sm font-semibold leading-4 md:leading-6 text-gray-900">Prénom</label>
                                 <div class="mt-2.5"> <input type="text" name="first-name" id="first-name" autocomplete="given-name" class="block w-full rounded-md border-0 py-2 px-3.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"> </div>
@@ -70,7 +71,11 @@ require 'layouts/header.php';
                             </div>
                         </div>
                         <div class="mt-10">
-                            <button type="submit" class="block w-full rounded-md bg-[#206296] px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-[#206296] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#206296]">
+                            <!-- <button type="submit" class="block w-full rounded-md bg-[#206296] px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-[#206296] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#206296]">
+                                Envoyer
+                            </button> -->
+
+                            <button class="g-recaptcha block w-full rounded-md bg-[#206296] px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-[#206296] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#206296]" data-sitekey="6Lc54x0pAAAAAF3HVt_FaiRcdqJvJUPJHVrey8FZ" data-callback='onSubmit' data-action='submit' onclick="onClick(event)">
                                 Envoyer
                             </button>
                         </div>
@@ -139,3 +144,25 @@ require 'layouts/header.php';
 </body>
 
 </html>
+
+<script>
+    function onClick(e) {
+        e.preventDefault();
+        grecaptcha.enterprise.ready(async () => {
+            const token = await grecaptcha.enterprise.execute('6Lc54x0pAAAAAF3HVt_FaiRcdqJvJUPJHVrey8FZ', {
+                action: 'submit_form'
+            });
+
+            // Ajouter le token dans un champ caché du formulaire
+            const form = document.getElementById('contact-form');
+            const tokenField = document.createElement('input');
+            tokenField.type = 'hidden';
+            tokenField.name = 'token';
+            tokenField.value = token;
+            form.appendChild(tokenField);
+
+            // Soumettre le formulaire après avoir ajouté le token
+            form.submit();
+        });
+    }
+</script>

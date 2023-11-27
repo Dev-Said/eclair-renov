@@ -15,7 +15,6 @@ require 'layouts/header.php';
             <h1 class="w-auto text-3xl leading-[40px] lg:text-4xl lg:leading-[40px] xl:text-5xl xl:leading-[60px] min-[1740px]:text-6xl min-[1740px]:leading-[80px] text-white font-bold text-center z-10">
                 <span class="text-5xl md:text-6xl xl:text-7xl">Éclair & Rénov</span> <br>Votre Installateur Électricien de Confiance <br> <span class="text-xl leading-[20px] lg:text-2xl lg:leading-[30px] xl:text-4xl xl:leading-[60px] min-[1740px]:text-4xl min-[1740px]:leading-[80px]">À Bruxelles (Saint-Gilles, Forest, Uccle, Ixelles)</span>
             </h1>
-            <!-- <div class="px-8 py-3 mt-6 z-10 rounded-lg flex justify-center items-center bg-[#962320] hover:scale-105 transition-all ease-in-out duration-300"> -->
             <a href="tel:0476 96 32 15" class="px-8 py-3 mt-6 z-10 rounded-lg flex justify-center items-center bg-[#962320] hover:scale-105 transition-all ease-in-out duration-300">
                 <span>
                     <svg data-bbox="25.849 20.098 148.61 159.903" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 200 200" data-type="shape">
@@ -369,23 +368,3 @@ require 'layouts/footer.php';
 ?>
 
 <script src="/js/floatting.js"></script>
-
-<script>
-    let prevScreenWidth = window.innerWidth;
-    let imgIndex = document.getElementById('img_index');
-
-    function getScreenWidth() {
-        let currentWidth = window.innerWidth;
-        if (currentWidth !== prevScreenWidth) {
-            console.log('La largeur de l\'écran a changé ! Nouvelle largeur : ' + currentWidth);
-            if (currentWidth <= 160) {
-                imgIndex.src = '/images/cable électrique 2.png';
-            } else {
-                imgIndex.src = '/images/cable électrique.png';
-            }
-            prevScreenWidth = currentWidth;
-        }
-    }
-
-    window.addEventListener('resize', getScreenWidth);
-</script>
