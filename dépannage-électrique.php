@@ -13,8 +13,8 @@ require 'layouts/header.php';
 
         <div class="absolute top-0 bottom-0 left-0 right-0 w-full p-5 flex flex-col justify-center items-center">
             <span class="absolute top-0 left-0 w-full h-full bg-black opacity-50"></span>
-            <h1 class="w-auto text-2xl leading-8 sm:text-3xl sm:leading-9 lg:text-4xl lg:leading-[50px] xl:text-5xl xl:leading-[60px] text-white font-bold text-center z-10">
-                <span class="text-5xl md:text-6xl xl:text-7xl">Éclair & Rénov</span> <br> 24/7 Dépannage Électrique d'Urgence <br> à Bruxelles (Saint-Gilles, Uccle, Forest, Ixelles)
+            <h1 class="w-auto text-3xl leading-[40px] lg:text-4xl lg:leading-[40px] xl:text-5xl xl:leading-[60px] min-[1740px]:text-6xl min-[1740px]:leading-[80px] text-white font-bold text-center z-10">
+                <span class="text-5xl md:text-6xl xl:text-7xl">Éclair & Rénov</span> <br>24/7 Dépannage Électrique d'Urgence <br> <span class="relative min-[1740px]:-top-5 text-xl leading-[20px] lg:text-2xl lg:leading-[30px] xl:text-4xl">À Bruxelles (Saint-Gilles, Uccle, Forest, Ixelles)</span>
             </h1>
             <div class="px-5 py-3 mt-6 z-10 rounded-lg flex justify-center items-center bg-[#962320] hover:scale-105 transition-all ease-in-out duration-300">
                 <a href="tel:0476 96 32 15" class="text-sm leading-6 text-gray-900 font-semibold hover:text-gray-700 flex justify-start items-center">

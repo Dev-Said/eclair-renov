@@ -1,19 +1,31 @@
 <?php
 $title = "Électricien 1060 Saint-Gilles";
 require 'layouts/header.php';
+
+// $largeur_ecran = $_SERVER['HTTP_USER_AGENT']; 
+$largeur_ecran = $largeur_ecran = get_browser()->get_screen_width();
+// $src_image_petite = '/images/rénovation-électrique-mini.jpg';
+// $src_image_grande = '/images/rénovation-électrique.webp'; 
+
+// if ($largeur_ecran <= 960) { 
+//     $src_image = $src_image_petite;
+// } else { 
+//     $src_image = $src_image_grande;
+// }
 ?>
 
+<!-- src="/images/rénovation-électrique.webp" -->
 <div class='w-full h-full min-h-[100vh] mt-24 flex flex-col justify-start items-center'>
 
     <header class="relative w-full flex flex-row justify-between items-center">
-        <div class="shadow-2xl w-full h-auto max-h-[450px] overflow-hidden lg:max-w-full">
-            <img id="img_index" class="w-full min-h-[350px] max-h-[450px] object-cover brightness-125 saturate-0" src="/images/cable-électrique.webp" alt="cables et materiel électriques">
-            <div class="w-full max-h-full absolute inset-0 bg-[#284257] mix-blend-hard-light"></div>
+        <div class="shadow-2xl w-full h-auto lg:max-w-full">
+            <img id="img_index" class=" h-[300px] lg:h-[450px] w-full object-cover brightness-125 saturate-0"  src="<?= $largeur_ecran <= 960 ? '/images/rénovation-électrique-mini.jpg' : '/images/rénovation-électrique.webp' ?>" alt="materiels d'installation électrique">
+            <div class="absolute inset-0 bg-[#2f485d] mix-blend-hard-light"></div>
         </div>
 
         <div class="absolute top-0 bottom-0 left-0 right-0 w-full p-5 flex flex-col justify-center items-center">
-            <h1 class="w-auto text-3xl leading-[40px] lg:text-4xl lg:leading-[40px] xl:text-5xl xl:leading-[60px] min-[1740px]:text-6xl min-[1740px]:leading-[80px] text-white font-bold text-center z-10">
-                <span class="text-5xl md:text-6xl xl:text-7xl">Éclair & Rénov</span> <br>Votre Installateur Électricien de Confiance <br> <span class="text-xl leading-[20px] lg:text-2xl lg:leading-[30px] xl:text-4xl xl:leading-[60px] min-[1740px]:text-4xl min-[1740px]:leading-[80px]">À Bruxelles (Saint-Gilles, Forest, Uccle, Ixelles)</span>
+            <h1 class="w-auto text-3xl leading-[40px] lg:text-5xl lg:leading-[40px] xl:text-6xl xl:leading-[60px] min-[1740px]:text-6xl min-[1740px]:leading-[80px] text-white font-bold text-center z-10">
+                <span class="text-5xl md:text-6xl xl:text-7xl">Éclair & Rénov</span> <br>Votre Installateur Électricien de Confiance <br> <span class="relative min-[1740px]:-top-5 text-xl leading-[20px] lg:text-2xl lg:leading-[30px] xl:text-4xl">À Bruxelles (Saint-Gilles, Forest, Uccle, Ixelles)</span>
             </h1>
             <a href="tel:0476 96 32 15" class="px-8 py-3 mt-6 z-10 rounded-lg flex justify-center items-center bg-[#962320] hover:scale-105 transition-all ease-in-out duration-300">
                 <span>
@@ -32,10 +44,10 @@ require 'layouts/header.php';
     </header>
 
 
-    <section class="w-full max-w-7xl mx-auto mt-10 pb-5 lg:mt-20 grid grid-cols-3 justify-center items-start gap-y-10 lg:gap-y-0 gap-x-4">
+    <section class="w-full max-w-7xl mx-auto mt-10 pb-5 px-3 2xl:px-0 lg:mt-20 grid grid-cols-3 justify-center items-start gap-y-10 lg:gap-y-0 gap-x-4">
 
-        <a href="/installations-électriques.php">
-            <div class="group/index w-full flex flex-col justify-start items-center bg-white hover:bg-gray-50 border border-gray-200 px-5 py-10 rounded-xl">
+        <a href="/installations-électriques.php" class="group/index">
+            <div class="w-full flex flex-col justify-start items-center bg-white hover:bg-gray-50 border border-gray-200 px-5 py-10 rounded-xl">
                 <figure id="floatingElement1" class="mb-4 h-24 lg:h-28 w-24 lg:w-28 rounded-full bg-[#206296] group-hover/index:bg-[#203D96] border-[12px] border-[#20967D] flex justify-center items-center">
                     <img src="/images/house2.svg" alt="icon maison" class="h-8 lg:h-12">
                 </figure>
@@ -48,8 +60,8 @@ require 'layouts/header.php';
             </div>
         </a>
 
-        <a href="/rénovation-et-mise-en-conformité.php">
-            <div class="group/index w-full flex flex-col justify-start items-center bg-white hover:bg-gray-50 border border-gray-200 px-5 py-10 rounded-xl">
+        <a href="/rénovation-et-mise-en-conformité.php" class="group/index">
+            <div class="w-full flex flex-col justify-start items-center bg-white hover:bg-gray-50 border border-gray-200 px-5 py-10 rounded-xl">
                 <figure id="floatingElement2" class="mb-4 h-24 lg:h-28 w-24 lg:w-28 rounded-full bg-[#206296] group-hover/index:bg-[#203D96] border-[12px] border-[#20967D] flex justify-center items-center">
                     <img src="/images/policy.svg" alt="icon certificat" class="h-8 lg:h-12">
                 </figure>
@@ -62,8 +74,8 @@ require 'layouts/header.php';
             </div>
         </a>
 
-        <a href="/dépannage-électrique.php">
-            <div class="group/index w-full flex flex-col justify-start items-center bg-white hover:bg-gray-50 border border-gray-200 px-5 py-10 rounded-xl">
+        <a href="/dépannage-électrique.php" class="group/index">
+            <div class="w-full flex flex-col justify-start items-center bg-white hover:bg-gray-50 border border-gray-200 px-5 py-10 rounded-xl">
                 <figure id="floatingElement3" class="mb-4 h-24 lg:h-28 w-24 lg:w-28 rounded-full bg-[#206296] group-hover/index:bg-[#203D96] border-[12px] border-[#20967D] flex justify-center items-center">
                     <img src="/images/truck2.svg" alt="icon camionnette" class="h-10 lg:h-14">
                 </figure>
@@ -152,26 +164,26 @@ require 'layouts/header.php';
             </h3>
         </div>
 
-        <ul role="list" class="w-full max-w-7xl space-y-2 lg:space-y-0 flex flex-row flex-wrap justify-around items-center">
-            <li class="h-24 px-4 border border-gray-200 rounded-lg flex justify-center items-center">
+        <ul role="list" class="w-full max-w-7xl flex flex-row flex-wrap justify-around items-start">
+            <li class="h-24 px-4 mb-3 border border-gray-200 rounded-lg flex justify-center items-center">
                 <img class="w-32 h-auto" src="/images/niko.webp" alt="Niko">
             </li>
-            <li class="h-24 px-4 border border-gray-200 rounded-lg flex justify-center items-center">
+            <li class="h-24 px-4 mb-3 border border-gray-200 rounded-lg flex justify-center items-center">
                 <img class="w-32 h-auto" src="/images/legrand.webp" alt="legrand">
             </li>
-            <li class="h-24 px-4 border border-gray-200 rounded-lg flex justify-center items-center">
+            <li class="h-24 px-4 mb-3 border border-gray-200 rounded-lg flex justify-center items-center">
                 <img class="w-32 h-auto" src="/images/bticino.webp" alt="bticino">
             </li>
-            <li class="h-24 px-4 border border-gray-200 rounded-lg flex justify-center items-center">
+            <li class="h-24 px-4 mb-3 border border-gray-200 rounded-lg flex justify-center items-center">
                 <img class="w-32 h-auto" src="/images/Vynkier.webp" alt="Vynkier">
             </li>
-            <li class="h-24 px-4 border border-gray-200 rounded-lg flex justify-center items-center">
+            <li class="h-24 px-4 mb-3 border border-gray-200 rounded-lg flex justify-center items-center">
                 <img class="w-32 h-auto" src="/images/urmet.webp" alt="urmet">
             </li>
-            <li class="h-24 px-4 border border-gray-200 rounded-lg flex justify-center items-center">
+            <li class="h-24 px-4 mb-3 border border-gray-200 rounded-lg flex justify-center items-center">
                 <img class="w-32 h-auto" src="/images/Elvox.webp" alt="Elvox">
             </li>
-            <li class="h-24 px-4 border border-gray-200 rounded-lg flex justify-center items-center">
+            <li class="h-24 px-4 mb-3 border border-gray-200 rounded-lg flex justify-center items-center">
                 <img class="w-32 h-auto" src="/images/tem.webp" alt="tem">
             </li>
         </ul>
@@ -246,8 +258,8 @@ require 'layouts/header.php';
                     </article>
                 </a>
 
-                <a href="/eclairage.php" class="w-auto">
-                    <article class="pb-5 flex flex-col items-start justify-between group/block4 rounded-xl bg-white transition-all ease-in-out duration-300 hover:shadow-xl">
+                <a href="/eclairage.php" class="w-full border-2 cursor-pointer border-red-700">
+                    <article class="h-full w-full border-2 border-green-700 pb-5 flex flex-col items-start justify-between group/block4 rounded-xl bg-white transition-all ease-in-out duration-300 hover:shadow-xl">
                         <div class="w-full overflow-hidden rounded-t-xl">
                             <img src="/images/éclairages-ampoules.webp" alt="lampes de plafond avec plusieurs ampoules " class="aspect-[16/9] w-full rounded-t-xl bg-gray-100 object-cover transition-all ease-in-out duration-300 group-hover/block4:scale-110">
                         </div>
@@ -275,7 +287,7 @@ require 'layouts/header.php';
                                     Parlophone et vidéophone
                                 </h3>
                                 <p class="mt-5 text-base text-center leading-6 text-gray-600">
-                                Améliorez votre sécurité avec nos solutions de parlophones et vidéophones. Nous proposons des installations sur mesure pour renforcer votre contrôle d'accès.
+                                    Améliorez votre sécurité avec nos solutions de parlophones et vidéophones. Nous proposons des installations sur mesure pour renforcer votre contrôle d'accès.
                                 </p>
                             </div>
                         </div>
@@ -304,7 +316,7 @@ require 'layouts/header.php';
     </section>
 
 
-    <section class="w-full mt-16 md:pt-20 md:pb-5 px-2 lg:px-0 flex justify-center items-center bg-gray-800 rounded-t-2xl xl:rounded-none">
+    <section class="w-full mt-16 md:pt-20 md:pb-5 px-2 lg:px-0 flex justify-center items-center bg-gray-800">
         <div class="w-full max-w-3xl xl:max-w-7xl flex flex-col xl:flex-row justify-start items-start">
             <div class="w-full px-2 pt-10 md:py-5 md:pr-5 xl:pr-10 flex flex-col justify-start items-start">
                 <img src="/images/clock.svg" alt="icon horloge" class="w-10 mb-5 xl:mb-2 p-0">
@@ -368,3 +380,21 @@ require 'layouts/footer.php';
 ?>
 
 <script src="/js/floatting.js"></script>
+
+<script>
+    let prevScreenWidth = window.innerWidth;
+    let img = document.getElementById('img_index');
+
+    function getScreenWidth() {
+        let currentWidth = window.innerWidth;
+        if (currentWidth !== prevScreenWidth) {
+            if (currentWidth <= 960) {
+                img.src = '/images/rénovation-électrique-mini.jpg';
+            } else {
+                img.src = '/images/rénovation-électrique.webp';
+            }
+            prevScreenWidth = currentWidth;
+        }
+    }
+    window.addEventListener('resize', getScreenWidth);
+</script>

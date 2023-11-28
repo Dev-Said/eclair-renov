@@ -146,6 +146,7 @@ require 'layouts/header.php';
 </html>
 
 <script>
+    // reCaptcha
     function onClick(e) {
         e.preventDefault();
         grecaptcha.enterprise.ready(async () => {
