@@ -634,10 +634,6 @@ video {
   left: 50%;
 }
 
-.left-24 {
-  left: 6rem;
-}
-
 .left-5 {
   left: 1.25rem;
 }
@@ -821,6 +817,10 @@ video {
   margin-top: 2rem;
 }
 
+.ml-5 {
+  margin-left: 1.25rem;
+}
+
 .block {
   display: block;
 }
@@ -871,6 +871,10 @@ video {
 
 .aspect-video {
   aspect-ratio: 16 / 9;
+}
+
+.h-0 {
+  height: 0px;
 }
 
 .h-10 {
@@ -1325,11 +1329,6 @@ video {
 
 .border-gray-900\/10 {
   border-color: rgb(17 24 39 / 0.1);
-}
-
-.border-green-700 {
-  --tw-border-opacity: 1;
-  border-color: rgb(21 128 61 / var(--tw-border-opacity));
 }
 
 .border-red-700 {

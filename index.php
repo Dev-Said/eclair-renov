@@ -1,27 +1,19 @@
 <?php
 $title = "Électricien 1060 Saint-Gilles";
 require 'layouts/header.php';
-
-// $largeur_ecran = $_SERVER['HTTP_USER_AGENT']; 
-$largeur_ecran = $largeur_ecran = get_browser()->get_screen_width();
-// $src_image_petite = '/images/rénovation-électrique-mini.jpg';
-// $src_image_grande = '/images/rénovation-électrique.webp'; 
-
-// if ($largeur_ecran <= 960) { 
-//     $src_image = $src_image_petite;
-// } else { 
-//     $src_image = $src_image_grande;
-// }
 ?>
+<!-- '/images/rénovation-électrique-mini.jpg' : '/images/rénovation-électrique.webp' -->
 
 <!-- src="/images/rénovation-électrique.webp" -->
 <div class='w-full h-full min-h-[100vh] mt-24 flex flex-col justify-start items-center'>
 
     <header class="relative w-full flex flex-row justify-between items-center">
         <div class="shadow-2xl w-full h-auto lg:max-w-full">
-            <img id="img_index" class=" h-[300px] lg:h-[450px] w-full object-cover brightness-125 saturate-0"  src="<?= $largeur_ecran <= 960 ? '/images/rénovation-électrique-mini.jpg' : '/images/rénovation-électrique.webp' ?>" alt="materiels d'installation électrique">
+            <img id="img_index" class=" h-[300px] lg:h-[450px] w-full object-cover brightness-125 saturate-0" src="/images/rénovation-électrique.webp" alt="materiels d'installation électrique" onload="loadScreenWidth">
             <div class="absolute inset-0 bg-[#2f485d] mix-blend-hard-light"></div>
         </div>
+
+
 
         <div class="absolute top-0 bottom-0 left-0 right-0 w-full p-5 flex flex-col justify-center items-center">
             <h1 class="w-auto text-3xl leading-[40px] lg:text-5xl lg:leading-[40px] xl:text-6xl xl:leading-[60px] min-[1740px]:text-6xl min-[1740px]:leading-[80px] text-white font-bold text-center z-10">
@@ -192,124 +184,101 @@ $largeur_ecran = $largeur_ecran = get_browser()->get_screen_width();
 
 
     <section class="w-full max-w-7xl px-4 bg-slate-50 rounded-2xl">
-        <div class="mx-auto py-12 md:py-28 px-2 md:px-20">
+        <div class="mx-auto py-12 md:py-28 px-2 md:px-20 flex flex-col justify-start items-center">
 
-            <div class="w-full">
-                <h2 class="w-auto text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl text-center z-10">
+            <div class="w-ful">
+                <h2 class="w-auto text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl text-center">
                     Professionnels de l'Électricité
                 </h2>
-                <h2 class="w-auto text-lg mt-4 font-semibold tracking-tight text-gray-900 sm:text-2xl text-center z-10">
+                <h2 class="w-auto text-lg mt-4 font-semibold tracking-tight text-gray-900 sm:text-2xl text-center">
                     Installation - Rénovation - Dépannage
                 </h2>
             </div>
 
-            <div class="mx-auto mt-12 px-4 2xl:px-0 grid max-w-7xl grid-cols-1 gap-y-20 gap-x-10 lg:grid-cols-3">
-                <a href="/installations-électriques.php" class="w-auto">
-                    <article class="pb-5 flex flex-col items-start justify-between group/block1 rounded-xl bg-white transition-all ease-in-out duration-300 hover:shadow-xl">
-                        <div class="w-full overflow-hidden rounded-t-xl">
-                            <img src="/images/installation-électrique-performante.webp" alt="électricité cuisine" class="aspect-[16/9] w-full rounded-t-xl bg-gray-100 object-cover transition-all ease-in-out duration-300 group-hover/block1:scale-110">
-                        </div>
-                        <div class="w-full p-5 rounded-b-xl">
-                            <div>
-                                <h3 class="mt-3 text-xl text-center font-semibold leading-6 text-gray-900">
-                                    Des installations électriques performantes et résistantes
-                                </h3>
-                                <p class="mt-5 text-base text-center leading-6 text-gray-600">
-                                    Optez pour une installation électrique professionnelle et conforme. Notre équipe expérimentée conçoit et installe des systèmes électriques fiables, sûrs et adaptés à vos besoins.
-                                </p>
-                            </div>
-                        </div>
-                    </article>
+            <div class="mt-12 max-w-3xl lg:max-w-7xl flex flex-col justify-start items-start gap-y-20 gap-x-10 lg:grid lg:grid-cols-3">
+
+                <a href="/installations-électriques.php" class="w-full pb-5 flex flex-col justify-start items-center group/block1 rounded-xl bg-white transition-all ease-in-out duration-300 hover:shadow-xl">
+                    <div class="w-full overflow-hidden rounded-t-xl">
+                        <img src="/images/installation-électrique-performante.webp" alt="électricité cuisine" class="aspect-[16/9] w-full rounded-t-xl bg-gray-100 object-cover transition-all ease-in-out duration-300 group-hover/block1:scale-110">
+                    </div>
+                    <div class="w-full p-5 rounded-b-xl">
+                        <h3 class="mt-3 text-xl text-center font-semibold leading-6 text-gray-900">
+                            Des installations électriques performantes et résistantes
+                        </h3>
+                        <p class="mt-5 text-base text-center leading-6 text-gray-600">
+                            Optez pour une installation électrique professionnelle et conforme. Notre équipe expérimentée conçoit et installe des systèmes électriques fiables, sûrs et adaptés à vos besoins.
+                        </p>
+                    </div>
                 </a>
 
-                <a href="/rénovation-et-mise-en-conformité.php" class="w-auto">
-                    <article class="pb-5 flex flex-col items-start justify-between group/block2 rounded-xl bg-white transition-all ease-in-out duration-300 hover:shadow-xl">
-                        <div class="w-full overflow-hidden rounded-t-xl">
-                            <img src="/images/tableau électrique.webp" alt="mise en tension" class="aspect-[16/9] w-full rounded-t-xl bg-gray-100 object-cover transition-all ease-in-out duration-300 group-hover/block2:scale-110">
-                        </div>
-                        <div class="w-full p-5 rounded-b-xl">
-                            <div>
-                                <h3 class="mt-3 text-xl text-center font-semibold leading-6 text-gray-900">
-                                    Une large expérience en rénovation et en mise en conformité électrique
-                                </h3>
-                                <p class="mt-5 text-base text-center leading-6 text-gray-600">
-                                    Au fil des années, votre installation électrique peut devenir moins performante tout en restant trop énergivore. Eclair & Rénov améliore votre installation électrique de A à Z : mise en conformité, modernisation du système…
-                                </p>
-                            </div>
-                        </div>
-                    </article>
+                <a href="/rénovation-et-mise-en-conformité.php" class="w-full pb-5 flex flex-col justify-start items-center group/block2 rounded-xl bg-white transition-all ease-in-out duration-300 hover:shadow-xl">
+                    <div class="w-full overflow-hidden rounded-t-xl">
+                        <img src="/images/tableau électrique.webp" alt="mise en tension" class="aspect-[16/9] w-full rounded-t-xl bg-gray-100 object-cover transition-all ease-in-out duration-300 group-hover/block2:scale-110">
+                    </div>
+                    <div class="w-full p-5 rounded-b-xl">
+                        <h3 class="mt-3 text-xl text-center font-semibold leading-6 text-gray-900">
+                            Une large expérience en rénovation et en mise en conformité électrique
+                        </h3>
+                        <p class="mt-5 text-base text-center leading-6 text-gray-600">
+                            Au fil des années, votre installation électrique peut devenir moins performante tout en restant trop énergivore. Eclair & Rénov améliore votre installation électrique de A à Z : mise en conformité, modernisation du système…
+                        </p>
+                    </div>
                 </a>
 
-                <a href="/dépannage-électrique.php" class="w-auto">
-                    <article class="pb-5 flex flex-col items-start justify-between group/block3 rounded-xl bg-white transition-all ease-in-out duration-300 hover:shadow-xl">
-                        <div class="w-full overflow-hidden rounded-t-xl">
-                            <img src="/images/dépannage-électricien.webp" alt="tableau électrique" class="aspect-[16/9] w-full rounded-t-xl bg-gray-100 object-cover transition-all ease-in-out duration-300 group-hover/block3:scale-110">
-                        </div>
-                        <div class="w-full p-5 rounded-b-xl">
-                            <div>
-                                <h3 class="mt-3 text-xl text-center font-semibold leading-6 text-gray-900">
-                                    Dépannage d'urgence 7 j/7
-                                </h3>
-                                <p class="mt-5 text-base text-center leading-6 text-gray-600">
-                                    Quel que soit votre problème électrique (court-circuit, panne de compteur, d'éclairage...), appelez-nous tous les jours de 9 h à 22 h. Nous vous proposons des solutions efficaces rapidement.
-                                </p>
-                            </div>
-                        </div>
-                    </article>
+                <a href="/dépannage-électrique.php" class="w-full pb-5 flex flex-col justify-start items-center group/block3 rounded-xl bg-white transition-all ease-in-out duration-300 hover:shadow-xl">
+                    <div class="w-full overflow-hidden rounded-t-xl">
+                        <img src="/images/dépannage-électricien.webp" alt="tableau électrique" class="aspect-[16/9] w-full rounded-t-xl bg-gray-100 object-cover transition-all ease-in-out duration-300 group-hover/block3:scale-110">
+                    </div>
+                    <div class="w-full p-5 rounded-b-xl">
+                        <h3 class="mt-3 text-xl text-center font-semibold leading-6 text-gray-900">
+                            Dépannage d'urgence 7 j/7
+                        </h3>
+                        <p class="mt-5 text-base text-center leading-6 text-gray-600">
+                            Quel que soit votre problème électrique (court-circuit, panne de compteur, d'éclairage...), appelez-nous tous les jours de 9 h à 22 h. Nous vous proposons des solutions efficaces rapidement.
+                        </p>
+                    </div>
                 </a>
 
-                <a href="/eclairage.php" class="w-full border-2 cursor-pointer border-red-700">
-                    <article class="h-full w-full border-2 border-green-700 pb-5 flex flex-col items-start justify-between group/block4 rounded-xl bg-white transition-all ease-in-out duration-300 hover:shadow-xl">
-                        <div class="w-full overflow-hidden rounded-t-xl">
-                            <img src="/images/éclairages-ampoules.webp" alt="lampes de plafond avec plusieurs ampoules " class="aspect-[16/9] w-full rounded-t-xl bg-gray-100 object-cover transition-all ease-in-out duration-300 group-hover/block4:scale-110">
-                        </div>
-                        <div class="w-full p-5 rounded-b-xl">
-                            <div>
-                                <h3 class="mt-3 text-xl text-center font-semibold leading-6 text-gray-900">
-                                    Optimisation de votre éclairage
-                                </h3>
-                                <p class="mt-5 text-base text-center leading-6 text-gray-600">
-                                    Nos experts vous offrent des solutions d'éclairage sur mesure pour maximiser la luminosité et l'efficacité énergétique. Contactez-nous pour une expertise en optimisation lumineuse adaptée à vos espaces.
-                                </p>
-                            </div>
-                        </div>
-                    </article>
+                <a href="/eclairage.php" class="w-full pb-5 flex flex-col justify-start items-center group/block4 rounded-xl bg-white transition-all ease-in-out duration-300 hover:shadow-xl">
+                    <div class="w-full overflow-hidden rounded-t-xl">
+                        <img src="/images/éclairages-ampoules.webp" alt="lampes de plafond avec plusieurs ampoules " class="aspect-[16/9] w-full rounded-t-xl bg-gray-100 object-cover transition-all ease-in-out duration-300 group-hover/block4:scale-110">
+                    </div>
+                    <div class="w-full p-5 rounded-b-xl">
+                        <h3 class="mt-3 text-xl text-center font-semibold leading-6 text-gray-900">
+                            Optimisation de votre éclairage
+                        </h3>
+                        <p class="mt-5 text-base text-center leading-6 text-gray-600">
+                            Nos experts vous offrent des solutions d'éclairage sur mesure pour maximiser la luminosité et l'efficacité énergétique. Contactez-nous pour une expertise en optimisation lumineuse adaptée à vos espaces.
+                        </p>
+                    </div>
                 </a>
 
-                <a href="/parlophone.php" class="w-auto">
-                    <article class="pb-5 flex flex-col items-start justify-between group/block5 rounded-xl bg-white transition-all ease-in-out duration-300 hover:shadow-xl">
-                        <div class="w-full overflow-hidden rounded-t-xl">
-                            <img src="/images/cameras.webp" alt="camera de surveillance" class="aspect-[16/9] w-full rounded-t-xl bg-gray-100 object-cover transition-all ease-in-out duration-300 group-hover/block5:scale-110">
-                        </div>
-                        <div class="w-full p-5 rounded-b-xl">
-                            <div>
-                                <h3 class="mt-3 text-xl text-center font-semibold leading-6 text-gray-900">
-                                    Parlophone et vidéophone
-                                </h3>
-                                <p class="mt-5 text-base text-center leading-6 text-gray-600">
-                                    Améliorez votre sécurité avec nos solutions de parlophones et vidéophones. Nous proposons des installations sur mesure pour renforcer votre contrôle d'accès.
-                                </p>
-                            </div>
-                        </div>
-                    </article>
+                <a href="/parlophone.php" class="w-full pb-5 flex flex-col justify-start items-center group/block5 rounded-xl bg-white transition-all ease-in-out duration-300 hover:shadow-xl">
+                    <div class="w-full overflow-hidden rounded-t-xl">
+                        <img src="/images/cameras.webp" alt="camera de surveillance" class="aspect-[16/9] w-full rounded-t-xl bg-gray-100 object-cover transition-all ease-in-out duration-300 group-hover/block5:scale-110">
+                    </div>
+                    <div class="w-full p-5 rounded-b-xl">
+                        <h3 class="mt-3 text-xl text-center font-semibold leading-6 text-gray-900">
+                            Parlophone et vidéophone
+                        </h3>
+                        <p class="mt-5 text-base text-center leading-6 text-gray-600">
+                            Améliorez votre sécurité avec nos solutions de parlophones et vidéophones. Nous proposons des installations sur mesure pour renforcer votre contrôle d'accès.
+                        </p>
+                    </div>
                 </a>
 
-                <a href="/contact.php" class="w-auto">
-                    <article class="pb-5 flex flex-col items-start justify-between group/block6 rounded-xl bg-white transition-all ease-in-out duration-300 hover:shadow-xl">
-                        <div class="w-full overflow-hidden rounded-t-xl">
-                            <img src="/images/contact.webp" alt="un homme appel un électricien" class="aspect-[16/9] w-full rounded-t-xl bg-gray-100 object-cover transition-all ease-in-out duration-300 group-hover/block6:scale-110">
-                        </div>
-                        <div class="w-full p-5 rounded-b-xl">
-                            <div>
-                                <h3 class="mt-3 text-xl text-center font-semibold leading-6 text-gray-900">
-                                    Contactez-nous
-                                </h3>
-                                <p class="mt-5 text-base text-center leading-6 text-gray-600">
-                                    Contactez Éclair & Rénov pour tous vos travaux d'installation, de rénovation ou de dépannage électrique. Autour de Bruxelles ? Le devis est gratuit. Contactez-nous 7 j/7.
-                                </p>
-                            </div>
-                        </div>
-                    </article>
+                <a href="/contact.php" class="w-full pb-5 flex flex-col justify-start items-center group/block6 rounded-xl bg-white transition-all ease-in-out duration-300 hover:shadow-xl">
+                    <div class="w-full overflow-hidden rounded-t-xl">
+                        <img src="/images/contact.webp" alt="un homme appel un électricien" class="aspect-[16/9] w-full rounded-t-xl bg-gray-100 object-cover transition-all ease-in-out duration-300 group-hover/block6:scale-110">
+                    </div>
+                    <div class="w-full p-5 rounded-b-xl">
+                        <h3 class="mt-3 text-xl text-center font-semibold leading-6 text-gray-900">
+                            Contactez-nous
+                        </h3>
+                        <p class="mt-5 text-base text-center leading-6 text-gray-600">
+                            Contactez Éclair & Rénov pour tous vos travaux d'installation, de rénovation ou de dépannage électrique. Autour de Bruxelles ? Le devis est gratuit. Contactez-nous 7 j/7.
+                        </p>
+                    </div>
                 </a>
             </div>
         </div>
@@ -397,4 +366,14 @@ require 'layouts/footer.php';
         }
     }
     window.addEventListener('resize', getScreenWidth);
+
+    function loadScreenWidth() {
+        if (window.innerWidth <= 960) {
+            img.src = '/images/rénovation-électrique-mini.jpg';
+        } else {
+            img.src = '/images/rénovation-électrique.webp';
+        }
+    }
+
+    window.addEventListener('load', loadScreenWidth);
 </script>

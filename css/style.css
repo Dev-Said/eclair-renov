@@ -32,28 +32,28 @@
   }
 }
 
-
 /* Menu transition ------------------------------------------------ */
 /* CSS pour le menu mobile */
 #mobile-menu {
-    transition: transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
 }
 
 /* Classe pour activer/désactiver la transition */
 .menu-transition {
-    transition: transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
 }
 
-.h_transition_24 {
+@media screen and (min-width: 768px) {
+  .h_transition_24 {
     height: 96px; /* Hauteur lorsque la classe h-24 est appliquée */
     transition: height 0.1s ease-in; /* Transition de 0.3 seconde */
-}
+  }
 
-.h_transition_18 {
+  .h_transition_18 {
     height: 72px; /* Hauteur lorsque la classe h-18 est appliquée */
     transition: height 0.1s ease-in; /* Transition de 0.3 seconde */
+  }
 }
-
 
 /* Animation flottement ----------------------------------------------*/
 .floating {
@@ -72,7 +72,6 @@
   }
 }
 
-
 /* animation underline on hover menu items --------------------------------------*/
 
 .hover-underline-animation {
@@ -81,7 +80,7 @@
 }
 
 .hover-underline-animation::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   transform: scaleX(0);
@@ -105,7 +104,7 @@
 }
 
 .hover-underline-animation-white::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   transform: scaleX(0);

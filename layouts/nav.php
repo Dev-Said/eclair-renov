@@ -4,8 +4,7 @@ $current_page = basename(urldecode($url));
 ?>
 
 
-<nav class="fixed top-0 left-0 w-full h_transition md:shadow-md z-20 bg-transparent">
-    <div class="w-full h-full">
+<nav class="fixed top-0 left-0 w-full h-0  md:shadow-md z-20 bg-transparent">
 
         <div id="nav" class=" relative flex h-24 justify-between bg-white">
 
@@ -23,11 +22,14 @@ $current_page = basename(urldecode($url));
                 </button>
             </div>
 
-            <div class="absolute inset-y-0 left-24 w-auto flex justify-around items-center md:hidden">
-                <a href="/" class="z-10">
-                    <img class="h-14 w-auto lg:block" src="/images/logo.png" alt="logo Éclair & Rénov" />
+            <div class="md:hidden w-full flex justify-center items-center">
+                <a href="/" id="logo-complete" class="z-10">
+                    <img class="h-14 w-auto" src="/images/logo.png" alt="logo Éclair & Rénov" />
+                </a>                
+                <a href="/" id="logo-only" class="hidden z-10">
+                    <img class="h-10 w-auto" src="/images/logo-only.png" alt="logo Éclair & Rénov" />
                 </a>
-                <a href="tel:0476 96 32 15" class="h-14 px-3 ml-3 z-10 rounded-lg flex justify-center items-center bg-[#206296]">
+                <a href="tel:0476 96 32 15" id="phone-num" class="hidden h-14 px-3 ml-5 z-10 rounded-lg justify-center items-center bg-[#206296]">
                     <span>
                         <svg data-bbox="25.849 20.098 148.61 159.903" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 200 200" data-type="shape">
                             <g>
@@ -73,6 +75,7 @@ $current_page = basename(urldecode($url));
 
             </div>
         </div>
+        
         <!-- Mobile menu, show/hide based on menu state. -->
         <div class="md:hidden w-full bg-sky-50 -translate-x-full" id="mobile-menu">
             <div class="space-y-1 pt-2 text-base">
@@ -97,7 +100,6 @@ $current_page = basename(urldecode($url));
                     Contact - Devis Gratuit
                 </a>
             </div>
-        </div>
 </nav>
 
 <script src="/js/menu.js"></script>
