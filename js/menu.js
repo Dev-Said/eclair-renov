@@ -36,9 +36,6 @@ hamburgerBtn.addEventListener('click', () => {
 
 /* menu rétractable au scroll -------------------------------------*/
 const nav = document.getElementById('nav');
-const logoComplete = document.getElementById('logo-complete');
-const logoOnly = document.getElementById('logo-only');
-const phoneNum = document.getElementById('phone-num');
 
 window.addEventListener('scroll', function() {
     if (window.scrollY > 72) {
@@ -47,16 +44,6 @@ window.addEventListener('scroll', function() {
     } else {
         nav.classList.remove('h_transition_18');
         nav.classList.add('h_transition_24');
-    }
-
-    if (window.scrollY > 240) {  
-        logoComplete.style.display = "none";
-        logoOnly.style.display = "block";
-        phoneNum.style.display = "flex";
-    } else {
-        logoComplete.style.display = "block";
-        logoOnly.style.display = "none";
-        phoneNum.style.display = "none";
     }
 });
 

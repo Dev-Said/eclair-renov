@@ -10,20 +10,6 @@ use Google\Cloud\RecaptchaEnterprise\V1\Event;
 use Google\Cloud\RecaptchaEnterprise\V1\Assessment;
 use Google\Cloud\RecaptchaEnterprise\V1\TokenProperties\InvalidReason;
 
-if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['token'])) {
-    $recaptchaToken = $_POST['token'];
-
-    try {
-        create_assessment(
-            '6Lc54x0pAAAAAF3HVt_FaiRcdqJvJUPJHVrey8FZ',
-            $recaptchaToken,
-            'eclair-renov-1701075863658',
-            'submit_form'
-        );
-    } catch (Exception $e) {
-        echo 'Error: ' . $e->getMessage();
-    }
-}
 
 function create_assessment(
     string $recaptchaKey,
@@ -63,5 +49,21 @@ function create_assessment(
         echo 'CreateAssessment() call failed with the following error: ' . $e->getMessage();
     }
 }
+
+// if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['token'])) {
+    $recaptchaToken = $_POST['token'];
+
+    try {
+        create_assessment(
+            '6Lc54x0pAAAAAF3HVt_FaiRcdqJvJUPJHVrey8FZ',
+            $recaptchaToken,
+            'eclair-renov-1701075863658',
+            'submit_form'
+        );
+    } catch (Exception $e) {
+        echo 'Error: ' . $e->getMessage();
+    }
+// }
+
 
 ?>

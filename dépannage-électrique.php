@@ -6,8 +6,8 @@ require 'layouts/header.php';
 <div class='w-full h-full min-h-[100vh] mt-24 flex flex-col justify-start items-center'>
     <header class="relative w-full flex flex-row justify-between items-center">
 
-        <div class="shadow-2xl w-full h-[450px] lg:max-w-full">
-            <img class=" h-[450px] w-full object-cover brightness-200 saturate-0" src="/images/lumières-nocturnes.webp" alt="route de nuit avec éclairage lampadaires">
+    <div class="shadow-2xl w-full h-auto lg:max-w-full">
+            <img id="img_index" class=" h-[300px] lg:h-[450px] w-full object-cover brightness-200 saturate-0" src="/images/lumières-nocturnes.webp" alt="route de nuit avec éclairage lampadaires">
             <div class="absolute inset-0 bg-[#4b789f] mix-blend-hard-light"></div>
         </div>
 
@@ -16,10 +16,10 @@ require 'layouts/header.php';
             <h1 class="w-auto text-3xl leading-[40px] lg:text-4xl lg:leading-[40px] xl:text-5xl xl:leading-[60px] min-[1740px]:text-6xl min-[1740px]:leading-[80px] text-white font-bold text-center z-10">
                 <span class="text-5xl md:text-6xl xl:text-7xl">Éclair & Rénov</span> <br>24/7 Dépannage Électrique d'Urgence <br> <span class="relative min-[1740px]:-top-5 text-xl leading-[20px] lg:text-2xl lg:leading-[30px] xl:text-4xl">À Bruxelles (Saint-Gilles, Uccle, Forest, Ixelles)</span>
             </h1>
-            <div class="px-5 py-3 mt-6 z-10 rounded-lg flex justify-center items-center bg-[#962320] hover:scale-105 transition-all ease-in-out duration-300">
+            <div class="px-5 py-3 mt-6 z-10 rounded-lg hidden md:flex justify-center items-center bg-[#962320] hover:scale-105 transition-all ease-in-out duration-300">
                 <a href="tel:0476 96 32 15" class="text-sm leading-6 text-gray-900 font-semibold hover:text-gray-700 flex justify-start items-center">
                     <span>
-                        <svg data-bbox="25.849 20.098 148.61 159.903" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 200 200" data-type="shape">
+                        <svg data-bbox="25.849 20.098 148.61 159.903" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 200 200" data-type="shape">
                             <g>
                                 <path fill-rule="evenodd" fill="white" clip-rule="evenodd" d="M70.759 24.278c-2.483-4.574-7.721-5.499-11.759-2.255L43 35.18c-20.174 16.202-23.035 44.171-6 63.76l56 64.772c17.02 19.572 46.23 21.812 66 5.06l12-10.121c3.953-3.35 4.827-8.637 1-12.145l-28-25.301c-3.815-3.497-9.893-4.152-14-1.012l-15 14.169-45-51.616L84 69.59c4-3.036 6-9.109 4-13.157L70.759 24.278z"></path>
                             </g>
@@ -100,7 +100,7 @@ require 'layouts/header.php';
                     <h2 class="mt-2 text-3xl text-center font-bold leading-8 tracking-tight text-gray-900 lg:text-4xl">
                         Dépannage urgent des installations privées ou professionnelles
                     </h2>
-                    <p class="mt-6 lg:max-w-3xl text-lg text-center leading-7 text-gray-900">
+                    <p class="mt-6 lg:max-w-3xl text-lg text-justify leading-7 text-gray-900">
                         Nous intervenons de 9 h à 22 h tous les jours, week-end compris. Nous nous déplaçons dans les maisons, les immeubles d'habitation ainsi que dans tous les bâtiments collectifs (établissements publics, bureaux, magasins...)
                     </p>
 
