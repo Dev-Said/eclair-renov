@@ -84,7 +84,6 @@ require 'layouts/header.php';
 
     <section class="w-full bg-white pt-6 md:pt-20 lg:pt-28 pb-6 px-2 xl:px-5 2xl:px-0">
         <div class="relative w-full mx-auto py-10 xl:py-0 flex flex-col  bg-[#243441]">
-            <!-- <span class="bg-[url('/images/led.jpg')] absolute inset-0 bg-cover bg-center bg-no-repeat opacity-5"></span> -->
             <div class="h-full mx-auto flex max-w-7xl flex-col items-center gap-x-8 px-6 lg:px-14 xl:flex-row xl:items-stretch">
                 <div class="hidden xl:flex w-full max-h-[350px] min-h-[350px] mt-4 xl:mb-20 xl:mt-28 max-w-2xl xl:w-96 justify-center">
                     <div class="relative aspect-[1/1] h-full w-full md:-mx-8 xl:mx-0 xl:aspect-auto flex justify-center">
@@ -92,7 +91,7 @@ require 'layouts/header.php';
                         <div class="absolute inset-0 bg-[#93ccf8] mix-blend-multiply"></div>
                     </div>
                 </div>
-                <div class="w-full max-w-2xl flex-col xl:max-w-none xl:flex-auto xl:py-14 xl:pl-7">
+                <div class="w-full max-w-full flex-col xl:max-w-none xl:flex-auto xl:py-14 xl:pl-7">
 
                     <div class="w-full pt-6 pb-6 flex flex-col justify-center items-start">
                         <h2 class="py-5 text-3xl font-semibold text-left text-white leading-10">
@@ -116,7 +115,7 @@ require 'layouts/header.php';
                         Nos interventions en dépannage sont éffectuées dans <b class="font-bold text-sky-400">les délais les plus courts</b>.
                     </p>
 
-                    <div class="pb-5 pt-10 mt-6 md:mt-16 w-full mx-auto flex flex-col justify-start items-center md:items-start bg-[#243441] border-t border-gray-400">
+                    <div class="pb-5 pt-10 mt-6 md:mt-16 w-full mx-auto max-w-full flex flex-col justify-start items-center md:items-start bg-[#243441] border-t border-gray-400">
                         <h2 class="text-3xl text-center md:text-left font-bold tracking-wide text-gray-100 sm:text-4xl leading-[50px]">
                             Devis et Conseils Gratuits ! <br> Contactez-nous 7j/7
                         </h2>
@@ -124,7 +123,7 @@ require 'layouts/header.php';
                             <a href="tel:0476 96 32 15" class="rounded-md bg-[#206296] h-14 px-5 mb-4 md:mb-0 order-2 md:order-none min-w-[300px] md:min-w-0 text-lg font-semibold text-white shadow-sm hover:bg-[#407aa5] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#206296] flex justify-center items-center">
                                 <img src="/images/telephone.svg" alt="icon téléphone" class="h-5" />
                                 <span class="ml-2 text-lg text-gray-100">
-                                    0476 96 32 15
+                                    0476 96 32 15 ->
                                 </span>
                             </a>
                             <a href="mailto:eclairenov@gmail.com" class="rounded-md bg-[#206296] h-14 px-5 order-3 md:order-none min-w-[300px] md:min-w-0 text-lg font-semibold text-white shadow-sm hover:bg-[#407aa5] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#206296] flex justify-center items-center">
@@ -285,7 +284,7 @@ require 'layouts/header.php';
     </section>
 
 
-    <section class="w-full mt-16 md:pt-20 md:pb-5 px-2 lg:px-0 flex justify-center items-center bg-gray-800">
+    <section class="w-full mt-16 md:pt-20 md:pb-5 px-2 2xl:px-0 flex justify-center items-center bg-gray-800">
         <div class="w-full max-w-3xl xl:max-w-7xl flex flex-col xl:flex-row justify-start items-start">
             <div class="w-full px-2 pt-10 md:py-5 md:pr-5 xl:pr-10 flex flex-col justify-start items-start">
                 <img src="/images/clock.svg" alt="icon horloge" class="w-10 mb-5 xl:mb-2 p-0">
@@ -295,7 +294,7 @@ require 'layouts/header.php';
                 <h3 class="text-white text-lg pt-5 font-semibold">
                     Contactez-nous
                 </h3>
-                <div class="w-full mt-5 mb-5 xl:mb-0 grid grid-cols-2 gap-x-5 xl:flex xl:flex-col justify-start xl:justify-center items-start space-y-2">
+                <div class="mt-5 flex flex-col justify-start items-start space-y-2">
                     <a href="mailto:eclairenov@gmail.com" class="text-sm leading-6 text-gray-900 font-semibold hover:text-gray-700 flex justify-start items-center">
                         <div class="flex h-9 w-9 items-center justify-center rounded-md bg-[#206296]">
                             <img src="/images/envelope.svg" alt="icon envelope" class="h-4" />
@@ -333,10 +332,14 @@ require 'layouts/header.php';
                     </a>
                 </div>
             </div>
-
-            <div class="responsive-iframe-container mt-6 xl:mt-0 rounded-xl">
+<!-- hidden sm:block -->
+            <div class="responsive-iframe-container mt-6 xl:mt-0 rounded-xl ">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2520.318552331692!2d4.348297777339662!3d50.825263192709!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c45dda3de36d%3A0xe3b38bff1607a309!2sChau.%20de%20Waterloo%20284%2C%201060%20Saint-Gilles%2C%20Belgique!5e0!3m2!1sfr!2sfr!4v1699029871049!5m2!1sfr!2sfr" class="rounded-xl" frameborder="0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
+            </div>            
+            
+            <!-- <div class="responsive-iframe-container mt-6 xl:mt-0 rounded-xl sm:hidden">
+            <iframe src="https://embed.waze.com/iframe?zoom=17&lat=50.825101&lon=4.346273&ct=livemap" width="600" height="450" allowfullscreen></iframe>
+            </div> -->
 
         </div>
     </section>

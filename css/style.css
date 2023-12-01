@@ -29,6 +29,16 @@
 @media screen and (max-width: 1000px) {
   .responsive-iframe-container iframe {
     height: 350px;
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .responsive-iframe-container iframe {
+    height: 250px;
+    width: 300px;
+    max-width: 300px;
+    position: static;
   }
 }
 

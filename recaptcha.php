@@ -11,6 +11,7 @@ use Google\Cloud\RecaptchaEnterprise\V1\Assessment;
 use Google\Cloud\RecaptchaEnterprise\V1\TokenProperties\InvalidReason;
 
 
+
 function create_assessment(
     string $recaptchaKey,
     string $token,
@@ -50,7 +51,7 @@ function create_assessment(
     }
 }
 
-// if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['token'])) {
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['token'])) {
     $recaptchaToken = $_POST['token'];
 
     try {
@@ -63,7 +64,7 @@ function create_assessment(
     } catch (Exception $e) {
         echo 'Error: ' . $e->getMessage();
     }
-// }
+}
 
 
 ?>

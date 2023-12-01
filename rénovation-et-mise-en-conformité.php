@@ -145,7 +145,7 @@ require 'layouts/header.php';
                             <h3 class="text-lg font-semibold leading-6 text-gray-900">Avantages :</h3>
                             <p class="mt-1 max-w-2xl text-sm text-gray-500">Evitez les futurs tracas et profitez des bénéfices.</p>
                         </div>
-                        <ul class="py-3 lg:px-6 grid grid-cols-3 gap-4">
+                        <ul class="py-3 lg:px-6 grid grid-cols-2 md:grid-cols-3 gap-4">
                             <li class="pb-2 text-sm font-semibold text-gray-700 border-b border-r border-gray-200">
                                 Amélioration de la sécurité électrique
                             </li>
