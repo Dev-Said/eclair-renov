@@ -146,22 +146,22 @@ require 'layouts/header.php';
                             <p class="mt-1 max-w-2xl text-sm text-gray-500">Evitez les futurs tracas et profitez des bénéfices.</p>
                         </div>
                         <ul class="py-3 lg:px-6 grid grid-cols-2 md:grid-cols-3 gap-4">
-                            <li class="pb-2 text-sm font-semibold text-gray-700 border-b border-r border-gray-200">
+                            <li class="pb-2 pr-2 text-sm font-semibold text-gray-700 border-b border-r border-gray-200">
                                 Amélioration de la sécurité électrique
                             </li>
-                            <li class="pb-2 text-sm font-semibold text-gray-700 border-b border-r border-gray-200">
+                            <li class="pb-2 pr-2 text-sm font-semibold text-gray-700 border-b md:border-r border-gray-200">
                                 Réduction des risques d'incendie
                             </li>
-                            <li class="pb-2 text-sm font-semibold text-gray-700 border-b border-gray-200">
+                            <li class="pb-2 pr-2 text-sm font-semibold text-gray-700 border-b border-r md:border-r-0 border-gray-200">
                                 Conformité aux normes et réglementations en vigueur
                             </li>
-                            <li class="pb-2 text-sm font-semibold text-gray-700 border-r border-gray-200">
+                            <li class="pb-2 pr-2 text-sm font-semibold text-gray-700 border-b md:border-b-0 border-r-0 md:border-r border-gray-200">
                                 Augmentation de la valeur du bien immobilier
                             </li>
-                            <li class="pb-2 text-sm font-semibold text-gray-700 border-r border-gray-200">
+                            <li class="pb-2 pr-2 text-sm font-semibold text-gray-700 border-r border-gray-200">
                                 Économies d'énergie grâce à une installation plus efficiente
                             </li>
-                            <li class="pb-2 text-sm font-semibold text-gray-700">
+                            <li class="pb-2 pr-2 text-sm font-semibold text-gray-700">
                                 Diminution des risques d'électrocution
                             </li>
                         </ul>

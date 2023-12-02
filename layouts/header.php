@@ -11,7 +11,14 @@ $root_url = 'https://' . $_SERVER['HTTP_HOST'] . '/';
 
 <head>
 
-    <script src="https://www.google.com/recaptcha/enterprise.js?render=6Lc54x0pAAAAAF3HVt_FaiRcdqJvJUPJHVrey8FZ" async defer></script>
+<!-- <script src="https://www.google.com/recaptcha/enterprise.js?render=6LeiwiMpAAAAABt_ha14Heq7rWgfbnYqFPdnLN-v"></script> -->
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+     <script>
+       function onSubmit(token) {
+         document.getElementById("contact-form").submit();
+       }
+     </script>
+
 
     <meta lang="fr">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
