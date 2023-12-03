@@ -71,11 +71,11 @@ require 'layouts/header.php';
                             </div>
                         </div>
                         <div class="mt-10">
-                            <!-- <button class="g-recaptcha block w-full rounded-md bg-[#206296] px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-[#206296] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#206296]"  onclick="onSubmit(event)">
+                            <!-- <button class="g-recaptcha block w-full rounded-md bg-[#206296] px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-[#206296] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#206296]">
                                 Envoyer
                             </button> -->
 
-                            <button class="g-recaptcha" data-sitekey="6LfnDCQpAAAAAO5b_IGv3-EBwgeIO-JnB5IM_lTW" data-callback="onSubmit">
+                            <button onclick="onSubmit(event)">
                                 Submit
                             </button>
                         </div>
@@ -145,9 +145,24 @@ require 'layouts/header.php';
 
 </html>
 
-<!-- <script>
-    function onSubmit(token) {
-        document.getElementById("contact-form").submit();
-    }
-</script> -->
 
+
+<script src="https://www.google.com/recaptcha/api.js?render=6LfnDCQpAAAAAO5b_IGv3-EBwgeIO-JnB5IM_lTW"></script>
+<script>
+    function onSubmit(e) {
+        e.preventDefault();
+        grecaptcha.ready(function() {
+            grecaptcha.execute('6LfnDCQpAAAAAO5b_IGv3-EBwgeIO-JnB5IM_lTW', {
+                action: 'submit'
+            }).then(function(token) {
+                const form = document.getElementById('contact-form');
+                const tokenField = document.createElement('input');
+                tokenField.type = 'hidden';
+                tokenField.name = 'token';
+                tokenField.value = token;
+                form.appendChild(tokenField);
+                form.submit();
+            });
+        });
+    }
+</script>

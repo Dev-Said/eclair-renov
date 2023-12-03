@@ -4,7 +4,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = $_POST["email"];
     $message = $_POST["message"];
 
-    $to = "chaaounisaid.cs@gmail.com";  
+    $to = "chaounisaid.cs@gmail.com";  
     $sujet = "Éclar & Rénov --> Message de la page Contact";
 
     $contenu = "Nom: $nom\n";
