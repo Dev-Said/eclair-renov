@@ -1,6 +1,7 @@
 <?php
 
-require __DIR__ . '/vendor/autoload.php';    
+require __DIR__ . '/vendor/autoload.php';
+
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
@@ -37,63 +38,49 @@ $is_human = verify_recaptcha($response);
 
 
 if ($is_human && $is_human->score > 0.4) {
-    // var_dump($is_human->score); die;
+
     $mail = new PHPMailer(true); 
-    try {
-        $nom = $_POST["last-name"];
+
+     try {
+        if (isset($_POST["first-name"])) {
+            $nom = $_POST["first-name"] . ' ' . $_POST["last-name"];
+        } else {
+            $nom = $_POST["last-name"];
+        }
+        
         $email = $_POST["email"];
         $message = $_POST["message"];
-    
-        $to = "chaounisaid.cs@gmail.com";
-        $sujet = "Éclar & Rénov --> Message de la page Contact";
-    
+        $sujet = "Devis / Contact";
+
         $mail->isSMTP();
-        $mail->Host = 'mailout.one.com'; // Hôte SMTP de votre hébergeur
+        $mail->Host = 'send.one.com'; // Serveur SMTP de votre hébergeur
         $mail->SMTPAuth = true;
-        $mail->Username = 'chaounisaid.cs@gmail.com'; // Votre adresse e-mail
+        $mail->Username = 'contact@electricite-eclair.be'; // Votre adresse e-mail
         $mail->Password = 'Electriciter'; // Le mot de passe de votre adresse e-mail
-        $mail->SMTPSecure = 'STARTTLS '; // Chiffrement TLS
-        $mail->Port = 587; // Port SMTP TLS de votre hébergeur
-    
-        $mail->setFrom("chaounisaid.cs@gmail.com", "chaounisaid.cs@gmail.com");
-        $mail->addReplyTo('chaounisaid.cs@gmail.com', 'info');
+        $mail->SMTPSecure = 'ssl'; // Chiffrement SSL
+        $mail->Port = 465; // Port SMTP SSL de votre hébergeur
+        $mail->SMTPOptions = array(
+            'ssl' => array(
+                'verify_peer' => false,
+                'verify_peer_name' => false,
+                'allow_self_signed' => true
+            )
+        ); // désactivation contôle du certificat ssl
+
+        $mail->setFrom("contact@electricite-eclair.be", "ECLAIR & RENOV");
+        $mail->addReplyTo($email, $nom);
         $mail->addAddress('chaounisaid.cs@gmail.com', 'Nom du destinataire');
         $mail->isHTML(true);
         $mail->Subject = $sujet;
         $mail->Body = "Nom: $nom<br>Email: $email<br><br>Message:<br>$message";
-    
+
         $mail->send();
-        echo 'L\'e-mail a été envoyé avec succès!';
+        header('Location: confirmSendMessage.php');
     } catch (Exception $e) {
         echo 'Erreur lors de l\'envoi de l\'e-mail: ', $mail->ErrorInfo;
     }
+    
 
-    // if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    //     $nom = $_POST["last-name"];
-    //     $email = $_POST["email"];
-    //     $message = $_POST["message"];
-
-    //     $to = "chaounisaid.cs@gmail.com";
-    //     $sujet = "Éclar & Rénov --> Message de la page Contact";
-
-    //     $contenu = "Nom: $nom\n";
-    //     $contenu .= "Email: $email\n\n";
-    //     $contenu .= "Message:\n$message";
-
-    //     $headers = "From: $email";
-    //     // var_dump($to, $sujet, $contenu, $headers); die;
-    //     // Envoi de l'e-mail
-    //     if (mail($to, $sujet, $contenu, $headers)) {
-    //         header("Location: confirmSendMessage.php");
-    //         exit();
-    //     } else {
-    //         $error_message = error_get_last()['message']; // Récupérer le message d'erreur
-    //         echo "Erreur lors de l'envoi de l'e-mail : $error_message";
-    //         // header("Location: contact.php");
-    //     }
-    // }
-
-    // var_dump($is_human->score);
 } else {
     var_dump("L'utilisateur est un robot");
 }

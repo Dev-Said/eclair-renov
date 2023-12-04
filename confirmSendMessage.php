@@ -3,7 +3,7 @@ $title = "Message envoyé";
 require 'layouts/header.php';
 ?>
 
-<div class='w-full mt-10 md:mt-48 flex justify-center items-center'>
+<div class='w-full px-4 mt-48 flex justify-center items-center'>
     <div class="w-auto max-w-3xl bg-white mx-auto flex flex-col justify-start items-center">
         <h2 class="text-3xl font-bold text-gray-900 mb-5">Merci pour votre message !</h2>
         <p class="mt-2 text-center text-lg leading-8 text-gray-600">Nous avons bien reçu votre demande et nous vous répondrons dans les plus brefs délais. <br> Si vous avez d'autres questions, n'hésitez pas à nous contacter.</p>
