@@ -69,7 +69,7 @@ $current_page = basename(urldecode($url));
 
     <!-- Mobile menu, show/hide based on menu state. -->
     <div class="md:hidden w-full bg-sky-50 -translate-x-full" id="mobile-menu">
-        <div class="space-y-1 pt-2 text-base">
+        <div class="space-y-1 text-base">
 
             <a href="/" class="block py-5 pl-3 pr-4 hover:bg-gray-50 hover:text-blue-700 uppercase border-y border-gray-300 <?= ($current_page == "") ? 'font-bold text-blue-800' : 'font-normal text-gray-800'; ?>">
                 Éclair & Rénov

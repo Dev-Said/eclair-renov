@@ -821,6 +821,14 @@ video {
   margin-top: 2rem;
 }
 
+.mt-40 {
+  margin-top: 10rem;
+}
+
+.mt-44 {
+  margin-top: 11rem;
+}
+
 .block {
   display: block;
 }
@@ -2316,6 +2324,10 @@ video {
     margin-top: 1rem;
   }
 
+  .md\:mt-48 {
+    margin-top: 12rem;
+  }
+
   .md\:block {
     display: block;
   }
@@ -2530,6 +2542,11 @@ video {
   .md\:text-6xl {
     font-size: 3.75rem;
     line-height: 1;
+  }
+
+  .md\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 
   .md\:leading-10 {

@@ -69,7 +69,8 @@ if ($is_human && $is_human->score > 0.4) {
 
         $mail->setFrom("contact@electricite-eclair.be", "ECLAIR & RENOV");
         $mail->addReplyTo($email, $nom);
-        $mail->addAddress('chaounisaid.cs@gmail.com', 'Nom du destinataire');
+        $mail->addAddress('chaounisaid.cs@gmail.com', 'Éclair & Rénov');
+        $mail->addAddress('saidfares31270@gmail.com', 'Moi');
         $mail->isHTML(true);
         $mail->Subject = $sujet;
         $mail->Body = "Nom: $nom<br>Email: $email<br><br>Message:<br>$message";
