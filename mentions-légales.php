@@ -22,10 +22,6 @@ require 'layouts/header.php';
 
     <p><strong>Responsable de la publication :</strong> [Nom du Responsable]</p>
 
-    <h2>Hébergeur du site :</h2>
-
-    <p>[Nom de l'hébergeur]</p>
-    <p>[Adresse de l'hébergeur]</p>
 
     <h2>Droits d'auteur :</h2>
 

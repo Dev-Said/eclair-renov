@@ -35,8 +35,8 @@
 
 @media screen and (max-width: 350px) {
   .responsive-iframe-container iframe {
-    height: 250px;
-    width: 300px;
+    height: 100%;
+    width: 100%;
     max-width: 300px;
     position: static;
   }
@@ -62,6 +62,7 @@
   .h_transition_18 {
     height: 72px; /* Hauteur lorsque la classe h-18 est appliquée */
     transition: height 0.1s ease-in; /* Transition de 0.3 seconde */
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   }
 }
 

@@ -16,7 +16,8 @@ $root_url = 'https://' . $_SERVER['HTTP_HOST'] . '/';
 
   <meta lang="fr">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height, user-scalable=no">
+  <meta name="HandheldFriendly" content="true" />
 
   <title><?= $title ?></title>
 
