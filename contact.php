@@ -76,7 +76,7 @@ require 'layouts/header.php';
                                 Envoyer
                             </button>
                         </div>
-                        <p class="mt-4 text-sm leading-6 text-gray-900">En soumettant ce formulaire, j'accepte la <a href="/pc.php" class="font-semibold text-blue-700 underline underline-offset-1">politique&nbsp;de confidentialité</a> de Éclair & Rénov SPRL.</p>
+                        <p class="mt-4 text-sm leading-6 text-gray-900">En soumettant ce formulaire, j'accepte la <a href="/pc" class="font-semibold text-blue-700 underline underline-offset-1">politique&nbsp;de confidentialité</a> de Éclair & Rénov SPRL.</p>
                     </form>
 
 
@@ -122,15 +122,15 @@ require 'layouts/header.php';
         <div class="w-full mt-4 flex flex-col md:flex-row justify-start md:justify-center items-center md:space-x-2">
             <p class="text-left text-xs leading-5 text-gray-100">
                 &copy; <?= date("Y") ?>
-                Éclair & Rénov.Tous droits réservés.
+                Electricite Eclair SPRL.Tous droits réservés.
             </p>
             <p class="text-left text-xs leading-5 text-gray-100 underline underline-offset-1">
-                <a href="/mentions-légales.php" rel="nofollow">
+                <a href="/mentions-légales" rel="nofollow">
                     Mentions légales
                 </a>
             </p>
             <p class="text-left text-xs leading-5 text-gray-100 underline underline-offset-1">
-                <a href="/pc.php" rel="nofollow">
+                <a href="/pc" rel="nofollow">
                     Politique de confidentialité.
                 </a>
             </p>

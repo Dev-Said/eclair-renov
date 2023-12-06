@@ -75,7 +75,7 @@ require 'layouts/header.php';
                     Contactez Éclair & Rénov pour tous vos travaux d'installation, de rénovation ou de dépannage électrique dans la région Bruxelloise et sa périphérie.
                 </p>
                 <div class="mt-10 flex flex-col md:flex-row items-start justify-start md:items-center md:justify-start space-y-4 md:space-y-0 md:space-x-4">
-                    <a href="/contact.php" class="w-64 md:w-auto h-14 px-5 py-2 flex justify-center items-center text-lg font-semibold leading-7 text-white bg-[#206296] hover:bg-[#6b94b5] rounded-md">
+                    <a href="/contact" class="w-64 md:w-auto h-14 px-5 py-2 flex justify-center items-center text-lg font-semibold leading-7 text-white bg-[#206296] hover:bg-[#6b94b5] rounded-md">
                         Contactez-nous
                     </a>
                     <a href="tel:0476 96 32 15" class="rounded-md bg-[#206296] w-64 md:w-auto h-14 px-5 text-lg font-semibold text-white shadow-sm hover:bg-[#407aa5] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#206296] flex justify-center items-center">

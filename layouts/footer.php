@@ -3,15 +3,15 @@
         <div class="w-full mt-4 flex flex-col md:flex-row justify-start md:justify-center items-center md:space-x-2">
             <p class="text-left text-xs leading-5 text-gray-400">
                 &copy; <?= date("Y") ?>
-                Éclair & Rénov.Tous droits réservés.
+                Electricite Eclair SPRL.Tous droits réservés.
             </p>
             <p class="text-left text-xs leading-5 text-gray-400 underline underline-offset-1">
-                <a href="/mentions-légales.php" rel="nofollow">
+                <a href="/mentions-légales" rel="nofollow">
                     Mentions légales
                 </a>
             </p>
             <p class="text-left text-xs leading-5 text-gray-400 underline underline-offset-1">
-                <a href="/pc.php" rel="nofollow">
+                <a href="/pc" rel="nofollow">
                     Politique de confidentialité.
                 </a>
             </p>

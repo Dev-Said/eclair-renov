@@ -3,12 +3,12 @@ $title = "Électricien Rénovation et Mise en Conformité 1060 Saint-Gilles";
 require 'layouts/header.php';
 ?>
 
-<div class='w-full h-full min-h-[100vh] mx-auto max-w-7xl mt-48 space-y-5 flex flex-col justify-start items-start'>
-    <h1>Politique de confidentialité</h1>
+<div class='w-full h-full min-h-[100vh] max-w-5xl mx-auto mt-48 pb-48 space-y-2 flex flex-col justify-start items-start'>
+    <h1 class="text-2xl font-bold pb-3">Politique de confidentialité</h1>
 
-    <p><strong>Dernière mise à jour :</strong> [Date de la dernière mise à jour]</p>
+    <p><strong>Dernière mise à jour :</strong> 06/12/2023</p>
 
-    <p>La présente Politique de confidentialité décrit la manière dont [Nom de l'Entreprise] collecte, utilise et protège les informations personnelles que vous nous fournissez lorsque vous utilisez notre site web [URL du site].</p>
+    <p>La présente Politique de confidentialité décrit la manière dont Electricite Eclair SPRL collecte, utilise et protège les informations personnelles que vous nous fournissez lorsque vous utilisez notre site web <a href="https://www.electricite-eclair.be" class="text-blue-500 font-semibold underline underline-offset-0">www.electricite-eclair.be</a>.</p>
 
     <h2>Collecte et Utilisation des Informations</h2>
 
@@ -17,7 +17,7 @@ require 'layouts/header.php';
     <ul>
         <li><strong>Informations Personnelles :</strong> Lorsque vous remplissez un formulaire sur notre site, nous pouvons collecter votre nom, votre adresse e-mail, votre numéro de téléphone et d'autres informations personnelles pertinentes.</li>
         <li><strong>Informations de Contact :</strong> Nous pouvons utiliser les informations que vous fournissez pour vous contacter en réponse à vos demandes ou pour vous envoyer des informations sur nos services.</li>
-        <li><strong>Cookies :</strong> Notre site web utilise des cookies pour améliorer l'expérience de l'utilisateur. Vous pouvez choisir de désactiver les cookies dans les paramètres de votre navigateur, mais cela peut affecter certaines fonctionnalités du site.</li>
+        <li><strong>Cookies :</strong> Notre site web n'utilise pas de cookies. Toutfois si celà devait changer, dans le but d'améliorer l'expérience de l'utilisateur, vous avez la possibilité de désactiver les cookies dans les paramètres de votre navigateur. Désactiver le cookies peut affecter certaines fonctionnalités du site.</li>
     </ul>
 
     <h2>Protection des Données</h2>

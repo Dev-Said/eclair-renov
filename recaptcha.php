@@ -67,21 +67,23 @@ if ($is_human && $is_human->score > 0.4) {
             )
         ); // désactivation contôle du certificat ssl
 
-        $mail->setFrom("contact@electricite-eclair.be", "ECLAIR & RENOV");
+        $mail->setFrom("contact@electricite-eclair.be", "ELECTRICITE ECLAIR");
         $mail->addReplyTo($email, $nom);
-        $mail->addAddress('chaounisaid.cs@gmail.com', 'Éclair & Rénov');
-        $mail->addAddress('saidfares31270@gmail.com', 'Moi');
+        $mail->addAddress('eclairenov@gmail.com', 'ELECTRICITE ECLAIR');
+        $mail->addAddress('chaounisaid.cs@gmail.com', 'ELECTRICITE ECLAIR');
         $mail->isHTML(true);
         $mail->Subject = $sujet;
         $mail->Body = "Nom: $nom<br>Email: $email<br><br>Message:<br>$message";
 
         $mail->send();
-        header('Location: confirmSendMessage.php');
+        header('Location: confirmSendMessage');
     } catch (Exception $e) {
-        echo 'Erreur lors de l\'envoi de l\'e-mail: ', $mail->ErrorInfo;
+        // echo 'Erreur lors de l\'envoi de l\'e-mail: ', $mail->ErrorInfo;
+        header('Location: index');
     }
     
 
 } else {
-    var_dump("L'utilisateur est un robot");
+    header('Location: index');
+    // var_dump("L'utilisateur est un robot");
 }

@@ -113,7 +113,7 @@ require 'layouts/header.php';
                         </ul>
                     </div>
                     <div class="mt-10 flex">
-                        <a href="/contact.php" class="px-4 py-2 flex justify-center items-center text-base font-semibold leading-7 text-white bg-[#206296] rounded-lg">Demandez votre devis gratuit <span aria-hidden="true"> &nbsp; &rarr;</span>
+                        <a href="/contact" class="px-4 py-2 flex justify-center items-center text-base font-semibold leading-7 text-white bg-[#206296] rounded-lg">Demandez votre devis gratuit <span aria-hidden="true"> &nbsp; &rarr;</span>
                         </a>
                     </div>
                 </div>
@@ -134,7 +134,7 @@ require 'layouts/header.php';
                         </p>
                     </div>
                     <div class="mt-10 flex">
-                        <a href="/contact.php" class="px-4 py-2 flex justify-center items-center text-base font-semibold leading-7 text-white bg-[#206296] rounded-lg">Demandez votre devis gratuit <span aria-hidden="true"> &nbsp; &rarr;</span>
+                        <a href="/contact" class="px-4 py-2 flex justify-center items-center text-base font-semibold leading-7 text-white bg-[#206296] rounded-lg">Demandez votre devis gratuit <span aria-hidden="true"> &nbsp; &rarr;</span>
                         </a>
                     </div>
                 </div>

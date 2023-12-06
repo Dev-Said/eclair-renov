@@ -83,7 +83,7 @@ require 'layouts/header.php';
                         </p>
 
                         <div class="mt-10 flex justify-center lg:justify-start">
-                            <a href="/contact.php" class="px-4 py-2 flex justify-center items-center text-base font-semibold leading-7 text-white bg-[#206296] rounded-lg">Demandez votre devis gratuit <span aria-hidden="true"> &nbsp; &rarr;</span>
+                            <a href="/contact" class="px-4 py-2 flex justify-center items-center text-base font-semibold leading-7 text-white bg-[#206296] rounded-lg">Demandez votre devis gratuit <span aria-hidden="true"> &nbsp; &rarr;</span>
                             </a>
                         </div>
                     </div>
@@ -121,7 +121,7 @@ require 'layouts/header.php';
                                     eclairenov@gmail.com
                                 </span>
                             </a>
-                            <a href="/contact.php" class="h-14 px-5 py-2 mb-4 md:mb-0 order-1 md:order-none min-w-[300px] md:min-w-0 flex justify-center items-center text-lg font-semibold leading-7 text-white bg-[#206296] hover:bg-[#6b94b5] rounded-lg">
+                            <a href="/contact" class="h-14 px-5 py-2 mb-4 md:mb-0 order-1 md:order-none min-w-[300px] md:min-w-0 flex justify-center items-center text-lg font-semibold leading-7 text-white bg-[#206296] hover:bg-[#6b94b5] rounded-lg">
                                 Contactez-nous
                             </a>
                         </div>
